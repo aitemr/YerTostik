@@ -1,1 +1,0 @@
-# YerTostik - android
