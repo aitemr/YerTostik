@@ -1,0 +1,6 @@
+framework module Pods_YerTostikUITests {
+  umbrella header "Pods-YerTostikUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */; };
 		A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044B20651AAB001AD7D7 /* AppDelegate.swift */; };
 		A60F044E20651AAB001AD7D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F044D20651AAB001AD7D7 /* art.scnassets */; };
 		A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ViewController.swift */; };
@@ -15,6 +16,14 @@
 		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
 		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
 		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
+		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
+		A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AD20652BCB00114546 /* LibraryViewController.swift */; };
+		A69403B020652BD600114546 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AF20652BD600114546 /* CloudViewController.swift */; };
+		A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B120652BF100114546 /* LeaderBoardViewController.swift */; };
+		A69403B420652C0100114546 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B320652C0100114546 /* ProfileViewController.swift */; };
+		A69403B7206530F700114546 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B6206530F700114546 /* Extensions.swift */; };
+		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
+		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		496B0B093426852CC2DC3C0C /* Pods-YerTostik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik.debug.xcconfig"; sourceTree = "<group>"; };
+		4EBC91B31DDAC44A2945CF47 /* Pods-YerTostik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostik.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik.release.xcconfig"; sourceTree = "<group>"; };
+		511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostikUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.release.xcconfig"; sourceTree = "<group>"; };
+		9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostikTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F044820651AAB001AD7D7 /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F044B20651AAB001AD7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A60F044D20651AAB001AD7D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +64,15 @@
 		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
 		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A69403AD20652BCB00114546 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		A69403AF20652BD600114546 /* CloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
+		A69403B120652BF100114546 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		A69403B320652C0100114546 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A69403B6206530F700114546 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E88BC343A4546CE19744213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */,
+				9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */,
+				511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A60F043F20651AAB001AD7D7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				A60F046120651AAC001AD7D7 /* YerTostikTests */,
 				A60F046C20651AAC001AD7D7 /* YerTostikUITests */,
 				A60F044920651AAB001AD7D7 /* Products */,
+				AC5AE9F5450FFFC9DF6C880A /* Pods */,
+				4E88BC343A4546CE19744213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,7 @@
 		A60F044A20651AAB001AD7D7 /* YerTostik */ = {
 			isa = PBXGroup;
 			children = (
+				A69403B5206530D500114546 /* Extensions */,
 				A60F044B20651AAB001AD7D7 /* AppDelegate.swift */,
 				A6D2F3BD20651FBE00689D68 /* LaunchScreen */,
 				A6D2F3BC20651F9300689D68 /* Resources */,
@@ -128,6 +168,14 @@
 			path = YerTostikUITests;
 			sourceTree = "<group>";
 		};
+		A69403B5206530D500114546 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A69403B6206530F700114546 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A6D2F3B920651F5D00689D68 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +195,11 @@
 			isa = PBXGroup;
 			children = (
 				A60F044F20651AAB001AD7D7 /* ViewController.swift */,
+				A69403AB20652BA900114546 /* TabBarController.swift */,
+				A69403AD20652BCB00114546 /* LibraryViewController.swift */,
+				A69403AF20652BD600114546 /* CloudViewController.swift */,
+				A69403B120652BF100114546 /* LeaderBoardViewController.swift */,
+				A69403B320652C0100114546 /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,6 +221,19 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
+		AC5AE9F5450FFFC9DF6C880A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				496B0B093426852CC2DC3C0C /* Pods-YerTostik.debug.xcconfig */,
+				4EBC91B31DDAC44A2945CF47 /* Pods-YerTostik.release.xcconfig */,
+				9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */,
+				94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */,
+				FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */,
+				DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60F047220651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostik" */;
 			buildPhases = (
+				9FD096B677A6FE8C80AAE0B2 /* [CP] Check Pods Manifest.lock */,
 				A60F044420651AAB001AD7D7 /* Sources */,
 				A60F044520651AAB001AD7D7 /* Frameworks */,
 				A60F044620651AAB001AD7D7 /* Resources */,
+				41F4E2BF56C55A28AB8E19CC /* [CP] Embed Pods Frameworks */,
+				00C02F1D8B595AADF4029DA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60F047520651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikTests" */;
 			buildPhases = (
+				C4A76D0667DAA08DCE39AF4C /* [CP] Check Pods Manifest.lock */,
 				A60F045A20651AAC001AD7D7 /* Sources */,
 				A60F045B20651AAC001AD7D7 /* Frameworks */,
 				A60F045C20651AAC001AD7D7 /* Resources */,
+				A730C462957D7BF415C37D6C /* [CP] Embed Pods Frameworks */,
+				638D6A53FDAEA9F34C01708B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60F047820651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikUITests" */;
 			buildPhases = (
+				5C6518C94A79B66FC19E6856 /* [CP] Check Pods Manifest.lock */,
 				A60F046520651AAC001AD7D7 /* Sources */,
 				A60F046620651AAC001AD7D7 /* Frameworks */,
 				A60F046720651AAC001AD7D7 /* Resources */,
+				F21A6740B0F58956DDFA9516 /* [CP] Embed Pods Frameworks */,
+				F66E8B793C25123128B7441B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,12 +373,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00C02F1D8B595AADF4029DA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41F4E2BF56C55A28AB8E19CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/Sugar/Sugar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sugar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostik/Pods-YerTostik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6518C94A79B66FC19E6856 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YerTostikUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		638D6A53FDAEA9F34C01708B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD096B677A6FE8C80AAE0B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YerTostik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A730C462957D7BF415C37D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A76D0667DAA08DCE39AF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YerTostikTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21A6740B0F58956DDFA9516 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66E8B793C25123128B7441B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A60F044420651AAB001AD7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69403AC20652BA900114546 /* TabBarController.swift in Sources */,
+				A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */,
+				A69403B020652BD600114546 /* CloudViewController.swift in Sources */,
+				A69403B7206530F700114546 /* Extensions.swift in Sources */,
 				A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */,
+				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,
+				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,
 				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +701,7 @@
 		};
 		A60F047320651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496B0B093426852CC2DC3C0C /* Pods-YerTostik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +717,7 @@
 		};
 		A60F047420651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBC91B31DDAC44A2945CF47 /* Pods-YerTostik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -498,6 +733,7 @@
 		};
 		A60F047620651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +751,7 @@
 		};
 		A60F047720651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +769,7 @@
 		};
 		A60F047920651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +786,7 @@
 		};
 		A60F047A20651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
