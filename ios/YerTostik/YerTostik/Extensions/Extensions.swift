@@ -14,6 +14,12 @@ extension UIColor {
     static let cornflowerBlue = #colorLiteral(red: 0.4039215686, green: 0.5254901961, blue: 1, alpha: 1)
     static let loblolly = #colorLiteral(red: 0.7333333333, green: 0.7803921569, blue: 0.8117647059, alpha: 1)
     static let pickledBluewood = #colorLiteral(red: 0.1960784314, green: 0.2705882353, blue: 0.3607843137, alpha: 1)
+    static let shamrock = #colorLiteral(red: 0.2235294118, green: 0.8039215686, blue: 0.5647058824, alpha: 1)
+    static let anakiwa = #colorLiteral(red: 0.5764705882, green: 0.7529411765, blue: 1, alpha: 1)
+    static let melrose = #colorLiteral(red: 0.7725490196, green: 0.7294117647, blue: 1, alpha: 1)
+    static let monaLisa = #colorLiteral(red: 1, green: 0.5764705882, blue: 0.5764705882, alpha: 1)
+    static let dodgerBlue = #colorLiteral(red: 0.2941176471, green: 0.4549019608, blue: 1, alpha: 1)
+    static let malibu = #colorLiteral(red: 0.5490196078, green: 0.6509803922, blue: 0.9882352941, alpha: 1)
 }
 
 extension UIFont {

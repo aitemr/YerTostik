@@ -6,7 +6,6 @@
 //  Copyright © 2018 Islam Temirbek. All rights reserved.
 //
 
-
 import UIKit
 import Sugar
 
@@ -33,6 +32,7 @@ final class TabBarController: UITabBarController {
                 $0.navigationBar.prefersLargeTitles = true
                 $0.navigationBar.largeTitleTextAttributes =
                     [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+                $0.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
             }
         }
         

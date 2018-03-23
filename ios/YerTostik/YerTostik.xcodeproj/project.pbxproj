@@ -23,6 +23,7 @@
 		A69403B420652C0100114546 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B320652C0100114546 /* ProfileViewController.swift */; };
 		A69403B7206530F700114546 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B6206530F700114546 /* Extensions.swift */; };
 		A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403B82065442000114546 /* LibraryTableViewCell.swift */; };
+		A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */; };
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		A69403B320652C0100114546 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A69403B6206530F700114546 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A69403B82065442000114546 /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+		A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			children = (
 				A60F045120651AAB001AD7D7 /* Main.storyboard */,
 				A69403B82065442000114546 /* LibraryTableViewCell.swift */,
+				A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 				A69403B7206530F700114546 /* Extensions.swift in Sources */,
 				A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */,
 				A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */,
+				A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */,
 				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,
 				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,
 				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
