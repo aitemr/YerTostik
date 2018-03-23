@@ -16,6 +16,7 @@
 		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
 		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
 		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
+		A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */; };
 		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
 		A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AD20652BCB00114546 /* LibraryViewController.swift */; };
 		A69403B020652BD600114546 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AF20652BD600114546 /* CloudViewController.swift */; };
@@ -66,6 +67,7 @@
 		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
 		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
 		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A69403AD20652BCB00114546 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A69403AF20652BD600114546 /* CloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				A60F045120651AAB001AD7D7 /* Main.storyboard */,
 				A69403B82065442000114546 /* LibraryTableViewCell.swift */,
 				A69403BA20656A1600114546 /* CloudCollectionViewCell.swift */,
+				A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */,
 				A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */,
 				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,
+				A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */,
 				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,
 				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
 			);

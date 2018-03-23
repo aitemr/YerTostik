@@ -20,6 +20,9 @@ extension UIColor {
     static let monaLisa = #colorLiteral(red: 1, green: 0.5764705882, blue: 0.5764705882, alpha: 1)
     static let dodgerBlue = #colorLiteral(red: 0.2941176471, green: 0.4549019608, blue: 1, alpha: 1)
     static let malibu = #colorLiteral(red: 0.5490196078, green: 0.6509803922, blue: 0.9882352941, alpha: 1)
+    static let dustyGray = #colorLiteral(red: 0.5960784314, green: 0.5960784314, blue: 0.5960784314, alpha: 1)
+    static let doveGray = #colorLiteral(red: 0.3803921569, green: 0.3803921569, blue: 0.3803921569, alpha: 1)
+    static let trout = #colorLiteral(red: 0.3098039216, green: 0.3411764706, blue: 0.4, alpha: 1)
 }
 
 extension UIFont {
