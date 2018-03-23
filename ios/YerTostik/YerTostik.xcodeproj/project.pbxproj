@@ -100,11 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				A60F044B20651AAB001AD7D7 /* AppDelegate.swift */,
-				A60F044D20651AAB001AD7D7 /* art.scnassets */,
-				A60F044F20651AAB001AD7D7 /* ViewController.swift */,
-				A60F045120651AAB001AD7D7 /* Main.storyboard */,
-				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
-				A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */,
+				A6D2F3BD20651FBE00689D68 /* LaunchScreen */,
+				A6D2F3BC20651F9300689D68 /* Resources */,
+				A6D2F3B920651F5D00689D68 /* Models */,
+				A6D2F3BA20651F6F00689D68 /* Views */,
+				A6D2F3BB20651F7600689D68 /* Controllers */,
 				A60F045920651AAB001AD7D7 /* Info.plist */,
 			);
 			path = YerTostik;
@@ -126,6 +126,46 @@
 				A60F046F20651AAC001AD7D7 /* Info.plist */,
 			);
 			path = YerTostikUITests;
+			sourceTree = "<group>";
+		};
+		A6D2F3B920651F5D00689D68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6D2F3BA20651F6F00689D68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A60F045120651AAB001AD7D7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6D2F3BB20651F7600689D68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A60F044F20651AAB001AD7D7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A6D2F3BC20651F9300689D68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
+				A60F044D20651AAB001AD7D7 /* art.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6D2F3BD20651FBE00689D68 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
