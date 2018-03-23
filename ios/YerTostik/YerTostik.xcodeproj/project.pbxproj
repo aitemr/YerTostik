@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6EA88771FCC7D29005C4F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA88761FCC7D29005C4F2D /* AppDelegate.swift */; };
-		A6EA88791FCC7D29005C4F2D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EA88781FCC7D29005C4F2D /* art.scnassets */; };
-		A6EA887B1FCC7D29005C4F2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA887A1FCC7D29005C4F2D /* ViewController.swift */; };
-		A6EA887E1FCC7D29005C4F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EA887C1FCC7D29005C4F2D /* Main.storyboard */; };
-		A6EA88801FCC7D29005C4F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EA887F1FCC7D29005C4F2D /* Assets.xcassets */; };
-		A6EA88831FCC7D29005C4F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EA88811FCC7D29005C4F2D /* LaunchScreen.storyboard */; };
-		A6EA888E1FCC7D29005C4F2D /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA888D1FCC7D29005C4F2D /* YerTostikTests.swift */; };
-		A6EA88991FCC7D29005C4F2D /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA88981FCC7D29005C4F2D /* YerTostikUITests.swift */; };
+		A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044B20651AAB001AD7D7 /* AppDelegate.swift */; };
+		A60F044E20651AAB001AD7D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F044D20651AAB001AD7D7 /* art.scnassets */; };
+		A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ViewController.swift */; };
+		A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045120651AAB001AD7D7 /* Main.storyboard */; };
+		A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F045420651AAB001AD7D7 /* Assets.xcassets */; };
+		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
+		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
+		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6EA888A1FCC7D29005C4F2D /* PBXContainerItemProxy */ = {
+		A60F045F20651AAC001AD7D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6EA886B1FCC7D29005C4F2D /* Project object */;
+			containerPortal = A60F044020651AAB001AD7D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6EA88721FCC7D29005C4F2D;
+			remoteGlobalIDString = A60F044720651AAB001AD7D7;
 			remoteInfo = YerTostik;
 		};
-		A6EA88951FCC7D29005C4F2D /* PBXContainerItemProxy */ = {
+		A60F046A20651AAC001AD7D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A6EA886B1FCC7D29005C4F2D /* Project object */;
+			containerPortal = A60F044020651AAB001AD7D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A6EA88721FCC7D29005C4F2D;
+			remoteGlobalIDString = A60F044720651AAB001AD7D7;
 			remoteInfo = YerTostik;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A6EA88731FCC7D29005C4F2D /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6EA88761FCC7D29005C4F2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6EA88781FCC7D29005C4F2D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		A6EA887A1FCC7D29005C4F2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6EA887D1FCC7D29005C4F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6EA887F1FCC7D29005C4F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A6EA88821FCC7D29005C4F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A6EA88841FCC7D29005C4F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6EA88891FCC7D29005C4F2D /* YerTostikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6EA888D1FCC7D29005C4F2D /* YerTostikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikTests.swift; sourceTree = "<group>"; };
-		A6EA888F1FCC7D29005C4F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6EA88941FCC7D29005C4F2D /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6EA88981FCC7D29005C4F2D /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
-		A6EA889A1FCC7D29005C4F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60F044820651AAB001AD7D7 /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F044B20651AAB001AD7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A60F044D20651AAB001AD7D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A60F044F20651AAB001AD7D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A60F045220651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A60F045420651AAB001AD7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60F045720651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A60F045920651AAB001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60F045E20651AAC001AD7D7 /* YerTostikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F046220651AAC001AD7D7 /* YerTostikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikTests.swift; sourceTree = "<group>"; };
+		A60F046420651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
+		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6EA88701FCC7D29005C4F2D /* Frameworks */ = {
+		A60F044520651AAB001AD7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EA88861FCC7D29005C4F2D /* Frameworks */ = {
+		A60F045B20651AAC001AD7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EA88911FCC7D29005C4F2D /* Frameworks */ = {
+		A60F046620651AAC001AD7D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6EA886A1FCC7D29005C4F2D = {
+		A60F043F20651AAB001AD7D7 = {
 			isa = PBXGroup;
 			children = (
-				A6EA88751FCC7D29005C4F2D /* YerTostik */,
-				A6EA888C1FCC7D29005C4F2D /* YerTostikTests */,
-				A6EA88971FCC7D29005C4F2D /* YerTostikUITests */,
-				A6EA88741FCC7D29005C4F2D /* Products */,
+				A60F044A20651AAB001AD7D7 /* YerTostik */,
+				A60F046120651AAC001AD7D7 /* YerTostikTests */,
+				A60F046C20651AAC001AD7D7 /* YerTostikUITests */,
+				A60F044920651AAB001AD7D7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6EA88741FCC7D29005C4F2D /* Products */ = {
+		A60F044920651AAB001AD7D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6EA88731FCC7D29005C4F2D /* YerTostik.app */,
-				A6EA88891FCC7D29005C4F2D /* YerTostikTests.xctest */,
-				A6EA88941FCC7D29005C4F2D /* YerTostikUITests.xctest */,
+				A60F044820651AAB001AD7D7 /* YerTostik.app */,
+				A60F045E20651AAC001AD7D7 /* YerTostikTests.xctest */,
+				A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6EA88751FCC7D29005C4F2D /* YerTostik */ = {
+		A60F044A20651AAB001AD7D7 /* YerTostik */ = {
 			isa = PBXGroup;
 			children = (
-				A6EA88761FCC7D29005C4F2D /* AppDelegate.swift */,
-				A6EA88781FCC7D29005C4F2D /* art.scnassets */,
-				A6EA887A1FCC7D29005C4F2D /* ViewController.swift */,
-				A6EA887C1FCC7D29005C4F2D /* Main.storyboard */,
-				A6EA887F1FCC7D29005C4F2D /* Assets.xcassets */,
-				A6EA88811FCC7D29005C4F2D /* LaunchScreen.storyboard */,
-				A6EA88841FCC7D29005C4F2D /* Info.plist */,
+				A60F044B20651AAB001AD7D7 /* AppDelegate.swift */,
+				A60F044D20651AAB001AD7D7 /* art.scnassets */,
+				A60F044F20651AAB001AD7D7 /* ViewController.swift */,
+				A60F045120651AAB001AD7D7 /* Main.storyboard */,
+				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
+				A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */,
+				A60F045920651AAB001AD7D7 /* Info.plist */,
 			);
 			path = YerTostik;
 			sourceTree = "<group>";
 		};
-		A6EA888C1FCC7D29005C4F2D /* YerTostikTests */ = {
+		A60F046120651AAC001AD7D7 /* YerTostikTests */ = {
 			isa = PBXGroup;
 			children = (
-				A6EA888D1FCC7D29005C4F2D /* YerTostikTests.swift */,
-				A6EA888F1FCC7D29005C4F2D /* Info.plist */,
+				A60F046220651AAC001AD7D7 /* YerTostikTests.swift */,
+				A60F046420651AAC001AD7D7 /* Info.plist */,
 			);
 			path = YerTostikTests;
 			sourceTree = "<group>";
 		};
-		A6EA88971FCC7D29005C4F2D /* YerTostikUITests */ = {
+		A60F046C20651AAC001AD7D7 /* YerTostikUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A6EA88981FCC7D29005C4F2D /* YerTostikUITests.swift */,
-				A6EA889A1FCC7D29005C4F2D /* Info.plist */,
+				A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */,
+				A60F046F20651AAC001AD7D7 /* Info.plist */,
 			);
 			path = YerTostikUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6EA88721FCC7D29005C4F2D /* YerTostik */ = {
+		A60F044720651AAB001AD7D7 /* YerTostik */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6EA889D1FCC7D29005C4F2D /* Build configuration list for PBXNativeTarget "YerTostik" */;
+			buildConfigurationList = A60F047220651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostik" */;
 			buildPhases = (
-				A6EA886F1FCC7D29005C4F2D /* Sources */,
-				A6EA88701FCC7D29005C4F2D /* Frameworks */,
-				A6EA88711FCC7D29005C4F2D /* Resources */,
+				A60F044420651AAB001AD7D7 /* Sources */,
+				A60F044520651AAB001AD7D7 /* Frameworks */,
+				A60F044620651AAB001AD7D7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,72 +145,72 @@
 			);
 			name = YerTostik;
 			productName = YerTostik;
-			productReference = A6EA88731FCC7D29005C4F2D /* YerTostik.app */;
+			productReference = A60F044820651AAB001AD7D7 /* YerTostik.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6EA88881FCC7D29005C4F2D /* YerTostikTests */ = {
+		A60F045D20651AAC001AD7D7 /* YerTostikTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6EA88A01FCC7D29005C4F2D /* Build configuration list for PBXNativeTarget "YerTostikTests" */;
+			buildConfigurationList = A60F047520651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikTests" */;
 			buildPhases = (
-				A6EA88851FCC7D29005C4F2D /* Sources */,
-				A6EA88861FCC7D29005C4F2D /* Frameworks */,
-				A6EA88871FCC7D29005C4F2D /* Resources */,
+				A60F045A20651AAC001AD7D7 /* Sources */,
+				A60F045B20651AAC001AD7D7 /* Frameworks */,
+				A60F045C20651AAC001AD7D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6EA888B1FCC7D29005C4F2D /* PBXTargetDependency */,
+				A60F046020651AAC001AD7D7 /* PBXTargetDependency */,
 			);
 			name = YerTostikTests;
 			productName = YerTostikTests;
-			productReference = A6EA88891FCC7D29005C4F2D /* YerTostikTests.xctest */;
+			productReference = A60F045E20651AAC001AD7D7 /* YerTostikTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6EA88931FCC7D29005C4F2D /* YerTostikUITests */ = {
+		A60F046820651AAC001AD7D7 /* YerTostikUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6EA88A31FCC7D29005C4F2D /* Build configuration list for PBXNativeTarget "YerTostikUITests" */;
+			buildConfigurationList = A60F047820651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikUITests" */;
 			buildPhases = (
-				A6EA88901FCC7D29005C4F2D /* Sources */,
-				A6EA88911FCC7D29005C4F2D /* Frameworks */,
-				A6EA88921FCC7D29005C4F2D /* Resources */,
+				A60F046520651AAC001AD7D7 /* Sources */,
+				A60F046620651AAC001AD7D7 /* Frameworks */,
+				A60F046720651AAC001AD7D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6EA88961FCC7D29005C4F2D /* PBXTargetDependency */,
+				A60F046B20651AAC001AD7D7 /* PBXTargetDependency */,
 			);
 			name = YerTostikUITests;
 			productName = YerTostikUITests;
-			productReference = A6EA88941FCC7D29005C4F2D /* YerTostikUITests.xctest */;
+			productReference = A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6EA886B1FCC7D29005C4F2D /* Project object */ = {
+		A60F044020651AAB001AD7D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Islam Temirbek";
 				TargetAttributes = {
-					A6EA88721FCC7D29005C4F2D = {
-						CreatedOnToolsVersion = 9.1;
+					A60F044720651AAB001AD7D7 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					A6EA88881FCC7D29005C4F2D = {
-						CreatedOnToolsVersion = 9.1;
+					A60F045D20651AAC001AD7D7 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = A6EA88721FCC7D29005C4F2D;
+						TestTargetID = A60F044720651AAB001AD7D7;
 					};
-					A6EA88931FCC7D29005C4F2D = {
-						CreatedOnToolsVersion = 9.1;
+					A60F046820651AAC001AD7D7 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = A6EA88721FCC7D29005C4F2D;
+						TestTargetID = A60F044720651AAB001AD7D7;
 					};
 				};
 			};
-			buildConfigurationList = A6EA886E1FCC7D29005C4F2D /* Build configuration list for PBXProject "YerTostik" */;
+			buildConfigurationList = A60F044320651AAB001AD7D7 /* Build configuration list for PBXProject "YerTostik" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,38 +218,38 @@
 				en,
 				Base,
 			);
-			mainGroup = A6EA886A1FCC7D29005C4F2D;
-			productRefGroup = A6EA88741FCC7D29005C4F2D /* Products */;
+			mainGroup = A60F043F20651AAB001AD7D7;
+			productRefGroup = A60F044920651AAB001AD7D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6EA88721FCC7D29005C4F2D /* YerTostik */,
-				A6EA88881FCC7D29005C4F2D /* YerTostikTests */,
-				A6EA88931FCC7D29005C4F2D /* YerTostikUITests */,
+				A60F044720651AAB001AD7D7 /* YerTostik */,
+				A60F045D20651AAC001AD7D7 /* YerTostikTests */,
+				A60F046820651AAC001AD7D7 /* YerTostikUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A6EA88711FCC7D29005C4F2D /* Resources */ = {
+		A60F044620651AAB001AD7D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EA88791FCC7D29005C4F2D /* art.scnassets in Resources */,
-				A6EA88831FCC7D29005C4F2D /* LaunchScreen.storyboard in Resources */,
-				A6EA88801FCC7D29005C4F2D /* Assets.xcassets in Resources */,
-				A6EA887E1FCC7D29005C4F2D /* Main.storyboard in Resources */,
+				A60F044E20651AAB001AD7D7 /* art.scnassets in Resources */,
+				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
+				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,
+				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EA88871FCC7D29005C4F2D /* Resources */ = {
+		A60F045C20651AAC001AD7D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EA88921FCC7D29005C4F2D /* Resources */ = {
+		A60F046720651AAC001AD7D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,59 +259,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6EA886F1FCC7D29005C4F2D /* Sources */ = {
+		A60F044420651AAB001AD7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EA887B1FCC7D29005C4F2D /* ViewController.swift in Sources */,
-				A6EA88771FCC7D29005C4F2D /* AppDelegate.swift in Sources */,
+				A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */,
+				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EA88851FCC7D29005C4F2D /* Sources */ = {
+		A60F045A20651AAC001AD7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EA888E1FCC7D29005C4F2D /* YerTostikTests.swift in Sources */,
+				A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6EA88901FCC7D29005C4F2D /* Sources */ = {
+		A60F046520651AAC001AD7D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EA88991FCC7D29005C4F2D /* YerTostikUITests.swift in Sources */,
+				A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6EA888B1FCC7D29005C4F2D /* PBXTargetDependency */ = {
+		A60F046020651AAC001AD7D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6EA88721FCC7D29005C4F2D /* YerTostik */;
-			targetProxy = A6EA888A1FCC7D29005C4F2D /* PBXContainerItemProxy */;
+			target = A60F044720651AAB001AD7D7 /* YerTostik */;
+			targetProxy = A60F045F20651AAC001AD7D7 /* PBXContainerItemProxy */;
 		};
-		A6EA88961FCC7D29005C4F2D /* PBXTargetDependency */ = {
+		A60F046B20651AAC001AD7D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A6EA88721FCC7D29005C4F2D /* YerTostik */;
-			targetProxy = A6EA88951FCC7D29005C4F2D /* PBXContainerItemProxy */;
+			target = A60F044720651AAB001AD7D7 /* YerTostik */;
+			targetProxy = A60F046A20651AAC001AD7D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6EA887C1FCC7D29005C4F2D /* Main.storyboard */ = {
+		A60F045120651AAB001AD7D7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6EA887D1FCC7D29005C4F2D /* Base */,
+				A60F045220651AAB001AD7D7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A6EA88811FCC7D29005C4F2D /* LaunchScreen.storyboard */ = {
+		A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A6EA88821FCC7D29005C4F2D /* Base */,
+				A60F045720651AAB001AD7D7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A6EA889B1FCC7D29005C4F2D /* Debug */ = {
+		A60F047020651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		A6EA889C1FCC7D29005C4F2D /* Release */ = {
+		A60F047120651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -426,7 +426,7 @@
 			};
 			name = Release;
 		};
-		A6EA889E1FCC7D29005C4F2D /* Debug */ = {
+		A60F047320651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +441,7 @@
 			};
 			name = Debug;
 		};
-		A6EA889F1FCC7D29005C4F2D /* Release */ = {
+		A60F047420651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -456,7 +456,7 @@
 			};
 			name = Release;
 		};
-		A6EA88A11FCC7D29005C4F2D /* Debug */ = {
+		A60F047620651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -473,7 +473,7 @@
 			};
 			name = Debug;
 		};
-		A6EA88A21FCC7D29005C4F2D /* Release */ = {
+		A60F047720651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -490,7 +490,7 @@
 			};
 			name = Release;
 		};
-		A6EA88A41FCC7D29005C4F2D /* Debug */ = {
+		A60F047920651AAC001AD7D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,7 +506,7 @@
 			};
 			name = Debug;
 		};
-		A6EA88A51FCC7D29005C4F2D /* Release */ = {
+		A60F047A20651AAC001AD7D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,43 +525,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6EA886E1FCC7D29005C4F2D /* Build configuration list for PBXProject "YerTostik" */ = {
+		A60F044320651AAB001AD7D7 /* Build configuration list for PBXProject "YerTostik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6EA889B1FCC7D29005C4F2D /* Debug */,
-				A6EA889C1FCC7D29005C4F2D /* Release */,
+				A60F047020651AAC001AD7D7 /* Debug */,
+				A60F047120651AAC001AD7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6EA889D1FCC7D29005C4F2D /* Build configuration list for PBXNativeTarget "YerTostik" */ = {
+		A60F047220651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostik" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6EA889E1FCC7D29005C4F2D /* Debug */,
-				A6EA889F1FCC7D29005C4F2D /* Release */,
+				A60F047320651AAC001AD7D7 /* Debug */,
+				A60F047420651AAC001AD7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6EA88A01FCC7D29005C4F2D /* Build configuration list for PBXNativeTarget "YerTostikTests" */ = {
+		A60F047520651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6EA88A11FCC7D29005C4F2D /* Debug */,
-				A6EA88A21FCC7D29005C4F2D /* Release */,
+				A60F047620651AAC001AD7D7 /* Debug */,
+				A60F047720651AAC001AD7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6EA88A31FCC7D29005C4F2D /* Build configuration list for PBXNativeTarget "YerTostikUITests" */ = {
+		A60F047820651AAC001AD7D7 /* Build configuration list for PBXNativeTarget "YerTostikUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6EA88A41FCC7D29005C4F2D /* Debug */,
-				A6EA88A51FCC7D29005C4F2D /* Release */,
+				A60F047920651AAC001AD7D7 /* Debug */,
+				A60F047A20651AAC001AD7D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6EA886B1FCC7D29005C4F2D /* Project object */;
+	rootObject = A60F044020651AAB001AD7D7 /* Project object */;
 }

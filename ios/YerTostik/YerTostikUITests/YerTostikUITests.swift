@@ -2,8 +2,8 @@
 //  YerTostikUITests.swift
 //  YerTostikUITests
 //
-//  Created by Islam on 27.11.2017.
-//  Copyright © 2017 Islam Temirbek. All rights reserved.
+//  Created by Islam on 23.03.2018.
+//  Copyright © 2018 Islam Temirbek. All rights reserved.
 //
 
 import XCTest
