@@ -8,6 +8,7 @@ target 'YerTostik' do
   # Pods for YerTostik
   pod 'Reusable'
   pod 'Sugar'
+  pod 'EasyPeasy'
 
   target 'YerTostikTests' do
     inherit! :search_paths

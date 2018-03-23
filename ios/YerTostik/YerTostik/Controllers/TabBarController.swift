@@ -40,7 +40,6 @@ final class TabBarController: UITabBarController {
         tabBar.barTintColor = .white
         tabBar.tintColor = .cornflowerBlue
         
-        
         for (index, item) in tabBarItems.enumerated() {
             setUpTabBarItem(tabBar.items![index],
                             image: item.icon.0,
