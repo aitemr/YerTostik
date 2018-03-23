@@ -12,7 +12,8 @@ class LeaderBoardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .gray
+        self.view.backgroundColor = .white
+        self.navigationItem.title = "Үздік оқырмандар"
     }
     
 }

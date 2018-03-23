@@ -28,20 +28,18 @@ final class TabBarController: UITabBarController {
         
         viewControllers = tabBarItems.flatMap {
             UINavigationController(rootViewController: $0.controller).then {
-                let strokeLayer = CAShapeLayer()
-                strokeLayer.path = UIBezierPath(rect:
-                    CGRect(x: 0, y: ($0.navigationBar.frame.height),
-                           width: UIScreen.main.bounds.width, height: 0.5)).cgPath
-                strokeLayer.fillColor = UIColor.gray.cgColor
-                $0.navigationBar.tintColor = .black
+                $0.navigationBar.tintColor = .pickledBluewood
                 $0.navigationBar.barTintColor = .alabaster
-                $0.navigationBar.layer.addSublayer(strokeLayer)
+                $0.navigationBar.prefersLargeTitles = true
+                $0.navigationBar.largeTitleTextAttributes =
+                    [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
             }
         }
         
         tabBar.isTranslucent = false
         tabBar.barTintColor = .white
         tabBar.tintColor = .cornflowerBlue
+        
         
         for (index, item) in tabBarItems.enumerated() {
             setUpTabBarItem(tabBar.items![index],

@@ -12,7 +12,8 @@ class CloudViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .green
+        self.view.backgroundColor = .white
+        self.navigationItem.title = "Желі"
     }
     
 }
