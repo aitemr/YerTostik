@@ -18,20 +18,19 @@ class ProfileBoardViewController: UIViewController {
         configureNavigationBar()
         configureViews()
         configureConstraints()
-        self.view.backgroundColor = .white
-        self.navigationItem.title = "Профиль"
     }
     
     // MARK: Configure Navigation Bar
     
     func configureNavigationBar() {
+        self.navigationItem.title = "Профиль"
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "settings"), style: .plain, target: self, action: #selector(settingsButtonDidPress))
     }
     
     // MARK: Configure Views
     
     func configureViews() {
-
+        self.view.backgroundColor = .white
     }
     
     // MARK: Configure Constraints
@@ -42,7 +41,9 @@ class ProfileBoardViewController: UIViewController {
     // MARK: User Interaction
     
     @objc func settingsButtonDidPress() {
-        
+        let vc =  SettingsViewController()
+        vc.hidesBottomBarWhenPushed = true
+        let _ = navigationController?.pushViewController(vc, animated: true)
     }
     
 }
