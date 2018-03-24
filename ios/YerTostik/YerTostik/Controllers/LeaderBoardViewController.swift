@@ -19,7 +19,14 @@ class LeaderBoardViewController: UIViewController {
             $0.dataSource = self
             $0.register(cellType: LeaderBoardTableViewCell.self)
             $0.rowHeight = 65
+//            $0.tableHeaderView = self.headerView
         }
+    }()
+    
+    lazy var headerView: LeaderBoardHeaderView = {
+        return LeaderBoardHeaderView(frame: CGRect(x: 0, y: 0,
+                                                            width: UIScreen.main.bounds.width,
+                                                            height: 150))
     }()
     
     // MARK: View Lifecycle
