@@ -19,14 +19,14 @@ class LeaderBoardViewController: UIViewController {
             $0.dataSource = self
             $0.register(cellType: LeaderBoardTableViewCell.self)
             $0.rowHeight = 65
-//            $0.tableHeaderView = self.headerView
+            //            $0.tableHeaderView = self.headerView
         }
     }()
     
     lazy var headerView: LeaderBoardHeaderView = {
         return LeaderBoardHeaderView(frame: CGRect(x: 0, y: 0,
-                                                            width: UIScreen.main.bounds.width,
-                                                            height: 150))
+                                                   width: UIScreen.main.bounds.width,
+                                                   height: 150))
     }()
     
     // MARK: View Lifecycle
@@ -42,9 +42,7 @@ class LeaderBoardViewController: UIViewController {
     
     func configureViews(){
         self.view.backgroundColor = .white
-        [tableView].forEach{
-            view.addSubview($0)
-        }
+        view.addSubview(tableView)
     }
     
     // MARK: Configure Constraints
@@ -54,7 +52,9 @@ class LeaderBoardViewController: UIViewController {
     }
 }
 
-extension LeaderBoardViewController: UITableViewDelegate, UITableViewDataSource {
+// MARK: UITableViewDataSource, UITableViewDelegate
+
+extension LeaderBoardViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
@@ -64,5 +64,4 @@ extension LeaderBoardViewController: UITableViewDelegate, UITableViewDataSource 
         let cell = tableView.dequeueReusableCell(for: indexPath) as LeaderBoardTableViewCell
         return cell
     }
-    
 }

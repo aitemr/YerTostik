@@ -43,15 +43,12 @@ class LeaderBoardHeaderView: UIView {
     // MARK: Configure Views
     
     func configureViews() {
-        [silverContainer].forEach{
-            self.addSubview($0)
-        }
+        self.addSubview(silverContainer)
     }
     
     // MARK: Configure Constraints
     
     func configureConstriants() {
         silverContainer.easy.layout(Left(42), Size(110))
-//        bronzeContainer.easy.layout(Top(36), Left(10).to(silverContainer))
     }
 }

@@ -35,9 +35,7 @@ class LibraryViewController: UIViewController {
     
     func configureViews(){
         self.view.backgroundColor = .white
-        [tableView].forEach{
-            view.addSubview($0)
-        }
+        view.addSubview(tableView)
     }
     
     // MARK: Configure Constraints
@@ -47,7 +45,9 @@ class LibraryViewController: UIViewController {
     }
 }
 
-extension LibraryViewController: UITableViewDelegate, UITableViewDataSource {
+// MARK: UITableViewDataSource, UITableViewDelegate
+
+extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
@@ -57,5 +57,4 @@ extension LibraryViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(for: indexPath) as LibraryTableViewCell
         return cell
     }
-    
 }

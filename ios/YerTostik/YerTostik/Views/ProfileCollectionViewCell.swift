@@ -38,7 +38,6 @@ class ProfileCollectionViewCell: UICollectionViewCell, Reusable {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.addSubviews(heroImageView, titleLabel)
         configureViews()
         configreConstraints()
     }
@@ -57,6 +56,7 @@ class ProfileCollectionViewCell: UICollectionViewCell, Reusable {
     // MARK: Configure Views
     
     func configureViews() {
+        self.addSubviews(heroImageView, titleLabel)
         contentView.layer.cornerRadius = 10
         contentView.layer.borderColor = UIColor.clear.cgColor
         contentView.layer.shadowColor = UIColor.gray.cgColor

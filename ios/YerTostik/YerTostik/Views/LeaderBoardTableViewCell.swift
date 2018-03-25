@@ -67,9 +67,7 @@ class LeaderBoardTableViewCell: UITableViewCell, Reusable {
     // MARK: Configure Views
     
     func configureViews() {
-        [placeLabel, avatarImageView, nameLabel, scoreLabel].forEach{
-            contentView.addSubview($0)
-        }
+        contentView.addSubviews(placeLabel, avatarImageView, nameLabel, scoreLabel)
     }
     
     // MARK: Configure Constraints

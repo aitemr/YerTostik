@@ -30,21 +30,21 @@ class CloudViewController: UIViewController {
     let itemWidth = UIScreen.main.bounds.width / 2 - 30
     
     lazy var layout: UICollectionViewFlowLayout = {
-        let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: itemWidth, height: itemWidth)
-        layout.sectionInset = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
-        layout.minimumLineSpacing = 10
-        layout.minimumInteritemSpacing = 0
-        return layout
+        return UICollectionViewFlowLayout().then{
+            $0.itemSize = CGSize(width: itemWidth, height: itemWidth)
+            $0.sectionInset = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
+            $0.minimumLineSpacing = 10
+            $0.minimumInteritemSpacing = 0
+        }
     }()
     
     lazy var collectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: self.layout)
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        collectionView.backgroundColor = .white
-        collectionView.register(cellType: CloudCollectionViewCell.self)
-        return collectionView
+        return UICollectionView(frame: .zero, collectionViewLayout: self.layout).then {
+            $0.dataSource = self
+            $0.delegate = self
+            $0.backgroundColor = .white
+            $0.register(cellType: CloudCollectionViewCell.self)
+        }
     }()
     
     // MARK: View Lifecycle
@@ -59,9 +59,7 @@ class CloudViewController: UIViewController {
     // MARK: Configure Views
     
     func configureViews(){
-        [collectionView].forEach{
-            view.addSubview($0)
-        }
+        view.addSubview(collectionView)
     }
     
     // MARK: Configure Constraints
@@ -72,7 +70,9 @@ class CloudViewController: UIViewController {
     
 }
 
-extension CloudViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+// MARK: UICollectionViewDataSource, UICollectionViewDelegate
+
+extension CloudViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return cloudItems.count
@@ -85,5 +85,4 @@ extension CloudViewController: UICollectionViewDelegate, UICollectionViewDataSou
         cell.contentView.backgroundColor = cloudItem.color
         return cell
     }
-    
 }

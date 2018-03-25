@@ -23,27 +23,28 @@ class ProfileViewController: UIViewController {
         ProfileItem(title: "Мақта Қыз", color: .anakiwa),
         ProfileItem(title: "Алпамыс Батыр", color: .melrose),
         ProfileItem(title: "Қобыланды Батыр", color: .monaLisa)
-        ]
+    ]
     
     let itemWidth = UIScreen.main.bounds.width / 2 - 30
     
     lazy var layout: UICollectionViewFlowLayout = {
-        let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: itemWidth, height: itemWidth + 60)
-        layout.sectionInset = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
-        layout.minimumLineSpacing = 10
-        layout.minimumInteritemSpacing = 0
-        return layout
+        return UICollectionViewFlowLayout().then {
+            $0.itemSize = CGSize(width: itemWidth, height: itemWidth + 60)
+            $0.sectionInset = UIEdgeInsets(top: 10, left: 20, bottom: 10, right: 20)
+            $0.minimumLineSpacing = 10
+            $0.minimumInteritemSpacing = 0
+        }
     }()
     
     lazy var collectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: self.layout)
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        collectionView.backgroundColor = .white
-        collectionView.register(cellType: ProfileCollectionViewCell.self)
-        collectionView.register(ProfileHeaderView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "ProfileHeaderView")
-        return collectionView
+        return UICollectionView(frame: .zero, collectionViewLayout: self.layout).then {
+            $0.dataSource = self
+            $0.delegate = self
+            $0.backgroundColor = .white
+            $0.register(cellType: ProfileCollectionViewCell.self)
+            $0.register(ProfileHeaderView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "ProfileHeaderView")
+            
+        }
     }()
     
     // MARK: View LifeCycle
@@ -85,7 +86,9 @@ class ProfileViewController: UIViewController {
     }
 }
 
-extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+// MARK: UICollectionViewDataSource, UICollectionViewDataSource
+
+extension ProfileViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return prfofileItems.count

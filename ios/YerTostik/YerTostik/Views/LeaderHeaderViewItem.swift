@@ -24,7 +24,7 @@ class LeaderBoardHeaderViewItem: UIView {
             $0.image = #imageLiteral(resourceName: "gulnaz")
         }
     }()
-   
+    
     lazy var scoreLabel: UILabel = {
         return UILabel().then {
             $0.text = "3200"
@@ -59,9 +59,7 @@ class LeaderBoardHeaderViewItem: UIView {
     // MARK: Configure Views
     
     func configureViews() {
-        [avatarImageView, scoreLabel, nameLabel].forEach{
-            self.addSubview($0)
-        }
+        self.addSubviews(avatarImageView, scoreLabel, nameLabel)
     }
     
     // MARK: Configure Constraints

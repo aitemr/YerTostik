@@ -29,13 +29,13 @@ class SettingsViewController: UIViewController {
     ]
     
     lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .grouped)
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.isScrollEnabled = false
-        tableView.rowHeight = 46
-        tableView.register(cellType: SettingsTableViewCell.self)
-        return tableView
+        return UITableView(frame: .zero, style: .grouped).then {
+            $0.delegate = self
+            $0.dataSource = self
+            $0.isScrollEnabled = false
+            $0.rowHeight = 46
+            $0.register(cellType: SettingsTableViewCell.self)
+        }
     }()
     
     // MARK: View LifeCycle
@@ -66,8 +66,9 @@ class SettingsViewController: UIViewController {
     }
 }
 
-// MARK: UITableViewDelegate, UITableViewDataSource
-extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
+// MARK: UITableViewDataSource, UITableViewDelegate, 
+
+extension SettingsViewController: UITableViewDataSource, UITableViewDelegate  {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return sectionItems.count
@@ -87,7 +88,7 @@ extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if section == 1 {
-            return "Достармен бөліс"
+            return "Достармен бөлісу"
         }
         return "Қосымша туралы"
     }

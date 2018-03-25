@@ -15,13 +15,13 @@ class CloudCollectionViewCell: UICollectionViewCell, Reusable {
     // MARK: Properties
     
     lazy var titleLabel: UILabel = {
-        var label = UILabel()
-        label.textAlignment = .center
-        label.text = "Қазақ халық ертетілері"
-        label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 16.5, weight: UIFont.Weight.bold)
-        label.numberOfLines = 2
-        return label
+        return UILabel().then {
+            $0.textAlignment = .center
+            $0.text = "Қазақ халық ертетілері"
+            $0.textColor = .white
+            $0.font = UIFont.systemFont(ofSize: 16.5, weight: UIFont.Weight.bold)
+            $0.numberOfLines = 2
+        }
     }()
     
     // MARK: Initialization
