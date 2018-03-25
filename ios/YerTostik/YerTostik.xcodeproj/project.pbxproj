@@ -29,6 +29,8 @@
 		A6B3CA8D2066E94F00FE2553 /* LeaderHeaderViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA8C2066E94F00FE2553 /* LeaderHeaderViewItem.swift */; };
 		A6B3CA8F2066F69900FE2553 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA8E2066F69900FE2553 /* SettingsViewController.swift */; };
 		A6B3CA912066F6B900FE2553 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */; };
+		A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */; };
+		A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */; };
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +86,8 @@
 		A6B3CA8C2066E94F00FE2553 /* LeaderHeaderViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderHeaderViewItem.swift; sourceTree = "<group>"; };
 		A6B3CA8E2066F69900FE2553 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +211,8 @@
 				A6B3CA8A2066E8A000FE2553 /* LeaderBoardHeaderView.swift */,
 				A6B3CA8C2066E94F00FE2553 /* LeaderHeaderViewItem.swift */,
 				A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */,
+				A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */,
+				A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -557,11 +563,13 @@
 				A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */,
 				A69403B020652BD600114546 /* CloudViewController.swift in Sources */,
 				A6B3CA8B2066E8A000FE2553 /* LeaderBoardHeaderView.swift in Sources */,
+				A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */,
 				A69403B7206530F700114546 /* Extensions.swift in Sources */,
 				A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */,
 				A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */,
 				A6B3CA8D2066E94F00FE2553 /* LeaderHeaderViewItem.swift in Sources */,
 				A6B3CA912066F6B900FE2553 /* SettingsTableViewCell.swift in Sources */,
+				A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */,
 				A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */,
 				A6B3CA8F2066F69900FE2553 /* SettingsViewController.swift in Sources */,
 				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,

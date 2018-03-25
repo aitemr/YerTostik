@@ -23,6 +23,7 @@ extension UIColor {
     static let dustyGray = #colorLiteral(red: 0.5960784314, green: 0.5960784314, blue: 0.5960784314, alpha: 1)
     static let doveGray = #colorLiteral(red: 0.3803921569, green: 0.3803921569, blue: 0.3803921569, alpha: 1)
     static let trout = #colorLiteral(red: 0.3098039216, green: 0.3411764706, blue: 0.4, alpha: 1)
+    static let gray = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5568627451, alpha: 1)
 }
 
 extension UIFont {
@@ -55,6 +56,15 @@ extension UIImage {
         UIGraphicsEndImageContext()
         
         return newImage
+    }
+}
+
+extension UIView {
+    func roundCorners(corners:UIRectCorner, radius: CGFloat) {
+        let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        self.layer.mask = mask
     }
 }
 

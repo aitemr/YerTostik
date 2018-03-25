@@ -22,7 +22,7 @@ final class TabBarController: UITabBarController {
             TabBarItem(icon: (#imageLiteral(resourceName: "library"), #imageLiteral(resourceName: "librarySelected")), controller: LibraryViewController()),
             TabBarItem(icon: (#imageLiteral(resourceName: "cloud"), #imageLiteral(resourceName: "cloudSelected")), controller: CloudViewController()),
             TabBarItem(icon: (#imageLiteral(resourceName: "leaderboard"), #imageLiteral(resourceName: "leaderboardSelected")), controller: LeaderBoardViewController()),
-            TabBarItem(icon: (#imageLiteral(resourceName: "profile"), #imageLiteral(resourceName: "profileSelected")), controller: ProfileBoardViewController()),
+            TabBarItem(icon: (#imageLiteral(resourceName: "profile"), #imageLiteral(resourceName: "profileSelected")), controller: ProfileViewController()),
             ]
         
         viewControllers = tabBarItems.flatMap {

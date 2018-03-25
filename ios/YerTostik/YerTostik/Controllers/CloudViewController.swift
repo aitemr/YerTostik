@@ -42,7 +42,7 @@ class CloudViewController: UIViewController {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: self.layout)
         collectionView.dataSource = self
         collectionView.delegate = self
-        collectionView.backgroundColor = .clear
+        collectionView.backgroundColor = .white
         collectionView.register(cellType: CloudCollectionViewCell.self)
         return collectionView
     }()
@@ -51,7 +51,6 @@ class CloudViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
         self.navigationItem.title = "Желі"
         configureViews()
         configureConstraints()

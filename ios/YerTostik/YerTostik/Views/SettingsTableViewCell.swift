@@ -9,27 +9,28 @@
 import UIKit
 import Reusable
 import EasyPeasy
+import Sugar
 
 class SettingsTableViewCell: UITableViewCell, Reusable {
     
     // MARK: Properties
     
     lazy var titleLabel: UILabel = {
-        let titleLabel = UILabel()
-        titleLabel.font = UIFont(name: "SFUIDisplay-Medium", size: 16)
-        titleLabel.textColor = .pickledBluewood
-        titleLabel.textAlignment = .center
-        titleLabel.numberOfLines = 0
-        return titleLabel
+        return UILabel().then {
+            $0.font = UIFont(name: "SFUIDisplay-Medium", size: 16)
+            $0.textColor = .pickledBluewood
+            $0.textAlignment = .center
+            $0.numberOfLines = 0
+        }
     }()
     
     lazy var cellIcon: UIImageView = {
-        let cellIcon = UIImageView()
-        cellIcon.layer.shadowColor = UIColor.black.cgColor
-        cellIcon.layer.shadowOpacity = 0.07
-        cellIcon.layer.shadowOffset = CGSize(width: 1, height: 1)
-        cellIcon.layer.shadowRadius = 3
-        return cellIcon
+        return UIImageView().then {
+            $0.layer.shadowColor = UIColor.black.cgColor
+            $0.layer.shadowOpacity = 0.07
+            $0.layer.shadowOffset = CGSize(width: 1, height: 1)
+            $0.layer.shadowRadius = 3
+        }
     }()
     
     // MARK: Initialization
