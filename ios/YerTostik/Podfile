@@ -9,6 +9,7 @@ target 'YerTostik' do
   pod 'Reusable'
   pod 'Sugar'
   pod 'EasyPeasy'
+  pod 'FolioReaderKit'
 
   target 'YerTostikTests' do
     inherit! :search_paths
