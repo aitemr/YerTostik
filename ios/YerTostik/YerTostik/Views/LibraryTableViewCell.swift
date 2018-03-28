@@ -15,6 +15,12 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
     
     // MARK: Properties
     
+    lazy var containerView: UIView = {
+        return UIView().then {
+            $0.clipsToBounds = false
+        }
+    }()
+    
     lazy var coverImageView: UIImageView = {
         return UIImageView().then {
             $0.layer.masksToBounds = true
@@ -29,7 +35,14 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
             $0.layer.masksToBounds = true
             $0.layer.cornerRadius = 2
             $0.contentMode = .scaleAspectFill
+            $0.clipsToBounds = true
             $0.image = #imageLiteral(resourceName: "background")
+        }
+    }()
+    
+    lazy var infoView: UIView = {
+        return UIView().then{
+             $0.clipsToBounds = true
         }
     }()
     
@@ -83,19 +96,21 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
     // MARK: Configure Views
     
     func configureViews() {
-        [backgroundImageView, coverImageView, titleLabel, subTitleLabel, descriptionLabel, progressLabel].forEach{
-            contentView.addSubview($0)
-        }
+        infoView.addSubviews(titleLabel, subTitleLabel, descriptionLabel, progressLabel)
+        containerView.addSubviews(backgroundImageView, coverImageView, infoView)
+        contentView.addSubview(containerView)
     }
     
     // MARK: Configure Constraints
     
     func configureConstraints() {
-        backgroundImageView.easy.layout( Height(128), Left(35), CenterY(0) )
-        coverImageView.easy.layout(Left(24) ,Width(93), Height(128) )
-        titleLabel.easy.layout(Left(10).to(coverImageView), Top(23))
-        subTitleLabel.easy.layout(Left(10).to(coverImageView), Top(5).to(titleLabel))
-        descriptionLabel.easy.layout(Left(10).to(coverImageView), Top(10).to(subTitleLabel), Right(40))
-        progressLabel.easy.layout(Left(10).to(coverImageView), Top(7).to(descriptionLabel))
+        containerView.easy.layout(CenterY(), Left(20), Right(20))
+        backgroundImageView.easy.layout(Edges(0))
+        coverImageView.easy.layout(Top(-15), Left(-10), Width(93))
+        infoView.easy.layout(Left(10).to(coverImageView), Right(10), Top(10), Bottom(15))
+        titleLabel.easy.layout(Top(5), Left(0))
+        subTitleLabel.easy.layout(Top(5).to(titleLabel), Left(0))
+        descriptionLabel.easy.layout(Top(10).to(subTitleLabel), Left(0), Right(10))
+        progressLabel.easy.layout(Top(7).to(descriptionLabel), Left(0))
     }
 }

@@ -18,7 +18,7 @@ class LibraryViewController: UIViewController {
             $0.delegate = self
             $0.dataSource = self
             $0.register(cellType: LibraryTableViewCell.self)
-            $0.rowHeight = 150
+            $0.rowHeight = 180
         }
     }()
     
