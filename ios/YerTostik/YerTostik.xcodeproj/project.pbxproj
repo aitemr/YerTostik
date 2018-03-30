@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */; };
+		A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */; };
+		A604599E206E4ABB004A7803 /* aldar.dae in Resources */ = {isa = PBXBuildFile; fileRef = A604599D206E4ABB004A7803 /* aldar.dae */; };
 		A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044B20651AAB001AD7D7 /* AppDelegate.swift */; };
-		A60F044E20651AAB001AD7D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F044D20651AAB001AD7D7 /* art.scnassets */; };
 		A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ViewController.swift */; };
 		A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045120651AAB001AD7D7 /* Main.storyboard */; };
 		A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F045420651AAB001AD7D7 /* Assets.xcassets */; };
 		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
 		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
 		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
+		A62DCD1D206D38F4000A1CD8 /* aldar_Packed0_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD19206D38F3000A1CD8 /* aldar_Packed0_Diffuse.png */; };
+		A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */; };
+		A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */; };
+		A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */; };
+		A62DCD22206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD21206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png */; };
 		A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */; };
 		A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */; };
 		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
@@ -60,9 +66,10 @@
 		94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.release.xcconfig"; sourceTree = "<group>"; };
 		9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostikTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Diffuse_02.png; sourceTree = "<group>"; };
+		A604599D206E4ABB004A7803 /* aldar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aldar.dae; sourceTree = "<group>"; };
 		A60F044820651AAB001AD7D7 /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F044B20651AAB001AD7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A60F044D20651AAB001AD7D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A60F044F20651AAB001AD7D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A60F045220651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A60F045420651AAB001AD7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +81,11 @@
 		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
 		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62DCD19206D38F3000A1CD8 /* aldar_Packed0_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Diffuse.png; sourceTree = "<group>"; };
+		A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Normal.png; sourceTree = "<group>"; };
+		A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Specular.png; sourceTree = "<group>"; };
+		A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Opacity.png; sourceTree = "<group>"; };
+		A62DCD21206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Gloss.png; sourceTree = "<group>"; };
 		A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
 		A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -188,6 +200,28 @@
 			path = YerTostikUITests;
 			sourceTree = "<group>";
 		};
+		A62DCD15206D370B000A1CD8 /* 3d models */ = {
+			isa = PBXGroup;
+			children = (
+				A62DCD16206D376C000A1CD8 /* aldar */,
+			);
+			path = "3d models";
+			sourceTree = "<group>";
+		};
+		A62DCD16206D376C000A1CD8 /* aldar */ = {
+			isa = PBXGroup;
+			children = (
+				A62DCD19206D38F3000A1CD8 /* aldar_Packed0_Diffuse.png */,
+				A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */,
+				A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */,
+				A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */,
+				A62DCD21206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png */,
+				A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */,
+				A604599D206E4ABB004A7803 /* aldar.dae */,
+			);
+			path = aldar;
+			sourceTree = "<group>";
+		};
 		A69403B5206530D500114546 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,8 +271,8 @@
 		A6D2F3BC20651F9300689D68 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A62DCD15206D370B000A1CD8 /* 3d models */,
 				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
-				A60F044D20651AAB001AD7D7 /* art.scnassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -380,9 +414,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A60F044E20651AAB001AD7D7 /* art.scnassets in Resources */,
+				A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
+				A604599E206E4ABB004A7803 /* aldar.dae in Resources */,
+				A62DCD1D206D38F4000A1CD8 /* aldar_Packed0_Diffuse.png in Resources */,
+				A62DCD22206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png in Resources */,
+				A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */,
 				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,
+				A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */,
+				A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */,
 				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
