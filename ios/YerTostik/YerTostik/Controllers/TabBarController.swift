@@ -25,7 +25,7 @@ final class TabBarController: UITabBarController {
             TabBarItem(icon: (#imageLiteral(resourceName: "profile"), #imageLiteral(resourceName: "profileSelected")), controller: ProfileViewController()),
             ]
         
-        viewControllers = tabBarItems.flatMap {
+        viewControllers = tabBarItems.compactMap {
             UINavigationController(rootViewController: $0.controller).then {
                 $0.navigationBar.tintColor = .pickledBluewood
                 $0.navigationBar.barTintColor = .alabaster
