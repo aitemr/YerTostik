@@ -50,6 +50,8 @@
 		A6B3CA912066F6B900FE2553 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */; };
 		A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */; };
 		A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */; };
+		A6D83625207228F700D892F3 /* Girl_Waving.DAE in Resources */ = {isa = PBXBuildFile; fileRef = A6D83624207228F600D892F3 /* Girl_Waving.DAE */; };
+		A6D8362720722A3E00D892F3 /* Girl_Waving_02.DAE in Resources */ = {isa = PBXBuildFile; fileRef = A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */; };
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
@@ -126,6 +128,8 @@
 		A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		A6D83624207228F600D892F3 /* Girl_Waving.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Girl_Waving.DAE; sourceTree = "<group>"; };
+		A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Girl_Waving_02.DAE; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -227,7 +231,6 @@
 		A62DCD15206D370B000A1CD8 /* 3d models */ = {
 			isa = PBXGroup;
 			children = (
-				A65533D920702DE90067BC13 /* batyr */,
 				A677229620702797008FD4D5 /* kyz */,
 				A62DCD16206D376C000A1CD8 /* aldar */,
 			);
@@ -272,6 +275,8 @@
 		A677229620702797008FD4D5 /* kyz */ = {
 			isa = PBXGroup;
 			children = (
+				A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */,
+				A6D83624207228F600D892F3 /* Girl_Waving.DAE */,
 				A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */,
 				A677229F207028A0008FD4D5 /* dress_02_Packed0_Gloss.png */,
 				A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */,
@@ -323,6 +328,7 @@
 		A6D2F3BC20651F9300689D68 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A65533D920702DE90067BC13 /* batyr */,
 				A62DCD15206D370B000A1CD8 /* 3d models */,
 				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
 			);
@@ -468,6 +474,7 @@
 			files = (
 				A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */,
 				A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */,
+				A6D8362720722A3E00D892F3 /* Girl_Waving_02.DAE in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
 				A604599E206E4ABB004A7803 /* aldar.dae in Resources */,
 				A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */,
@@ -483,6 +490,7 @@
 				A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */,
 				A67722A0207028A0008FD4D5 /* dress_02_Packed0_Gloss.png in Resources */,
 				A67722A220702A1E008FD4D5 /* kyz.dae in Resources */,
+				A6D83625207228F700D892F3 /* Girl_Waving.DAE in Resources */,
 				A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */,
 				A65533DF20702E930067BC13 /* battalion-leader-heraklios_normal.png in Resources */,
 				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
