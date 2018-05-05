@@ -40,6 +40,7 @@ class WelcomeViewController: UIViewController {
             $0.backgroundColor = .dodgerBlue
             $0.layer.cornerRadius = 4
             $0.titleLabel?.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.regular)
+            $0.addTarget(self, action: #selector(signInDidPress(_:)), for: .touchUpInside)
         }
     }()
     
@@ -50,6 +51,7 @@ class WelcomeViewController: UIViewController {
             $0.backgroundColor = .dodgerBlue
             $0.layer.cornerRadius = 4
             $0.titleLabel?.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.regular)
+            $0.addTarget(self, action: #selector(signUpDidPress(_:)), for: .touchUpInside)
         }
     }()
     
@@ -74,7 +76,21 @@ class WelcomeViewController: UIViewController {
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
         logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
-        signInButton.easy.layout(Left(20), Right(20), Bottom(140))
+        signInButton.easy.layout(Left(20), Right(20), Bottom(100))
         signUpButton.easy.layout(Left(20), Right(20), Bottom(65))
     }
+    
+    
+    // MARK: User Interaction
+    
+    @objc fileprivate func signInDidPress(_ sender: UIButton) {
+        let vc = SignInViewController()
+        let _ = navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc fileprivate func signUpDidPress(_ sender: UIButton) {
+        let vc = PhoneNumberViewController()
+        let _ = navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }

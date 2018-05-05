@@ -12,22 +12,18 @@ class SignInViewController: UIViewController {
     
     // MARK: Properties
     
-//    lazy var bronzeContainer: LeaderBoardHeaderViewItem = {
-//        return LeaderBoardHeaderViewItem().then {
-//            $0.scoreLabel.text = "3100"
-//        }
-//    }()
-    
     // MARK: View LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureViews()
+        configureConstriants()
     }
     
     // MARK: Configure Views
     
     func configureViews() {
-        
+        self.view.backgroundColor = .white
     }
     
     // MARK: Configure Constraints
