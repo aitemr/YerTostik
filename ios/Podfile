@@ -10,6 +10,7 @@ target 'YerTostik' do
   pod 'Sugar'
   pod 'EasyPeasy'
   pod 'FolioReaderKit'
+  pod 'Firebase/Core'
 
   target 'YerTostikTests' do
     inherit! :search_paths
@@ -21,4 +22,4 @@ target 'YerTostik' do
     # Pods for testing
   end
 
-end
+endπ
