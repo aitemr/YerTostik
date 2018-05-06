@@ -11,6 +11,14 @@ target 'YerTostik' do
   pod 'EasyPeasy'
   pod 'FolioReaderKit'
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  pod 'Fusuma'
+  pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+  pod 'Kingfisher'
+  pod 'IQKeyboardManagerSwift'
+  pod 'DZNEmptyDataSet'
 
   target 'YerTostikTests' do
     inherit! :search_paths
@@ -22,4 +30,4 @@ target 'YerTostik' do
     # Pods for testing
   end
 
-endπ
+end

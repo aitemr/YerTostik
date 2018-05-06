@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,11 +17,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        //        let tabBarController = TabBarController()
-        //         self.window?.rootViewController = tabBarController
-        self.window?.rootViewController = UINavigationController(rootViewController:  WelcomeViewController())
-        self.window?.makeKeyAndVisible()
+        IQKeyboardManager.shared.enable = true
+        coordinateAppFlow()
         return true
+    }
+}
+
+extension AppDelegate {
+    
+    fileprivate func coordinateAppFlow() {
+        window = UIWindow(frame: UIScreen.main.bounds).then {
+            $0.backgroundColor = .white
+        }
+        if ((Auth.auth().currentUser) != nil) {
+            loadMainPages()
+        } else {
+            loadLoginPages()
+        }
+        
+//        do {
+//            try Auth.auth().signOut()
+//        } catch let error as NSError {
+//            print(error.localizedDescription)
+//        }
+        
+        
+    }
+    
+    func loadMainPages() {
+        let mainTabBarController = TabBarController()
+        window?.rootViewController = mainTabBarController
+        window?.makeKeyAndVisible()
+    }
+    
+    func loadLoginPages() {
+        window?.rootViewController = UINavigationController(rootViewController: WelcomeViewController())
+        window?.makeKeyAndVisible()
     }
 }
 

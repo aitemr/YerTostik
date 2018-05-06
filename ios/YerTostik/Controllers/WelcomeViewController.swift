@@ -94,7 +94,6 @@ class WelcomeViewController: UIViewController {
     // MARK: Configure Constraints
     
     
-    
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
         logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
@@ -111,7 +110,7 @@ class WelcomeViewController: UIViewController {
     }
     
     @objc fileprivate func signUpDidPress(_ sender: UIButton) {
-        let vc = PhoneNumberViewController()
+        let vc = SignUpViewController()
         let _ = navigationController?.pushViewController(vc, animated: true)
     }
     

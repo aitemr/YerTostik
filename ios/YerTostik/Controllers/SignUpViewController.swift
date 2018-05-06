@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  SignUpViewController.swift
 //  YerTostik
 //
 //  Created by Islam Temirbek on 5/5/18.
@@ -12,7 +12,7 @@ import Firebase
 import SVProgressHUD
 import Sugar
 
-class SignInViewController: UIViewController {
+class SignUpViewController: UIViewController {
     
     // MARK: Properties
     
@@ -32,6 +32,10 @@ class SignInViewController: UIViewController {
         }
     }
     
+    fileprivate lazy var nameTextField: PaddingTextField = {
+        return self.textField("Аты және Тегі", false)
+    }()
+    
     fileprivate lazy var emailTextField: PaddingTextField = {
         return self.textField("Почта", false)
     }()
@@ -40,14 +44,14 @@ class SignInViewController: UIViewController {
         return self.textField("Пароль", true)
     }()
     
-    fileprivate lazy var signInButton: UIButton = {
+    fileprivate lazy var signUpButton: UIButton = {
         return UIButton(type: .system).then {
             $0.layer.masksToBounds = true
             $0.layer.cornerRadius = 2
             $0.backgroundColor = .cornflowerBlue
             $0.setTitleColor(.white, for: .normal)
-            $0.setTitle("Кiру", for: .normal)
-            $0.addTarget(self, action: #selector(signInButtonDidPress(_:)), for: .touchUpInside)
+            $0.setTitle("Тiркелу", for: .normal)
+            $0.addTarget(self, action: #selector(signUpButtonDidPress(_:)), for: .touchUpInside)
         }
     }()
     
@@ -63,7 +67,7 @@ class SignInViewController: UIViewController {
     //MARK: - Setup Navbar
     
     func configureNavigationBar() {
-        self.navigationItem.title = "Кiру"
+        self.navigationItem.title = "Тiркелу"
         navigationController?.navigationBar.barTintColor = .white
         navigationController?.navigationBar.tintColor = .pickledBluewood
         navigationController?.isNavigationBarHidden = false
@@ -74,21 +78,22 @@ class SignInViewController: UIViewController {
     
     func configureViews() {
         self.view.backgroundColor = .alabaster
-        self.view.addSubviews(emailTextField, passwordTextField, signInButton)
+        self.view.addSubviews(nameTextField, emailTextField, passwordTextField, signUpButton)
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))
     }
     
     // MARK: Configure Constraints
     
     func configureConstriants() {
-        emailTextField.easy.layout(Top(20), Left(20), Right(20), Height(50))
-        passwordTextField.easy.layout(Top(15).to(emailTextField), Left(20), Right(20), Height(50))
-        signInButton.easy.layout(Top(15).to(passwordTextField ), Left(20), Right(20), Height(50))
+        nameTextField.easy.layout(Top(20), Left(20), Right(20), Height(50))
+        emailTextField.easy.layout(Top(20).to(nameTextField ), Left(20), Right(20), Height(50))
+        passwordTextField.easy.layout(Top(20).to(emailTextField ), Left(20), Right(20), Height(50))
+        signUpButton.easy.layout(Top(15).to(passwordTextField), Left(20), Right(20), Height(50))
     }
     
     // MARK: User Interaction
     
-    @objc fileprivate func signInButtonDidPress(_ sender: UIButton) {
+    @objc fileprivate func signUpButtonDidPress(_ sender: UIButton) {
         dispatch {
             self.hideKeyboard()
             SVProgressHUD.show(withStatus: "Жүктелуде...")
@@ -100,13 +105,13 @@ class SignInViewController: UIViewController {
                     SVProgressHUD.dismiss()
                     Drop.down("Қате", state: .error)
                     return }
-            self.signInWithEmail(email: email, password: password)
+            self.signUpWithEmail(email: email, password: password)
         }
         
     }
     
-    @objc fileprivate func signInWithEmail(email: String, password: String) {
-        Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+    @objc fileprivate func signUpWithEmail(email: String, password: String) {
+        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
             if error != nil {
                 guard let error = error else { return }
                 Drop.down(error.localizedDescription, state: .error)
@@ -124,7 +129,9 @@ class SignInViewController: UIViewController {
     }
     
     @objc fileprivate func refreshData() {
+        emailTextField.text = ""
         passwordTextField.text = ""
     }
+    
     
 }
