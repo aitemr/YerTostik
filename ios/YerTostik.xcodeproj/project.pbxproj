@@ -58,6 +58,7 @@
 		ADB82F0A209DEA060047BC83 /* VerficationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F09209DEA060047BC83 /* VerficationCodeViewController.swift */; };
 		ADB82F0C209DEA1E0047BC83 /* AddInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F0B209DEA1E0047BC83 /* AddInformationViewController.swift */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
+		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
 		ADFC7A82209CD72A00354F74 /* girl.DAE in Resources */ = {isa = PBXBuildFile; fileRef = ADFC7A81209CD72900354F74 /* girl.DAE */; };
 		ADFC7A84209CD7C300354F74 /* Batyr_Fight_Waving.DAE in Resources */ = {isa = PBXBuildFile; fileRef = ADFC7A83209CD7C200354F74 /* Batyr_Fight_Waving.DAE */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
@@ -142,6 +143,7 @@
 		ADB82F09209DEA060047BC83 /* VerficationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerficationCodeViewController.swift; sourceTree = "<group>"; };
 		ADB82F0B209DEA1E0047BC83 /* AddInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInformationViewController.swift; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		ADFC7A81209CD72900354F74 /* girl.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = girl.DAE; sourceTree = "<group>"; };
 		ADFC7A83209CD7C200354F74 /* Batyr_Fight_Waving.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Batyr_Fight_Waving.DAE; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -321,6 +323,7 @@
 				A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */,
 				A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */,
 				A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */,
+				ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -665,6 +668,7 @@
 				A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */,
 				A6B3CA8F2066F69900FE2553 /* SettingsViewController.swift in Sources */,
 				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,
+				ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */,
 				ADB82F0A209DEA060047BC83 /* VerficationCodeViewController.swift in Sources */,
 				A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */,
 				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,

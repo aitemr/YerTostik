@@ -37,20 +37,18 @@ class WelcomeViewController: UIViewController {
         return UIButton(type: .system).then {
             $0.setTitle("Кiру", for: .normal)
             $0.setTitleColor(.white, for: .normal)
-            $0.backgroundColor = .dodgerBlue
-            $0.layer.cornerRadius = 4
-            $0.titleLabel?.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.regular)
+            $0.backgroundColor = .cornflowerBlue
+            $0.layer.cornerRadius = 2
             $0.addTarget(self, action: #selector(signInDidPress(_:)), for: .touchUpInside)
         }
     }()
-    
+
     lazy var signUpButton: UIButton = {
         return UIButton(type: .system).then {
             $0.setTitle("Тiркелу", for: .normal)
             $0.setTitleColor(.white, for: .normal)
-            $0.backgroundColor = .dodgerBlue
-            $0.layer.cornerRadius = 4
-            $0.titleLabel?.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.regular)
+            $0.backgroundColor = .cornflowerBlue
+            $0.layer.cornerRadius = 2
             $0.addTarget(self, action: #selector(signUpDidPress(_:)), for: .touchUpInside)
         }
     }()
@@ -67,7 +65,14 @@ class WelcomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        // Show the navigation bar on other view controllers
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
     // MARK: Configure Navigation Bar
@@ -93,8 +98,8 @@ class WelcomeViewController: UIViewController {
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
         logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
-        signUpButton.easy.layout(Left(20), Right(20), Bottom(30), Height(44))
-        signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(44))
+        signUpButton.easy.layout(Left(20), Right(20), Bottom(30), Height(50))
+        signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(50))
     }
     
     
