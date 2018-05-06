@@ -16,8 +16,20 @@ class PhoneNumberViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureNavigationBar()
         configureViews()
         configureConstriants()
+    }
+    
+    //MARK: - Setup Navbar
+    
+    func configureNavigationBar() {
+        self.navigationItem.title = "Телефон номер"
+        navigationController?.navigationBar.barTintColor = .white
+        navigationController?.navigationBar.tintColor = .pickledBluewood
+        navigationController?.isNavigationBarHidden = false
+        navigationController?.navigationBar.isTranslucent = false
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Келесi", style: .plain, target: self, action: #selector(nextButtonDidPress(_:)))
     }
     
     // MARK: Configure Views
@@ -29,6 +41,11 @@ class PhoneNumberViewController: UIViewController {
     // MARK: Configure Constraints
     
     func configureConstriants() {
+    }
+    
+    // MARK: User Interaction
+    
+    @objc fileprivate func nextButtonDidPress(_ sender: UIButton) {
     }
 
 }

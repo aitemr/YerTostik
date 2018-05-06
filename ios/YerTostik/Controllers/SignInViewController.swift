@@ -16,8 +16,20 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureNavigationBar()
         configureViews()
         configureConstriants()
+    }
+    
+    //MARK: - Setup Navbar
+    
+    func configureNavigationBar() {
+        self.navigationItem.title = "Кiру"
+        navigationController?.navigationBar.barTintColor = .white
+        navigationController?.navigationBar.tintColor = .pickledBluewood
+        navigationController?.isNavigationBarHidden = false
+        navigationController?.navigationBar.isTranslucent = false
+        
     }
     
     // MARK: Configure Views
@@ -29,6 +41,11 @@ class SignInViewController: UIViewController {
     // MARK: Configure Constraints
     
     func configureConstriants() {
+    }
+
+    // MARK: User Interaction
+    
+    @objc fileprivate func signInButtonDidPress(_ sender: UIButton) {
     }
     
 }

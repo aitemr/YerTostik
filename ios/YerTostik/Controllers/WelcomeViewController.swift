@@ -59,9 +59,24 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureNavigationBar()
         configureViews()
         configureConstraints()
         signInButton.titleEdgeInsets = UIEdgeInsets(top: 15, left: 0, bottom: 15, right: 0)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = true
+    }
+    
+    // MARK: Configure Navigation Bar
+    
+    func configureNavigationBar() {
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationController?.navigationBar.largeTitleTextAttributes =
+            [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
     }
     
     // MARK: Configure Views
@@ -73,11 +88,13 @@ class WelcomeViewController: UIViewController {
     
     // MARK: Configure Constraints
     
+    
+    
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
         logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
-        signInButton.easy.layout(Left(20), Right(20), Bottom(100))
-        signUpButton.easy.layout(Left(20), Right(20), Bottom(65))
+        signUpButton.easy.layout(Left(20), Right(20), Bottom(30), Height(44))
+        signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(44))
     }
     
     
