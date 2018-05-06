@@ -12,7 +12,6 @@ import AVFoundation
 class VideoPlayerView: UIView {
     
     //MARK: - Properties
-    
     private lazy var backroundDimView: UIView = {
         let imageView = UIImageView()
         imageView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
@@ -31,8 +30,7 @@ class VideoPlayerView: UIView {
         return playerLayer
     }()
     
-    //MARK: - View Life Cycle
-    
+    //MARK: - Life Cycle
     override init(frame: CGRect) {
         super.init(frame: frame)
         setUpVideoBackground()
@@ -42,8 +40,7 @@ class VideoPlayerView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: - Configure backgorund Video
-    
+    //MARK: - Setup backgorund Video
     func setUpVideoBackground() {
         guard let videoUrl = Bundle.main.url(forResource: Constant.videoFilename, withExtension: Constant.videoExtension) else { return }
         videoPlayer = AVPlayer(url: videoUrl)

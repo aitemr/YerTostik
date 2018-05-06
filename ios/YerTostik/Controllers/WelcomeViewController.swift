@@ -14,6 +14,13 @@ class WelcomeViewController: UIViewController {
     
     // MARK: Properties
     
+    lazy var videoPlayer: VideoPlayerView = {
+        let width = UIScreen.main.bounds.size.width
+        let height = UIScreen.main.bounds.size.height
+        let videoPlayer = VideoPlayerView(frame: CGRect(x: 0, y: 0, width: width, height: height))
+        return videoPlayer
+    }()
+    
     lazy var logoImageView: UIImageView = {
         return UIImageView().then {
             $0.layer.masksToBounds = true
@@ -26,7 +33,7 @@ class WelcomeViewController: UIViewController {
     lazy var titleLabel: UILabel = {
         return UILabel().then{
             $0.text = "YerTostik - \n Ғажайып ертегілер"
-            $0.textColor = .black
+            $0.textColor = .white
             $0.font = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.bold)
             $0.textAlignment = .left
             $0.numberOfLines = 2
@@ -66,14 +73,24 @@ class WelcomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        // Hide the navigation bar on the this view controller
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
+//        UIApplication.shared.statusBarStyle = .default
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        // Show the navigation bar on other view controllers
+        videoPlayer.videoPlayer.pause()
+//        UIApplication.shared.statusBarStyle = .lightContent
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        videoPlayer.videoPlayer.play()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     // MARK: Configure Navigation Bar
@@ -89,6 +106,7 @@ class WelcomeViewController: UIViewController {
     
     func configureViews() {
         self.view.backgroundColor = .white
+        self.view.addSubview(videoPlayer)
         self.view.addSubviews(logoImageView, titleLabel, signInButton, signUpButton)
     }
     
