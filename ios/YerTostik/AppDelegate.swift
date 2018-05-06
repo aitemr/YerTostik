@@ -29,19 +29,18 @@ extension AppDelegate {
         window = UIWindow(frame: UIScreen.main.bounds).then {
             $0.backgroundColor = .white
         }
+        
+        do {
+            try Auth.auth().signOut()
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+        
         if ((Auth.auth().currentUser) != nil) {
             loadMainPages()
         } else {
             loadLoginPages()
         }
-        
-//        do {
-//            try Auth.auth().signOut()
-//        } catch let error as NSError {
-//            print(error.localizedDescription)
-//        }
-        
-        
     }
     
     func loadMainPages() {

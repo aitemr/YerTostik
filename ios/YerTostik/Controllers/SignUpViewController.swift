@@ -97,41 +97,43 @@ class SignUpViewController: UIViewController {
         dispatch {
             self.hideKeyboard()
             SVProgressHUD.show(withStatus: "Жүктелуде...")
-            SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.native)
-            SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.black)
+            SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.flat)
+            SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.gradient)
             guard let email = self.emailTextField.text,
                 let password = self.passwordTextField.text,
-                !email.isEmpty && !password.isEmpty else {
+                let name = self.nameTextField.text,
+                !email.isEmpty && !password.isEmpty  && !name.isEmpty  else {
                     SVProgressHUD.dismiss()
-                    Drop.down("Қате", state: .error)
+                    Drop.down("Қате, барлыгын толтырыңыз", state: .error)
                     return }
-            self.signUpWithEmail(email: email, password: password)
+            self.signUpWithEmail(name: name, email: email, password: password)
         }
-        
     }
     
-    @objc fileprivate func signUpWithEmail(email: String, password: String) {
-        Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
-            if error != nil {
+    func signUpWithEmail(name: String, email: String, password: String) {
+        Auth.auth().createUser(withEmail: email, password: password, completion: { (user, error) in
+            if error == nil {
+                let values = ["name": name, "email": email]
+                guard let userId = user?.uid else { return }
+            Database.database().reference().child("users").child(userId).updateChildValues(values, withCompletionBlock: { (errr, _) in
+                    if errr == nil {
+                        (UIApplication.shared.delegate as? AppDelegate)?.loadMainPages()
+                        SVProgressHUD.dismiss()
+                    } else {
+                        guard let errr = errr else { return }
+                        Drop.down(errr.localizedDescription, state: .error)
+                        SVProgressHUD.dismiss()
+                    }
+                })
+            } else {
+                SVProgressHUD.dismiss()
                 guard let error = error else { return }
                 Drop.down(error.localizedDescription, state: .error)
-                self.refreshData()
-            } else {
-                (UIApplication.shared.delegate as? AppDelegate)?.loadMainPages()
-                SVProgressHUD.dismiss()
             }
-            SVProgressHUD.dismiss()
-        }
+        })
     }
     
     @objc fileprivate func hideKeyboard() {
         view.endEditing(true)
     }
-    
-    @objc fileprivate func refreshData() {
-        emailTextField.text = ""
-        passwordTextField.text = ""
-    }
-    
-    
 }

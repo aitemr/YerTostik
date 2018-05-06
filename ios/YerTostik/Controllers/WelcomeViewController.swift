@@ -30,6 +30,7 @@ class WelcomeViewController: UIViewController {
             $0.font = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight.bold)
             $0.textAlignment = .left
             $0.numberOfLines = 2
+            $0.adjustsFontSizeToFitWidth = true
         }
     }()
     

@@ -92,8 +92,8 @@ class SignInViewController: UIViewController {
         dispatch {
             self.hideKeyboard()
             SVProgressHUD.show(withStatus: "Жүктелуде...")
-            SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.native)
-            SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.black)
+            SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.flat)
+            SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.gradient)
             guard let email = self.emailTextField.text,
                 let password = self.passwordTextField.text,
                 !email.isEmpty && !password.isEmpty else {
