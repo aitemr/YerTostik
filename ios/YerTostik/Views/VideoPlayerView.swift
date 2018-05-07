@@ -12,11 +12,6 @@ import AVFoundation
 class VideoPlayerView: UIView {
     
     //MARK: - Properties
-    private lazy var backroundDimView: UIView = {
-        let imageView = UIImageView()
-        imageView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
-        return imageView
-    }()
     
     lazy var videoPlayer: AVPlayer = {
         let player = AVPlayer()
@@ -48,7 +43,6 @@ class VideoPlayerView: UIView {
         videoPlayerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         self.backgroundColor = .clear
         self.layer.insertSublayer(videoPlayerLayer, at: 0)
-        self.addSubview(backroundDimView)
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(playerItemDidReachEnd(notification:)),
                                                name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
@@ -63,6 +57,5 @@ class VideoPlayerView: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         videoPlayerLayer.frame = self.layer.bounds
-        backroundDimView.frame = CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height)
     }
 }

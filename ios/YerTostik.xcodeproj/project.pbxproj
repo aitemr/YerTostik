@@ -60,7 +60,7 @@
 		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
 		ADEA0F22209F25400051E664 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F21209F25400051E664 /* VideoPlayerView.swift */; };
 		ADEA0F25209F28160051E664 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F24209F28160051E664 /* Constants.swift */; };
-		ADEA0F2A209F2B770051E664 /* welcomeVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F29209F2B770051E664 /* welcomeVideo.mp4 */; };
+		ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F2B209F40CA0051E664 /* background.mp4 */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -145,7 +145,7 @@
 		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
 		ADEA0F21209F25400051E664 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		ADEA0F24209F28160051E664 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		ADEA0F29209F2B770051E664 /* welcomeVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcomeVideo.mp4; sourceTree = "<group>"; };
+		ADEA0F2B209F40CA0051E664 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -391,7 +391,7 @@
 		ADEA0F28209F28D40051E664 /* videos */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA0F29209F2B770051E664 /* welcomeVideo.mp4 */,
+				ADEA0F2B209F40CA0051E664 /* background.mp4 */,
 			);
 			path = videos;
 			sourceTree = "<group>";
@@ -509,7 +509,6 @@
 			files = (
 				A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */,
 				A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */,
-				ADEA0F2A209F2B770051E664 /* welcomeVideo.mp4 in Resources */,
 				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
 				A6D8362720722A3E00D892F3 /* Girl_Waving_02.DAE in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
@@ -529,6 +528,7 @@
 				A67722A220702A1E008FD4D5 /* kyz.dae in Resources */,
 				A6D83625207228F700D892F3 /* Girl_Waving.DAE in Resources */,
 				A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */,
+				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
 				A65533DF20702E930067BC13 /* battalion-leader-heraklios_normal.png in Resources */,
 				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
 			);

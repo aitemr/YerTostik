@@ -45,7 +45,7 @@ class WelcomeViewController: UIViewController {
         return UIButton(type: .system).then {
             $0.setTitle("Кiру", for: .normal)
             $0.setTitleColor(.white, for: .normal)
-            $0.backgroundColor = .cornflowerBlue
+            $0.backgroundColor = UIColor(white: 1, alpha: 0.2)
             $0.layer.cornerRadius = 2
             $0.addTarget(self, action: #selector(signInDidPress(_:)), for: .touchUpInside)
         }
@@ -74,13 +74,11 @@ class WelcomeViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
-//        UIApplication.shared.statusBarStyle = .default
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         videoPlayer.videoPlayer.pause()
-//        UIApplication.shared.statusBarStyle = .lightContent
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
@@ -106,8 +104,7 @@ class WelcomeViewController: UIViewController {
     
     func configureViews() {
         self.view.backgroundColor = .white
-        self.view.addSubview(videoPlayer)
-        self.view.addSubviews(logoImageView, titleLabel, signInButton, signUpButton)
+        self.view.addSubviews(videoPlayer, logoImageView, titleLabel, signInButton, signUpButton)
     }
     
     // MARK: Configure Constraints
@@ -115,7 +112,8 @@ class WelcomeViewController: UIViewController {
     
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
-        logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
+        videoPlayer.easy.layout(Edges(0))
+//        logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
         signUpButton.easy.layout(Left(20), Right(20), Bottom(30), Height(50))
         signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(50))
     }

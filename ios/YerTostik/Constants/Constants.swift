@@ -10,6 +10,6 @@ import UIKit
 import Foundation
 
 struct Constant {
-    static let videoFilename = "welcomeVideo"
+    static let videoFilename = "background"
     static let videoExtension = "mp4"
 }
