@@ -91,13 +91,9 @@ class SignInViewController: UIViewController {
     @objc fileprivate func signInButtonDidPress(_ sender: UIButton) {
         dispatch {
             self.hideKeyboard()
-            SVProgressHUD.show(withStatus: "Жүктелуде...")
-            SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.flat)
-            SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.gradient)
             guard let email = self.emailTextField.text,
                 let password = self.passwordTextField.text,
                 !email.isEmpty && !password.isEmpty else {
-                    SVProgressHUD.dismiss()
                     Drop.down("Қате", state: .error)
                     return }
             self.signInWithEmail(email: email, password: password)
@@ -106,6 +102,9 @@ class SignInViewController: UIViewController {
     }
     
     @objc fileprivate func signInWithEmail(email: String, password: String) {
+        SVProgressHUD.show(withStatus: "Жүктелуде...")
+        SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.flat)
+        SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.gradient)
         Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
             if error != nil {
                 guard let error = error else { return }
