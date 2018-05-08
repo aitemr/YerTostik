@@ -15,9 +15,7 @@ class WelcomeViewController: UIViewController {
     // MARK: Properties
     
     lazy var videoPlayer: VideoPlayerView = {
-        let width = UIScreen.main.bounds.size.width
-        let height = UIScreen.main.bounds.size.height
-        let videoPlayer = VideoPlayerView(frame: CGRect(x: 0, y: 0, width: width, height: height))
+        let videoPlayer = VideoPlayerView(frame: CGRect(x: 0, y: 0, width: Constant.width, height: Constant.height))
         return videoPlayer
     }()
     

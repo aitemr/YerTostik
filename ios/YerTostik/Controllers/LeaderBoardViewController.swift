@@ -8,6 +8,7 @@
 
 import UIKit
 import EasyPeasy
+import DZNEmptyDataSet
 
 class LeaderBoardViewController: UIViewController {
     
@@ -19,14 +20,16 @@ class LeaderBoardViewController: UIViewController {
             $0.dataSource = self
             $0.register(cellType: LeaderBoardTableViewCell.self)
             $0.rowHeight = 65
-            //            $0.tableHeaderView = self.headerView
+            $0.emptyDataSetSource = self as DZNEmptyDataSetSource
+            $0.emptyDataSetDelegate = self as DZNEmptyDataSetDelegate
+            $0.tableHeaderView = self.headerView
         }
     }()
     
     lazy var headerView: LeaderBoardHeaderView = {
         return LeaderBoardHeaderView(frame: CGRect(x: 0, y: 0,
                                                    width: UIScreen.main.bounds.width,
-                                                   height: 150))
+                                                   height: 140))
     }()
     
     // MARK: View Lifecycle
@@ -43,6 +46,7 @@ class LeaderBoardViewController: UIViewController {
     func configureViews(){
         self.view.backgroundColor = .white
         view.addSubview(tableView)
+        tableView.tableFooterView = UIView(frame: CGRect.zero)
     }
     
     // MARK: Configure Constraints
@@ -63,5 +67,16 @@ extension LeaderBoardViewController: UITableViewDataSource, UITableViewDelegate 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as LeaderBoardTableViewCell
         return cell
+    }
+}
+
+// MARK: DZNEmptyDataSet
+
+extension LeaderBoardViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let title = "Ештене жоқ"
+        let attribute = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+        let attributedString = NSAttributedString(string: title, attributes: attribute)
+        return attributedString
     }
 }

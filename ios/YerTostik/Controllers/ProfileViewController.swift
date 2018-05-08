@@ -9,6 +9,7 @@
 import UIKit
 import EasyPeasy
 import Firebase
+import DZNEmptyDataSet
 
 struct ProfileItem {
     let title: String
@@ -42,6 +43,8 @@ class ProfileViewController: UIViewController {
             $0.dataSource = self
             $0.delegate = self
             $0.backgroundColor = .white
+            $0.emptyDataSetSource = self as DZNEmptyDataSetSource
+            $0.emptyDataSetDelegate = self as DZNEmptyDataSetDelegate
             $0.register(cellType: ProfileCollectionViewCell.self)
             $0.register(ProfileHeaderView.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "ProfileHeaderView")
             
@@ -109,7 +112,7 @@ class ProfileViewController: UIViewController {
 extension ProfileViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return prfofileItems.count
+        return 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -135,3 +138,16 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: collectionView.frame.width, height: 110)
     }
 }
+
+// MARK: DZNEmptyDataSet
+
+extension ProfileViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
+    
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let title = "Өкінішке орай сізде ешкандай кейіпкер жоқ"
+        let attribute = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+        let attributedString = NSAttributedString(string: title, attributes: attribute)
+        return attributedString
+    }
+}
+

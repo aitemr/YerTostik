@@ -56,6 +56,7 @@
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
 		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
+		ADC1B2D320A1E72B00E969D1 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
 		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
 		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
@@ -142,6 +143,7 @@
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
+		ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 				A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */,
 				ADB82F05209DE41F0047BC83 /* SignInViewController.swift */,
 				ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */,
+				ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -701,6 +704,7 @@
 				A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */,
 				A69403BB20656A1600114546 /* CloudCollectionViewCell.swift in Sources */,
 				A6B3CA8F2066F69900FE2553 /* SettingsViewController.swift in Sources */,
+				ADC1B2D320A1E72B00E969D1 /* EditProfileViewController.swift in Sources */,
 				A69403B420652C0100114546 /* ProfileViewController.swift in Sources */,
 				ADEA0F22209F25400051E664 /* VideoPlayerView.swift in Sources */,
 				ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */,

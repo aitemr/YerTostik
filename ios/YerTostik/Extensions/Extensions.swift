@@ -24,6 +24,9 @@ extension UIColor {
     static let doveGray = #colorLiteral(red: 0.3803921569, green: 0.3803921569, blue: 0.3803921569, alpha: 1)
     static let trout = #colorLiteral(red: 0.3098039216, green: 0.3411764706, blue: 0.4, alpha: 1)
     static let gray = #colorLiteral(red: 0.5568627451, green: 0.5568627451, blue: 0.5568627451, alpha: 1)
+    static let goldColor = #colorLiteral(red: 0.9725490196, green: 0.8117647059, blue: 0.1098039216, alpha: 1)
+    static let silverColor = #colorLiteral(red: 0.7725490196, green: 0.7725490196, blue: 0.7725490196, alpha: 1)
+    static let bronzeColor = #colorLiteral(red: 0.768627451, green: 0.4549019608, blue: 0.2156862745, alpha: 1)
 }
 
 extension UIFont {

@@ -19,7 +19,7 @@ class LeaderBoardHeaderViewItem: UIView {
             $0.layer.masksToBounds = true
             $0.layer.cornerRadius = 27
             $0.contentMode = .scaleAspectFill
-            $0.layer.borderWidth = 2
+            $0.layer.borderWidth = 3
             $0.layer.borderColor = UIColor.gray.cgColor
             $0.image = #imageLiteral(resourceName: "gulnaz")
         }
@@ -28,7 +28,7 @@ class LeaderBoardHeaderViewItem: UIView {
     lazy var scoreLabel: UILabel = {
         return UILabel().then {
             $0.text = "3200"
-            $0.textColor = .black
+            $0.textColor = .dustyGray
             $0.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.bold)
             $0.textAlignment = .center
         }
@@ -37,7 +37,7 @@ class LeaderBoardHeaderViewItem: UIView {
     lazy var nameLabel: UILabel = {
         return UILabel().then {
             $0.text = "Гульназ"
-            $0.textColor = .black
+            $0.textColor = .dustyGray
             $0.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.semibold)
             $0.textAlignment = .center
         }
@@ -47,7 +47,8 @@ class LeaderBoardHeaderViewItem: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .yellow
+        
+//        self.backgroundColor = .yellow
         configureViews()
         configureConstriants()
     }
@@ -65,8 +66,8 @@ class LeaderBoardHeaderViewItem: UIView {
     // MARK: Configure Constraints
     
     func configureConstriants() {
-        avatarImageView.easy.layout(Size(54) )
-        scoreLabel.easy.layout(Top(8).to(avatarImageView))
-        nameLabel.easy.layout(Top(3).to(scoreLabel))
+        avatarImageView.easy.layout(Size(54), CenterX(0), Top(5))
+        scoreLabel.easy.layout(Top(8).to(avatarImageView), CenterX(0))
+        nameLabel.easy.layout(Top(3).to(scoreLabel), CenterX(0))
     }
 }
