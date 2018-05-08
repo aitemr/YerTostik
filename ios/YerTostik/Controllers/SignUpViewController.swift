@@ -33,7 +33,7 @@ class SignUpViewController: UIViewController {
     }
     
     fileprivate lazy var nameTextField: PaddingTextField = {
-        return self.textField("Аты және Тегі", false)
+        return self.textField("Есіміңіз", false)
     }()
     
     fileprivate lazy var emailTextField: PaddingTextField = {
@@ -104,7 +104,7 @@ class SignUpViewController: UIViewController {
                 let name = self.nameTextField.text,
                 !email.isEmpty && !password.isEmpty  && !name.isEmpty  else {
                     SVProgressHUD.dismiss()
-                    Drop.down("Қате, барлыгын толтырыңыз", state: .error)
+                    Drop.down("Қате!", state: .error)
                     return }
             self.signUpWithEmail(name: name, email: email, password: password)
         }

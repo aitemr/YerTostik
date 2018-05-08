@@ -98,6 +98,7 @@ class WelcomeViewController: UIViewController {
         self.navigationController?.navigationBar.largeTitleTextAttributes =
             [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Артқа", style: .plain, target: nil, action: nil)
     }
     
     // MARK: Configure Views
@@ -112,7 +113,6 @@ class WelcomeViewController: UIViewController {
     
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
-        videoPlayer.easy.layout(Edges(0))
 //        logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
         signUpButton.easy.layout(Left(20), Right(20), Bottom(30), Height(50))
         signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(50))
