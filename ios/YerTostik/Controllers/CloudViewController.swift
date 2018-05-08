@@ -20,9 +20,9 @@ class CloudViewController: UIViewController {
     
     let cloudItems = [
         CloudItem(title: "Қазақ халық ертетілері", color: .shamrock),
-        CloudItem(title: "Ғажайып ертетілер", color: .monaLisa),
-        CloudItem(title: "Орыс халық ертегілері", color: .anakiwa),
-        CloudItem(title: "Шетел ертегілері", color: .melrose),
+        CloudItem(title: "Ғажайып ертетілер", color: .anakiwa),
+        CloudItem(title: "Орыс халық ертегілері", color: .melrose),
+        CloudItem(title: "Шетел ертегілері", color: .monaLisa),
         CloudItem(title: "Көп оқылган ертегілер", color: .dodgerBlue),
         CloudItem(title: "Жаңадан салынғандар", color: .malibu),
         ]

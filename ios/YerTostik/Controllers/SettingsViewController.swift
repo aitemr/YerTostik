@@ -8,6 +8,7 @@
 
 import UIKit
 import EasyPeasy
+import Firebase
 
 struct SettingsItem {
     var image: UIImage?
@@ -50,6 +51,7 @@ class SettingsViewController: UIViewController {
     
     func configureNavigationBar() {
         self.navigationItem.title = "Баптаулар"
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "logout"), style: .plain, target: self, action: #selector(logoutButtonDidPress))
     }
     
     // MARK: Configure Views
@@ -62,6 +64,24 @@ class SettingsViewController: UIViewController {
     
     func configureConstraints() {
         tableView.easy.layout(Edges(0))
+    }
+    
+    // MARK: User Interaction
+    
+    @objc func logoutButtonDidPress() {
+        let alert = UIAlertController(title: "Қосымшадан шығу", message:"Cіз қосымшадан шығуға сенімдісіз бе?", preferredStyle: UIAlertControllerStyle.alert);
+        let noAction = UIAlertAction(title: "Жоқ", style: UIAlertActionStyle.default, handler:nil)
+        let yesAction = UIAlertAction(title: "Ия", style: UIAlertActionStyle.default, handler:  { action in
+            do {
+                try Auth.auth().signOut()
+                (UIApplication.shared.delegate as? AppDelegate)?.loadLoginPages()
+            } catch let error as NSError {
+                Drop.down(error.localizedDescription, state: .error)
+            }
+        })
+        alert.addAction(noAction);
+        alert.addAction(yesAction);
+        self.present(alert, animated: true, completion: nil)
     }
 }
 
