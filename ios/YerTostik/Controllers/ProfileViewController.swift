@@ -8,6 +8,7 @@
 
 import UIKit
 import EasyPeasy
+import Firebase
 
 struct ProfileItem {
     let title: String
@@ -61,6 +62,7 @@ class ProfileViewController: UIViewController {
     func configureNavigationBar() {
         self.navigationItem.title = "Профиль"
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "settings"), style: .plain, target: self, action: #selector(settingsButtonDidPress))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "logout"), style: .plain, target: self, action: #selector(logoutButtonDidPress))
     }
     
     // MARK: Configure Views
@@ -83,6 +85,22 @@ class ProfileViewController: UIViewController {
         let vc =  SettingsViewController()
         vc.hidesBottomBarWhenPushed = true
         let _ = navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func logoutButtonDidPress() {
+        let alert = UIAlertController(title: "Қосымшадан шығу", message:"Cіз қосымшадан шығуға сенімдісіз бе?", preferredStyle: UIAlertControllerStyle.alert);
+        let noAction = UIAlertAction(title: "Жоқ", style: UIAlertActionStyle.default, handler:nil)
+        let yesAction = UIAlertAction(title: "Ия", style: UIAlertActionStyle.default, handler:  { action in
+            do {
+                try Auth.auth().signOut()
+                (UIApplication.shared.delegate as? AppDelegate)?.loadLoginPages()
+            } catch let error as NSError {
+                Drop.down(error.localizedDescription, state: .error)
+            }
+        })
+        alert.addAction(noAction);
+        alert.addAction(yesAction);
+        self.present(alert, animated: true, completion: nil)
     }
 }
 
