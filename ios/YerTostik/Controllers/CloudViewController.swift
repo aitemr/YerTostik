@@ -20,9 +20,9 @@ class CloudViewController: UIViewController {
     
     let cloudItems = [
         CloudItem(title: "Қазақ халық ертетілері", color: .shamrock),
+        CloudItem(title: "Ғажайып ертетілер", color: .monaLisa),
         CloudItem(title: "Орыс халық ертегілері", color: .anakiwa),
         CloudItem(title: "Шетел ертегілері", color: .melrose),
-        CloudItem(title: "Аудио ертегілер", color: .monaLisa),
         CloudItem(title: "Көп оқылган ертегілер", color: .dodgerBlue),
         CloudItem(title: "Жаңадан салынғандар", color: .malibu),
         ]
@@ -87,9 +87,8 @@ extension CloudViewController: UICollectionViewDataSource, UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "viewController")
-        let _ = navigationController?.pushViewController(vc, animated: true)
-
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewController(withIdentifier: "viewController")
+//        let _ = navigationController?.pushViewController(vc, animated: true)
     }
 }
