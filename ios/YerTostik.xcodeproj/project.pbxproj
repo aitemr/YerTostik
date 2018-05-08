@@ -55,6 +55,7 @@
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
+		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
 		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
 		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
@@ -140,6 +141,7 @@
 		A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Girl_Waving_02.DAE; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 		A60F044A20651AAB001AD7D7 /* YerTostik */ = {
 			isa = PBXGroup;
 			children = (
+				ADC1B2CF20A1D52E00E969D1 /* Managers */,
 				ADEA0F23209F280A0051E664 /* Constants */,
 				A69403B5206530D500114546 /* Extensions */,
 				A60F044B20651AAB001AD7D7 /* AppDelegate.swift */,
@@ -378,6 +381,14 @@
 				DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADC1B2CF20A1D52E00E969D1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		ADEA0F23209F280A0051E664 /* Constants */ = {
@@ -673,6 +684,7 @@
 				ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */,
 				ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */,
 				ADEA0F20209F06300051E664 /* Drop.swift in Sources */,
+				ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */,
 				A69403AC20652BA900114546 /* TabBarController.swift in Sources */,
 				A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */,
 				A69403B020652BD600114546 /* CloudViewController.swift in Sources */,

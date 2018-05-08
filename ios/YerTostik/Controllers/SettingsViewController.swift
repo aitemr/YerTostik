@@ -21,11 +21,10 @@ class SettingsViewController: UIViewController {
     let sectionItems = [
         [SettingsItem(image: #imageLiteral(resourceName: "rate"), title: "App Store - да рейтинг қою"),
          SettingsItem(image: #imageLiteral(resourceName: "feedback"), title: "Байланыс"),
-         SettingsItem(image: #imageLiteral(resourceName: "aboutus"), title: "Біз туралы")],
+         ],
         [SettingsItem(image: #imageLiteral(resourceName: "instagram"), title: "Instagram"),
          SettingsItem(image: #imageLiteral(resourceName: "facebook"), title: "Facebook"),
-         SettingsItem(image: #imageLiteral(resourceName: "vk"), title: "VK")
-        ]
+         ]
     ]
     
     lazy var tableView: UITableView = {
@@ -92,4 +91,16 @@ extension SettingsViewController: UITableViewDataSource, UITableViewDelegate  {
         }
         return "Қосымша туралы"
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        switch (indexPath.section, indexPath.row) {
+        case (0, 0): ShareManager.shared.appStoreRate()
+        case (0, 1): ShareManager.shared.mailFeedback(at: self)
+        case (1, 0): ShareManager.shared.instagramShare(at: self)
+        case (1, 1): ShareManager.shared.facebookShare(at: self)
+        default: break
+        }
+    }
+    
 }

@@ -10,6 +10,17 @@ import UIKit
 import Foundation
 
 struct Constant {
+    static let appName = "YerTostik"
+    static let appID = "id1381120785"
+    static let reviewUrl = "https://itunes.apple.com/us/app/\(Constant.appID)?ls=1&mt=8&action=write-review"
+    static let appUrl = "http://itunes.apple.com/app/\(Constant.appID)"
+    static let companyMail = "aitemr16@gmail.com"
+
+    static let width = UIScreen.main.bounds.width
+    static let height = UIScreen.main.bounds.height
+
+    
     static let videoFilename = "background"
     static let videoExtension = "mp4"
 }
+
