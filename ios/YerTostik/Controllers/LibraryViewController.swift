@@ -8,6 +8,7 @@
 
 import UIKit
 import EasyPeasy
+import DZNEmptyDataSet
 
 class LibraryViewController: UIViewController {
     
@@ -18,6 +19,8 @@ class LibraryViewController: UIViewController {
             $0.delegate = self
             $0.dataSource = self
             $0.register(cellType: LibraryTableViewCell.self)
+            $0.emptyDataSetSource = self as DZNEmptyDataSetSource
+            $0.emptyDataSetDelegate = self as DZNEmptyDataSetDelegate
             $0.rowHeight = 180
         }
     }()
@@ -48,7 +51,6 @@ class LibraryViewController: UIViewController {
 // MARK: UITableViewDataSource, UITableViewDelegate
 
 extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
@@ -58,3 +60,15 @@ extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
 }
+
+// MARK: DZNEmptyDataSet
+
+extension LibraryViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
+    func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let title = "Ештене табылмады"
+        let attribute = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+        let attributedString = NSAttributedString(string: title, attributes: attribute)
+        return attributedString
+    }
+}
+

@@ -142,7 +142,6 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
 // MARK: DZNEmptyDataSet
 
 extension ProfileViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
-    
     func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
         let title = "Өкінішке орай сізде ешкандай кейіпкер жоқ"
         let attribute = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
