@@ -24,7 +24,6 @@ class WelcomeViewController: UIViewController {
             $0.layer.masksToBounds = true
             $0.layer.cornerRadius = 30
             $0.contentMode = .scaleAspectFill
-            $0.image = #imageLiteral(resourceName: "logo")
         }
     }()
     

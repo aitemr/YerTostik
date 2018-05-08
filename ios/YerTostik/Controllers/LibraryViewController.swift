@@ -10,6 +10,14 @@ import UIKit
 import EasyPeasy
 import DZNEmptyDataSet
 
+struct Book {
+    var name: String?
+    var description: String?
+    var image: UIImage?
+    var category: String?
+    var progress: Int?
+}
+
 class LibraryViewController: UIViewController {
     
     // MARK: Properties
