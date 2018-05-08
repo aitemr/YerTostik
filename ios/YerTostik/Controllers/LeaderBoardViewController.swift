@@ -10,6 +10,12 @@ import UIKit
 import EasyPeasy
 import DZNEmptyDataSet
 
+struct LeaderBoardItem {
+    var image: UIImage?
+    var name: String?
+    var score: String?
+}
+
 class LeaderBoardViewController: UIViewController {
     
     // MARK: Properties
@@ -23,6 +29,7 @@ class LeaderBoardViewController: UIViewController {
             $0.emptyDataSetSource = self as DZNEmptyDataSetSource
             $0.emptyDataSetDelegate = self as DZNEmptyDataSetDelegate
             $0.tableHeaderView = self.headerView
+            $0.allowsSelection = false
         }
     }()
     
@@ -31,6 +38,16 @@ class LeaderBoardViewController: UIViewController {
                                                    width: UIScreen.main.bounds.width,
                                                    height: 140))
     }()
+    
+    let leaderBoardItems = [
+        LeaderBoardItem(image: #imageLiteral(resourceName: "alisher"), name: "Алишер Базарханов", score: "22"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "nazerke"), name: "Назерке Шалданбаева", score: "19"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "alina"), name: "Алина Бошаева", score: "18"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "danel"), name: "Мукан Данель", score: "15"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "sanat"), name: "Абеу Санат", score: "12"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "sanzhar"), name: "Аргинбаев Санжар", score: "9"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "alina"), name: "Алина Бошаева", score: "7")
+    ]
     
     // MARK: View Lifecycle
     
@@ -61,11 +78,16 @@ class LeaderBoardViewController: UIViewController {
 extension LeaderBoardViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return leaderBoardItems.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as LeaderBoardTableViewCell
+        let item = leaderBoardItems[indexPath.row]
+        cell.placeLabel.text = "\(indexPath.row + 4)"
+        cell.avatarImageView.image = item.image
+        cell.nameLabel.text = item.name
+        cell.scoreLabel.text = item.score
         return cell
     }
 }

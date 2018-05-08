@@ -28,7 +28,7 @@ class LeaderBoardHeaderViewItem: UIView {
     lazy var scoreLabel: UILabel = {
         return UILabel().then {
             $0.text = "3200"
-            $0.textColor = .dustyGray
+            $0.textColor = .doveGray
             $0.font = UIFont.systemFont(ofSize: 16, weight: UIFont.Weight.bold)
             $0.textAlignment = .center
         }

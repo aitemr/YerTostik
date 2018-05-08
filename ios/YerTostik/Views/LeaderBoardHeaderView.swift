@@ -16,7 +16,7 @@ class LeaderBoardHeaderView: UIView {
     
     lazy var silverContainer: LeaderBoardHeaderViewItem = {
         return LeaderBoardHeaderViewItem().then {
-            $0.scoreLabel.text = "2900"
+            $0.scoreLabel.text = "25"
             $0.nameLabel.text = "Ислам"
             $0.avatarImageView.image = #imageLiteral(resourceName: "islam")
 //            $0.backgroundColor = .green
@@ -29,7 +29,7 @@ class LeaderBoardHeaderView: UIView {
     
     lazy var goldContainer: LeaderBoardHeaderViewItem = {
         return LeaderBoardHeaderViewItem().then {
-            $0.scoreLabel.text = "3100"
+            $0.scoreLabel.text = "31"
             $0.nameLabel.text = "Гульназ"
             $0.nameLabel.textColor = .goldColor
 //            $0.backgroundColor = .orange
@@ -41,7 +41,7 @@ class LeaderBoardHeaderView: UIView {
     
     lazy var bronzeContainer: LeaderBoardHeaderViewItem = {
         return LeaderBoardHeaderViewItem().then {
-            $0.scoreLabel.text = "2700"
+            $0.scoreLabel.text = "23"
             $0.nameLabel.text = "Даурен"
             $0.avatarImageView.image = #imageLiteral(resourceName: "dauren")
             $0.nameLabel.textColor = .bronzeColor
