@@ -9,9 +9,10 @@
 import UIKit
 import EasyPeasy
 
-struct CloudItem {
+struct CloudBook {
     let title: String
     let color: UIColor
+    let category: Category
 }
 
 class CloudViewController: UIViewController {
@@ -19,15 +20,15 @@ class CloudViewController: UIViewController {
     // MARK: Properties
     
     let cloudItems = [
-        CloudItem(title: "Ғажайып ертетілер", color: .shamrock),
-        CloudItem(title: "Қазақ халық ертетілері", color: .anakiwa),
-        CloudItem(title: "Орыс халық ертегілері", color: .melrose),
-        CloudItem(title: "Шетел ертегілері", color: .monaLisa),
-        CloudItem(title: "Көп оқылган ертегілер", color: .dodgerBlue),
-        CloudItem(title: "Жаңадан салынғандар", color: .malibu),
+        CloudBook(title: Category.ar.rawValue, color: .shamrock, category: .ar),
+        CloudBook(title: Category.kazakh.rawValue, color: .anakiwa, category: .kazakh),
+        CloudBook(title: Category.russian.rawValue, color: .melrose, category: .russian),
+        CloudBook(title: Category.international.rawValue, color: .monaLisa, category: .international),
+        CloudBook(title: Category.popular.rawValue, color: .dodgerBlue, category: .popular),
+        CloudBook(title: Category.new.rawValue, color: .malibu, category: .new),
         ]
     
-    let itemWidth = UIScreen.main.bounds.width / 2 - 30
+    let itemWidth = Constant.width / 2 - 30
     
     lazy var layout: UICollectionViewFlowLayout = {
         return UICollectionViewFlowLayout().then{
@@ -87,11 +88,10 @@ extension CloudViewController: UICollectionViewDataSource, UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        let vc = CloudBookListViewController()
+        let cloudItem = cloudItems[indexPath.row]
+        vc.category = cloudItem.category
+        vc.hidesBottomBarWhenPushed = true
+        let _ = navigationController?.pushViewController(vc, animated: true)
     }
 }
-
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let vc = storyboard.instantiateViewController(withIdentifier: "viewController")
-//        let _ = navigationController?.pushViewController(vc, animated: true)
-

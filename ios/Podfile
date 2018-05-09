@@ -18,6 +18,7 @@ target 'YerTostik' do
   pod 'Kingfisher'
   pod 'IQKeyboardManagerSwift'
   pod 'DZNEmptyDataSet'
+  pod 'SwiftyJSON'
 
   target 'YerTostikTests' do
     inherit! :search_paths

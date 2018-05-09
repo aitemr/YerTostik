@@ -63,7 +63,7 @@
 		ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F320A321F700E969D1 /* Зерделі.epub */; };
 		ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */; };
 		ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */; };
-		ADC1B30F20A321FB00E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F620A321F800E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub */; };
+		ADC1B30F20A321FB00E969D1 /* Алдаркөсе мен шайтан.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F620A321F800E969D1 /* Алдаркөсе мен шайтан.epub */; };
 		ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */; };
 		ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */; };
 		ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */; };
@@ -101,6 +101,11 @@
 		ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */; };
 		ADC1B34D20A323BA00E969D1 /* Петушок — Золотой гребещок и жерновцы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */; };
 		ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */; };
+		ADC1B35020A3375E00E969D1 /* CloudBookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */; };
+		ADC1B35220A337B100E969D1 /* CloudBookListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */; };
+		ADC1B35620A341D700E969D1 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B35520A341D700E969D1 /* Book.swift */; };
+		ADC1B35820A3443F00E969D1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B35720A3443F00E969D1 /* Category.swift */; };
+		ADC1B35C20A34D4600E969D1 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35B20A34D4600E969D1 /* books.json */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
 		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
 		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
@@ -194,7 +199,7 @@
 		ADC1B2F320A321F700E969D1 /* Зерделі.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Зерделі.epub"; sourceTree = "<group>"; };
 		ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Қарлығаштың құйрығы неге айыр?.epub"; sourceTree = "<group>"; };
 		ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Жеті өнерпаз.epub"; sourceTree = "<group>"; };
-		ADC1B2F620A321F800E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "АЛДАРКӨСЕ МЕН ШАЙТАН.epub"; sourceTree = "<group>"; };
+		ADC1B2F620A321F800E969D1 /* Алдаркөсе мен шайтан.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Алдаркөсе мен шайтан.epub"; sourceTree = "<group>"; };
 		ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ай астындағы Айбарша сұлу.epub"; sourceTree = "<group>"; };
 		ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кішкентай Маса.epub"; sourceTree = "<group>"; };
 		ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ер Төстік.epub"; sourceTree = "<group>"; };
@@ -232,6 +237,11 @@
 		ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кот, Петух и Лиса.epub"; sourceTree = "<group>"; };
 		ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Петушок — Золотой гребещок и жерновцы.epub"; sourceTree = "<group>"; };
 		ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Волшебное кольцо.epub"; sourceTree = "<group>"; };
+		ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudBookListViewController.swift; sourceTree = "<group>"; };
+		ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudBookListTableViewCell.swift; sourceTree = "<group>"; };
+		ADC1B35520A341D700E969D1 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		ADC1B35720A3443F00E969D1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		ADC1B35B20A34D4600E969D1 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
@@ -377,6 +387,9 @@
 			children = (
 				A67722902070196B008FD4D5 /* VirtualPlane.swift */,
 				A677229220701994008FD4D5 /* ARSessionState.swift */,
+				ADC1B35520A341D700E969D1 /* Book.swift */,
+				ADC1B35B20A34D4600E969D1 /* books.json */,
+				ADC1B35720A3443F00E969D1 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -415,6 +428,7 @@
 				A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */,
 				ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */,
 				ADEA0F21209F25400051E664 /* VideoPlayerView.swift */,
+				ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -433,6 +447,7 @@
 				ADB82F05209DE41F0047BC83 /* SignInViewController.swift */,
 				ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */,
 				ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */,
+				ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -490,7 +505,7 @@
 			isa = PBXGroup;
 			children = (
 				ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */,
-				ADC1B2F620A321F800E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub */,
+				ADC1B2F620A321F800E969D1 /* Алдаркөсе мен шайтан.epub */,
 				ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */,
 				ADC1B2ED20A321F600E969D1 /* АРЛЫ БАЛА.epub */,
 				ADC1B2EA20A321F600E969D1 /* Аяз би.epub */,
@@ -686,6 +701,7 @@
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
 				ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */,
 				A604599E206E4ABB004A7803 /* aldar.dae in Resources */,
+				ADC1B35C20A34D4600E969D1 /* books.json in Resources */,
 				ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */,
 				ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */,
 				ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */,
@@ -708,7 +724,7 @@
 				A65533E120702E9D0067BC13 /* battalion-leader-heraklios_specular.png in Resources */,
 				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
 				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
-				ADC1B30F20A321FB00E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub in Resources */,
+				ADC1B30F20A321FB00E969D1 /* Алдаркөсе мен шайтан.epub in Resources */,
 				ADC1B30B20A321FB00E969D1 /* БАЛТА СОРПАСЫ.epub in Resources */,
 				ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */,
 				ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */,
@@ -790,6 +806,7 @@
 				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Sugar/Sugar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -814,6 +831,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sugar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -884,16 +902,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC1B35220A337B100E969D1 /* CloudBookListTableViewCell.swift in Sources */,
 				ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */,
 				ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */,
 				ADEA0F20209F06300051E664 /* Drop.swift in Sources */,
 				ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */,
 				A69403AC20652BA900114546 /* TabBarController.swift in Sources */,
 				A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */,
+				ADC1B35820A3443F00E969D1 /* Category.swift in Sources */,
 				A69403B020652BD600114546 /* CloudViewController.swift in Sources */,
 				A6B3CA8B2066E8A000FE2553 /* LeaderBoardHeaderView.swift in Sources */,
 				ADEA0F25209F28160051E664 /* Constants.swift in Sources */,
 				A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */,
+				ADC1B35620A341D700E969D1 /* Book.swift in Sources */,
 				A69403B7206530F700114546 /* Extensions.swift in Sources */,
 				A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */,
 				A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */,
@@ -910,6 +931,7 @@
 				ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */,
 				A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */,
 				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,
+				ADC1B35020A3375E00E969D1 /* CloudBookListViewController.swift in Sources */,
 				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
 				A677229320701994008FD4D5 /* ARSessionState.swift in Sources */,
 			);
