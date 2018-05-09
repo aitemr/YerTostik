@@ -19,7 +19,6 @@ struct Constant {
     static let width = UIScreen.main.bounds.width
     static let height = UIScreen.main.bounds.height
 
-    
     static let videoFilename = "background"
     static let videoExtension = "mp4"
 }

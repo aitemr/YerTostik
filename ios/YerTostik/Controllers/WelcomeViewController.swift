@@ -114,7 +114,6 @@ class WelcomeViewController: UIViewController {
         signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(50))
     }
     
-    
     // MARK: User Interaction
     
     @objc fileprivate func signInDidPress(_ sender: UIButton) {
