@@ -26,7 +26,7 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
             $0.layer.masksToBounds = true
             $0.layer.cornerRadius = 3
             $0.contentMode = .scaleAspectFill
-            $0.image = #imageLiteral(resourceName: "cover")
+            $0.image = #imageLiteral(resourceName: "cover-1")
         }
     }()
     
@@ -106,7 +106,7 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
     func configureConstraints() {
         containerView.easy.layout(CenterY(), Left(20), Right(20))
         backgroundImageView.easy.layout(Edges(0))
-        coverImageView.easy.layout(Top(-15), Left(-10), Width(93))
+        coverImageView.easy.layout(Top(-15), Left(-10), Width(93), Height(128))
         infoView.easy.layout(Left(10).to(coverImageView), Right(10), Top(10), Bottom(15))
         titleLabel.easy.layout(Top(5), Left(0))
         subTitleLabel.easy.layout(Top(5).to(titleLabel), Left(0))

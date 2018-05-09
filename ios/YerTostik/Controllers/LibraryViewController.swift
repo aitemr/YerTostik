@@ -30,6 +30,7 @@ class LibraryViewController: UIViewController {
             $0.emptyDataSetSource = self as DZNEmptyDataSetSource
             $0.emptyDataSetDelegate = self as DZNEmptyDataSetDelegate
             $0.rowHeight = 180
+            $0.tableFooterView = UIView(frame: CGRect.zero)
         }
     }()
     
@@ -60,7 +61,7 @@ class LibraryViewController: UIViewController {
 
 extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

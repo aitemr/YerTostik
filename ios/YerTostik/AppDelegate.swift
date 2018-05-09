@@ -18,7 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         IQKeyboardManager.shared.enable = true
-        coordinateAppFlow()
+        window = UIWindow(frame: UIScreen.main.bounds).then {
+            $0.backgroundColor = .white
+        }
+//        coordinateAppFlow()
+        loadMainPages()
         return true
     }
 }
@@ -26,15 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     
     fileprivate func coordinateAppFlow() {
-        window = UIWindow(frame: UIScreen.main.bounds).then {
-            $0.backgroundColor = .white
-        }
         
-//        do {
-//            try Auth.auth().signOut()
-//        } catch let error as NSError {
-//            print(error.localizedDescription)
-//        }
         
         if ((Auth.auth().currentUser) != nil) {
             loadMainPages()

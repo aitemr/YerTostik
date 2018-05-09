@@ -12,7 +12,6 @@ target 'YerTostik' do
   pod 'FolioReaderKit'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-  pod 'Firebase/Storage'
   pod 'Firebase/Database'
   pod 'Fusuma'
   pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'

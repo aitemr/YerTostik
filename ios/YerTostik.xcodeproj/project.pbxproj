@@ -17,11 +17,9 @@
 		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
 		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
 		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
-		A62DCD1D206D38F4000A1CD8 /* aldar_Packed0_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD19206D38F3000A1CD8 /* aldar_Packed0_Diffuse.png */; };
 		A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */; };
 		A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */; };
 		A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */; };
-		A62DCD22206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD21206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png */; };
 		A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */; };
 		A65533DB20702DF40067BC13 /* batyr.dae in Resources */ = {isa = PBXBuildFile; fileRef = A65533DA20702DF40067BC13 /* batyr.dae */; };
 		A65533DD20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DC20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png */; };
@@ -30,7 +28,6 @@
 		A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */; };
 		A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67722902070196B008FD4D5 /* VirtualPlane.swift */; };
 		A677229320701994008FD4D5 /* ARSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677229220701994008FD4D5 /* ARSessionState.swift */; };
-		A677229520701CCD008FD4D5 /* aldarr.dae in Resources */ = {isa = PBXBuildFile; fileRef = A677229420701CCD008FD4D5 /* aldarr.dae */; };
 		A677229A207027F8008FD4D5 /* dress_02_Packed0_Diffuse_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */; };
 		A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */; };
 		A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */; };
@@ -50,8 +47,6 @@
 		A6B3CA912066F6B900FE2553 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */; };
 		A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */; };
 		A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */; };
-		A6D83625207228F700D892F3 /* Girl_Waving.DAE in Resources */ = {isa = PBXBuildFile; fileRef = A6D83624207228F600D892F3 /* Girl_Waving.DAE */; };
-		A6D8362720722A3E00D892F3 /* Girl_Waving_02.DAE in Resources */ = {isa = PBXBuildFile; fileRef = A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */; };
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
@@ -105,11 +100,9 @@
 		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
 		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A62DCD19206D38F3000A1CD8 /* aldar_Packed0_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Diffuse.png; sourceTree = "<group>"; };
 		A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Normal.png; sourceTree = "<group>"; };
 		A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Specular.png; sourceTree = "<group>"; };
 		A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Opacity.png; sourceTree = "<group>"; };
-		A62DCD21206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Gloss.png; sourceTree = "<group>"; };
 		A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
 		A65533DA20702DF40067BC13 /* batyr.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = batyr.dae; sourceTree = "<group>"; };
 		A65533DC20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_diffuse2.png"; sourceTree = "<group>"; };
@@ -118,7 +111,6 @@
 		A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A67722902070196B008FD4D5 /* VirtualPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
 		A677229220701994008FD4D5 /* ARSessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionState.swift; sourceTree = "<group>"; };
-		A677229420701CCD008FD4D5 /* aldarr.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aldarr.dae; sourceTree = "<group>"; };
 		A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Diffuse_02.png; sourceTree = "<group>"; };
 		A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Normal.png; sourceTree = "<group>"; };
 		A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Specular.png; sourceTree = "<group>"; };
@@ -138,8 +130,6 @@
 		A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
-		A6D83624207228F600D892F3 /* Girl_Waving.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Girl_Waving.DAE; sourceTree = "<group>"; };
-		A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Girl_Waving_02.DAE; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
@@ -264,13 +254,10 @@
 		A62DCD16206D376C000A1CD8 /* aldar */ = {
 			isa = PBXGroup;
 			children = (
-				A62DCD19206D38F3000A1CD8 /* aldar_Packed0_Diffuse.png */,
 				A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */,
 				A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */,
 				A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */,
-				A62DCD21206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png */,
 				A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */,
-				A677229420701CCD008FD4D5 /* aldarr.dae */,
 				A604599D206E4ABB004A7803 /* aldar.dae */,
 			);
 			path = aldar;
@@ -299,8 +286,6 @@
 		A677229620702797008FD4D5 /* kyz */ = {
 			isa = PBXGroup;
 			children = (
-				A6D8362620722A3A00D892F3 /* Girl_Waving_02.DAE */,
-				A6D83624207228F600D892F3 /* Girl_Waving.DAE */,
 				A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */,
 				A677229F207028A0008FD4D5 /* dress_02_Packed0_Gloss.png */,
 				A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */,
@@ -358,6 +343,7 @@
 		A6D2F3BC20651F9300689D68 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ADC1B2D420A2EDF500E969D1 /* books */,
 				ADEA0F28209F28D40051E664 /* videos */,
 				A62DCD15206D370B000A1CD8 /* 3d models */,
 				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
@@ -392,6 +378,13 @@
 				ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		ADC1B2D420A2EDF500E969D1 /* books */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = books;
 			sourceTree = "<group>";
 		};
 		ADEA0F23209F280A0051E664 /* Constants */ = {
@@ -524,23 +517,18 @@
 				A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */,
 				A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */,
 				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
-				A6D8362720722A3E00D892F3 /* Girl_Waving_02.DAE in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
 				A604599E206E4ABB004A7803 /* aldar.dae in Resources */,
 				A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */,
 				A677229A207027F8008FD4D5 /* dress_02_Packed0_Diffuse_02.png in Resources */,
-				A62DCD1D206D38F4000A1CD8 /* aldar_Packed0_Diffuse.png in Resources */,
-				A62DCD22206D3DB7000A1CD8 /* aldar_Packed0_Gloss.png in Resources */,
 				A65533DD20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png in Resources */,
 				A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */,
 				A65533DB20702DF40067BC13 /* batyr.dae in Resources */,
 				A65533E120702E9D0067BC13 /* battalion-leader-heraklios_specular.png in Resources */,
 				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,
-				A677229520701CCD008FD4D5 /* aldarr.dae in Resources */,
 				A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */,
 				A67722A0207028A0008FD4D5 /* dress_02_Packed0_Gloss.png in Resources */,
 				A67722A220702A1E008FD4D5 /* kyz.dae in Resources */,
-				A6D83625207228F700D892F3 /* Girl_Waving.DAE in Resources */,
 				A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */,
 				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
 				A65533DF20702E930067BC13 /* battalion-leader-heraklios_normal.png in Resources */,
