@@ -74,10 +74,18 @@ extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
 
 extension LibraryViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     func description(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
+        let title = "Кітапты сөре бөлімінен жаза аласыз"
+        let attribute = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
+        let attributedString = NSAttributedString(string: title, attributes: attribute)
+        return attributedString
+    }
+    
+    func title(forEmptyDataSet scrollView: UIScrollView!) -> NSAttributedString! {
         let title = "Ештене табылмады"
         let attribute = [NSAttributedStringKey.foregroundColor: UIColor.pickledBluewood]
         let attributedString = NSAttributedString(string: title, attributes: attribute)
         return attributedString
     }
+    
 }
 

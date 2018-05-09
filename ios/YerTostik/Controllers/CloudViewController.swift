@@ -87,8 +87,11 @@ extension CloudViewController: UICollectionViewDataSource, UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+}
+
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
 //        let vc = storyboard.instantiateViewController(withIdentifier: "viewController")
 //        let _ = navigationController?.pushViewController(vc, animated: true)
-    }
-}
+
