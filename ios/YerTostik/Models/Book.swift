@@ -34,7 +34,6 @@ class Book: NSObject {
                         $0["category"].stringValue, image: $0["image"].stringValue)
                     if book.category == category {
                         books.append(book)
-                        print(books)
                     }
                     completion(books, nil)
                 }
@@ -44,8 +43,5 @@ class Book: NSObject {
         } catch let error {
             completion(nil, error.localizedDescription)
         }
-        
-        
     }
-    
 }

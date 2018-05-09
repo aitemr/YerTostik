@@ -78,7 +78,6 @@ class CloudBookListViewController: UIViewController {
                 guard let result = result else { return }
                 self.books = result
             }
-
         }
     }
     
@@ -94,8 +93,6 @@ extension CloudBookListViewController: UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as CloudBookListTableViewCell
         let book = books[indexPath.row]
-            print(book)
-    
         cell.titleLabel.text = book.name
         cell.subTitleLabel.text = book.category
         cell.descriptionLabel.text = book.depiction
