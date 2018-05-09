@@ -9,14 +9,14 @@
 import UIKit
 import EasyPeasy
 import DZNEmptyDataSet
+import FolioReaderKit
 
-struct Book {
-    var name: String?
-    var description: String?
-    var image: UIImage?
-    var category: String?
-    var progress: Int?
-}
+//struct Book {
+//    var name: String?
+//    var description: String?
+//    var image: UIImage?
+//    var category: String?
+//}
 
 class LibraryViewController: UIViewController {
     
@@ -55,18 +55,32 @@ class LibraryViewController: UIViewController {
     func configureConstraints(){
         tableView.easy.layout(Edges(0))
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .default
+    }
+
 }
 
 // MARK: UITableViewDataSource, UITableViewDelegate
 
 extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return 10
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as LibraryTableViewCell
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let config = FolioReaderConfig()
+        let folioReader = FolioReader()
+        config.shouldHideNavigationOnTap = false
+        if let bookPath = Bundle.main.path(forResource: "Гуси – лебеди", ofType: "epub") {
+            folioReader.presentReader(parentViewController: self, withEpubPath: bookPath, andConfig: config)
+        }
     }
 }
 

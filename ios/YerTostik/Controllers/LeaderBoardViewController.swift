@@ -45,7 +45,7 @@ class LeaderBoardViewController: UIViewController {
         LeaderBoardItem(image: #imageLiteral(resourceName: "alina"), name: "Алина Бошаева", score: "18"),
         LeaderBoardItem(image: #imageLiteral(resourceName: "danel"), name: "Мукан Данель", score: "15"),
         LeaderBoardItem(image: #imageLiteral(resourceName: "sanat"), name: "Абеу Санат", score: "12"),
-        LeaderBoardItem(image: #imageLiteral(resourceName: "sanzhar"), name: "Аргинбаев Санжар", score: "9"),
+        LeaderBoardItem(image: #imageLiteral(resourceName: "dauren"), name: "Аргинбаев Санжар", score: "9"),
         LeaderBoardItem(image: #imageLiteral(resourceName: "alina"), name: "Алина Бошаева", score: "7")
     ]
     

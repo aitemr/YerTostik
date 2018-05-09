@@ -31,7 +31,6 @@
 		A677229A207027F8008FD4D5 /* dress_02_Packed0_Diffuse_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */; };
 		A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */; };
 		A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */; };
-		A67722A0207028A0008FD4D5 /* dress_02_Packed0_Gloss.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229F207028A0008FD4D5 /* dress_02_Packed0_Gloss.png */; };
 		A67722A220702A1E008FD4D5 /* kyz.dae in Resources */ = {isa = PBXBuildFile; fileRef = A67722A120702A1E008FD4D5 /* kyz.dae */; };
 		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
 		A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AD20652BCB00114546 /* LibraryViewController.swift */; };
@@ -52,6 +51,56 @@
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
 		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
 		ADC1B2D320A1E72B00E969D1 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */; };
+		ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EA20A321F600E969D1 /* Аяз би.epub */; };
+		ADC1B30420A321FB00E969D1 /* ӨТІРІКШІ ТАЗША.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EB20A321F600E969D1 /* ӨТІРІКШІ ТАЗША.epub */; };
+		ADC1B30520A321FB00E969D1 /* Бақтыбай би.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EC20A321F600E969D1 /* Бақтыбай би.epub */; };
+		ADC1B30620A321FB00E969D1 /* АРЛЫ БАЛА.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2ED20A321F600E969D1 /* АРЛЫ БАЛА.epub */; };
+		ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EE20A321F600E969D1 /* Бала патша.epub */; };
+		ADC1B30820A321FB00E969D1 /* Керқұла атты Кендебай.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2EF20A321F700E969D1 /* Керқұла атты Кендебай.epub */; };
+		ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F020A321F700E969D1 /* Мақта қыз.epub */; };
+		ADC1B30A20A321FB00E969D1 /* Күлше қыз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F120A321F700E969D1 /* Күлше қыз.epub */; };
+		ADC1B30B20A321FB00E969D1 /* БАЛТА СОРПАСЫ.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F220A321F700E969D1 /* БАЛТА СОРПАСЫ.epub */; };
+		ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F320A321F700E969D1 /* Зерделі.epub */; };
+		ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */; };
+		ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */; };
+		ADC1B30F20A321FB00E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F620A321F800E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub */; };
+		ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */; };
+		ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */; };
+		ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */; };
+		ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FA20A321F900E969D1 /* Хан мен құмырсқалар ертегісі.epub */; };
+		ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FB20A321F900E969D1 /* Боз атты Боран батыр.epub */; };
+		ADC1B31520A321FB00E969D1 /* МҰЖЫҚ МЫРЗАМЕН ҚАЛАЙ ТАБАҚТАС БОЛДЫ..epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FC20A321F900E969D1 /* МҰЖЫҚ МЫРЗАМЕН ҚАЛАЙ ТАБАҚТАС БОЛДЫ..epub */; };
+		ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FD20A321F900E969D1 /* Балықшы мен сиқыршы.epub */; };
+		ADC1B31720A321FB00E969D1 /* Ит достығы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FE20A321F900E969D1 /* Ит достығы.epub */; };
+		ADC1B31820A321FB00E969D1 /* Сыбызғы сыры.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2FF20A321F900E969D1 /* Сыбызғы сыры.epub */; };
+		ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */; };
+		ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B30120A321FA00E969D1 /* Өнеге.epub */; };
+		ADC1B31B20A321FB00E969D1 /* МЫРЗА МЕН ТЕМІРШІ.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B30220A321FA00E969D1 /* МЫРЗА МЕН ТЕМІРШІ.epub */; };
+		ADC1B33620A323BA00E969D1 /* Маша и медведь.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B31D20A323B600E969D1 /* Маша и медведь.epub */; };
+		ADC1B33720A323BA00E969D1 /* Цветик-семицветик.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B31E20A323B600E969D1 /* Цветик-семицветик.epub */; };
+		ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B31F20A323B600E969D1 /* Сестрица Аленушка и братец Иванушка.epub */; };
+		ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32020A323B600E969D1 /* Белоснежка и семь гномов.epub */; };
+		ADC1B33A20A323BA00E969D1 /* Волк и семеро козлят.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32120A323B600E969D1 /* Волк и семеро козлят.epub */; };
+		ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32220A323B700E969D1 /* Я – сам.epub */; };
+		ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32320A323B700E969D1 /* По щучьему веленью.epub */; };
+		ADC1B33D20A323BA00E969D1 /* Девочка со спичками.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32420A323B700E969D1 /* Девочка со спичками.epub */; };
+		ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32520A323B700E969D1 /* Репка.epub */; };
+		ADC1B33F20A323BA00E969D1 /* Ничто-Ничего.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32620A323B700E969D1 /* Ничто-Ничего.epub */; };
+		ADC1B34020A323BA00E969D1 /* Птичий язык.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32720A323B700E969D1 /* Птичий язык.epub */; };
+		ADC1B34120A323BA00E969D1 /* Гуси – лебеди.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32820A323B800E969D1 /* Гуси – лебеди.epub */; };
+		ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32920A323B800E969D1 /* Три медведя.epub */; };
+		ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32A20A323B800E969D1 /* Гадкий утенок.epub */; };
+		ADC1B34420A323BA00E969D1 /* Кошка, которая гуляла сама по себе.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32B20A323B800E969D1 /* Кошка, которая гуляла сама по себе.epub */; };
+		ADC1B34520A323BA00E969D1 /* Мальчик с пальчик.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32C20A323B800E969D1 /* Мальчик с пальчик.epub */; };
+		ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32D20A323B800E969D1 /* Разбойники.epub */; };
+		ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32E20A323B800E969D1 /* Кощей Бессмертный.epub */; };
+		ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B32F20A323B900E969D1 /* Горшок.epub */; };
+		ADC1B34920A323BA00E969D1 /* Легенда о Макбете.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33020A323B900E969D1 /* Легенда о Макбете.epub */; };
+		ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33120A323B900E969D1 /* Царевна-лягушка.epub */; };
+		ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33220A323B900E969D1 /* Крошка фея.epub */; };
+		ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */; };
+		ADC1B34D20A323BA00E969D1 /* Петушок — Золотой гребещок и жерновцы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */; };
+		ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
 		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
 		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
@@ -114,7 +163,6 @@
 		A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Diffuse_02.png; sourceTree = "<group>"; };
 		A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Normal.png; sourceTree = "<group>"; };
 		A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Specular.png; sourceTree = "<group>"; };
-		A677229F207028A0008FD4D5 /* dress_02_Packed0_Gloss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Gloss.png; sourceTree = "<group>"; };
 		A67722A120702A1E008FD4D5 /* kyz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = kyz.dae; sourceTree = "<group>"; };
 		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A69403AD20652BCB00114546 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +182,56 @@
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
 		ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		ADC1B2EA20A321F600E969D1 /* Аяз би.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Аяз би.epub"; sourceTree = "<group>"; };
+		ADC1B2EB20A321F600E969D1 /* ӨТІРІКШІ ТАЗША.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ӨТІРІКШІ ТАЗША.epub"; sourceTree = "<group>"; };
+		ADC1B2EC20A321F600E969D1 /* Бақтыбай би.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Бақтыбай би.epub"; sourceTree = "<group>"; };
+		ADC1B2ED20A321F600E969D1 /* АРЛЫ БАЛА.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "АРЛЫ БАЛА.epub"; sourceTree = "<group>"; };
+		ADC1B2EE20A321F600E969D1 /* Бала патша.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Бала патша.epub"; sourceTree = "<group>"; };
+		ADC1B2EF20A321F700E969D1 /* Керқұла атты Кендебай.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Керқұла атты Кендебай.epub"; sourceTree = "<group>"; };
+		ADC1B2F020A321F700E969D1 /* Мақта қыз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мақта қыз.epub"; sourceTree = "<group>"; };
+		ADC1B2F120A321F700E969D1 /* Күлше қыз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Күлше қыз.epub"; sourceTree = "<group>"; };
+		ADC1B2F220A321F700E969D1 /* БАЛТА СОРПАСЫ.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "БАЛТА СОРПАСЫ.epub"; sourceTree = "<group>"; };
+		ADC1B2F320A321F700E969D1 /* Зерделі.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Зерделі.epub"; sourceTree = "<group>"; };
+		ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Қарлығаштың құйрығы неге айыр?.epub"; sourceTree = "<group>"; };
+		ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Жеті өнерпаз.epub"; sourceTree = "<group>"; };
+		ADC1B2F620A321F800E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "АЛДАРКӨСЕ МЕН ШАЙТАН.epub"; sourceTree = "<group>"; };
+		ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ай астындағы Айбарша сұлу.epub"; sourceTree = "<group>"; };
+		ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кішкентай Маса.epub"; sourceTree = "<group>"; };
+		ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ер Төстік.epub"; sourceTree = "<group>"; };
+		ADC1B2FA20A321F900E969D1 /* Хан мен құмырсқалар ертегісі.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Хан мен құмырсқалар ертегісі.epub"; sourceTree = "<group>"; };
+		ADC1B2FB20A321F900E969D1 /* Боз атты Боран батыр.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Боз атты Боран батыр.epub"; sourceTree = "<group>"; };
+		ADC1B2FC20A321F900E969D1 /* МҰЖЫҚ МЫРЗАМЕН ҚАЛАЙ ТАБАҚТАС БОЛДЫ..epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "МҰЖЫҚ МЫРЗАМЕН ҚАЛАЙ ТАБАҚТАС БОЛДЫ..epub"; sourceTree = "<group>"; };
+		ADC1B2FD20A321F900E969D1 /* Балықшы мен сиқыршы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Балықшы мен сиқыршы.epub"; sourceTree = "<group>"; };
+		ADC1B2FE20A321F900E969D1 /* Ит достығы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ит достығы.epub"; sourceTree = "<group>"; };
+		ADC1B2FF20A321F900E969D1 /* Сыбызғы сыры.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Сыбызғы сыры.epub"; sourceTree = "<group>"; };
+		ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Алты жасар Алпамыс.epub"; sourceTree = "<group>"; };
+		ADC1B30120A321FA00E969D1 /* Өнеге.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Өнеге.epub"; sourceTree = "<group>"; };
+		ADC1B30220A321FA00E969D1 /* МЫРЗА МЕН ТЕМІРШІ.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "МЫРЗА МЕН ТЕМІРШІ.epub"; sourceTree = "<group>"; };
+		ADC1B31D20A323B600E969D1 /* Маша и медведь.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Маша и медведь.epub"; sourceTree = "<group>"; };
+		ADC1B31E20A323B600E969D1 /* Цветик-семицветик.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Цветик-семицветик.epub"; sourceTree = "<group>"; };
+		ADC1B31F20A323B600E969D1 /* Сестрица Аленушка и братец Иванушка.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Сестрица Аленушка и братец Иванушка.epub"; sourceTree = "<group>"; };
+		ADC1B32020A323B600E969D1 /* Белоснежка и семь гномов.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Белоснежка и семь гномов.epub"; sourceTree = "<group>"; };
+		ADC1B32120A323B600E969D1 /* Волк и семеро козлят.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Волк и семеро козлят.epub"; sourceTree = "<group>"; };
+		ADC1B32220A323B700E969D1 /* Я – сам.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Я – сам.epub"; sourceTree = "<group>"; };
+		ADC1B32320A323B700E969D1 /* По щучьему веленью.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "По щучьему веленью.epub"; sourceTree = "<group>"; };
+		ADC1B32420A323B700E969D1 /* Девочка со спичками.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Девочка со спичками.epub"; sourceTree = "<group>"; };
+		ADC1B32520A323B700E969D1 /* Репка.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Репка.epub"; sourceTree = "<group>"; };
+		ADC1B32620A323B700E969D1 /* Ничто-Ничего.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ничто-Ничего.epub"; sourceTree = "<group>"; };
+		ADC1B32720A323B700E969D1 /* Птичий язык.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Птичий язык.epub"; sourceTree = "<group>"; };
+		ADC1B32820A323B800E969D1 /* Гуси – лебеди.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Гуси – лебеди.epub"; sourceTree = "<group>"; };
+		ADC1B32920A323B800E969D1 /* Три медведя.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Три медведя.epub"; sourceTree = "<group>"; };
+		ADC1B32A20A323B800E969D1 /* Гадкий утенок.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Гадкий утенок.epub"; sourceTree = "<group>"; };
+		ADC1B32B20A323B800E969D1 /* Кошка, которая гуляла сама по себе.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кошка, которая гуляла сама по себе.epub"; sourceTree = "<group>"; };
+		ADC1B32C20A323B800E969D1 /* Мальчик с пальчик.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мальчик с пальчик.epub"; sourceTree = "<group>"; };
+		ADC1B32D20A323B800E969D1 /* Разбойники.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Разбойники.epub"; sourceTree = "<group>"; };
+		ADC1B32E20A323B800E969D1 /* Кощей Бессмертный.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кощей Бессмертный.epub"; sourceTree = "<group>"; };
+		ADC1B32F20A323B900E969D1 /* Горшок.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Горшок.epub"; sourceTree = "<group>"; };
+		ADC1B33020A323B900E969D1 /* Легенда о Макбете.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Легенда о Макбете.epub"; sourceTree = "<group>"; };
+		ADC1B33120A323B900E969D1 /* Царевна-лягушка.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Царевна-лягушка.epub"; sourceTree = "<group>"; };
+		ADC1B33220A323B900E969D1 /* Крошка фея.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Крошка фея.epub"; sourceTree = "<group>"; };
+		ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кот, Петух и Лиса.epub"; sourceTree = "<group>"; };
+		ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Петушок — Золотой гребещок и жерновцы.epub"; sourceTree = "<group>"; };
+		ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Волшебное кольцо.epub"; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
@@ -187,8 +285,8 @@
 			isa = PBXGroup;
 			children = (
 				A60F044A20651AAB001AD7D7 /* YerTostik */,
-				A60F046120651AAC001AD7D7 /* YerTostikTests */,
 				A60F046C20651AAC001AD7D7 /* YerTostikUITests */,
+				A60F046120651AAC001AD7D7 /* YerTostikTests */,
 				A60F044920651AAB001AD7D7 /* Products */,
 				AC5AE9F5450FFFC9DF6C880A /* Pods */,
 				4E88BC343A4546CE19744213 /* Frameworks */,
@@ -208,15 +306,15 @@
 		A60F044A20651AAB001AD7D7 /* YerTostik */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1B2CF20A1D52E00E969D1 /* Managers */,
-				ADEA0F23209F280A0051E664 /* Constants */,
-				A69403B5206530D500114546 /* Extensions */,
 				A60F044B20651AAB001AD7D7 /* AppDelegate.swift */,
-				A6D2F3BD20651FBE00689D68 /* LaunchScreen */,
-				A6D2F3BC20651F9300689D68 /* Resources */,
 				A677228F2070194C008FD4D5 /* Models */,
 				A6D2F3BA20651F6F00689D68 /* Views */,
 				A6D2F3BB20651F7600689D68 /* Controllers */,
+				A69403B5206530D500114546 /* Extensions */,
+				ADC1B2CF20A1D52E00E969D1 /* Managers */,
+				ADEA0F23209F280A0051E664 /* Constants */,
+				A6D2F3BD20651FBE00689D68 /* LaunchScreen */,
+				A6D2F3BC20651F9300689D68 /* Resources */,
 				A60F045920651AAB001AD7D7 /* Info.plist */,
 				ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */,
 			);
@@ -287,7 +385,6 @@
 			isa = PBXGroup;
 			children = (
 				A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */,
-				A677229F207028A0008FD4D5 /* dress_02_Packed0_Gloss.png */,
 				A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */,
 				A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */,
 				A67722A120702A1E008FD4D5 /* kyz.dae */,
@@ -343,7 +440,7 @@
 		A6D2F3BC20651F9300689D68 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1B2D420A2EDF500E969D1 /* books */,
+				ADC1B2E420A3211D00E969D1 /* books */,
 				ADEA0F28209F28D40051E664 /* videos */,
 				A62DCD15206D370B000A1CD8 /* 3d models */,
 				A60F045420651AAB001AD7D7 /* Assets.xcassets */,
@@ -380,11 +477,77 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		ADC1B2D420A2EDF500E969D1 /* books */ = {
+		ADC1B2E420A3211D00E969D1 /* books */ = {
 			isa = PBXGroup;
 			children = (
+				ADC1B31C20A323A500E969D1 /* rus */,
+				ADC1B2E520A3213000E969D1 /* kaz */,
 			);
 			path = books;
+			sourceTree = "<group>";
+		};
+		ADC1B2E520A3213000E969D1 /* kaz */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */,
+				ADC1B2F620A321F800E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub */,
+				ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */,
+				ADC1B2ED20A321F600E969D1 /* АРЛЫ БАЛА.epub */,
+				ADC1B2EA20A321F600E969D1 /* Аяз би.epub */,
+				ADC1B2EC20A321F600E969D1 /* Бақтыбай би.epub */,
+				ADC1B2EE20A321F600E969D1 /* Бала патша.epub */,
+				ADC1B2F220A321F700E969D1 /* БАЛТА СОРПАСЫ.epub */,
+				ADC1B2FD20A321F900E969D1 /* Балықшы мен сиқыршы.epub */,
+				ADC1B2FB20A321F900E969D1 /* Боз атты Боран батыр.epub */,
+				ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */,
+				ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */,
+				ADC1B2F320A321F700E969D1 /* Зерделі.epub */,
+				ADC1B2FE20A321F900E969D1 /* Ит достығы.epub */,
+				ADC1B2EF20A321F700E969D1 /* Керқұла атты Кендебай.epub */,
+				ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */,
+				ADC1B2F120A321F700E969D1 /* Күлше қыз.epub */,
+				ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */,
+				ADC1B2F020A321F700E969D1 /* Мақта қыз.epub */,
+				ADC1B2FC20A321F900E969D1 /* МҰЖЫҚ МЫРЗАМЕН ҚАЛАЙ ТАБАҚТАС БОЛДЫ..epub */,
+				ADC1B30220A321FA00E969D1 /* МЫРЗА МЕН ТЕМІРШІ.epub */,
+				ADC1B30120A321FA00E969D1 /* Өнеге.epub */,
+				ADC1B2EB20A321F600E969D1 /* ӨТІРІКШІ ТАЗША.epub */,
+				ADC1B2FF20A321F900E969D1 /* Сыбызғы сыры.epub */,
+				ADC1B2FA20A321F900E969D1 /* Хан мен құмырсқалар ертегісі.epub */,
+			);
+			path = kaz;
+			sourceTree = "<group>";
+		};
+		ADC1B31C20A323A500E969D1 /* rus */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1B32020A323B600E969D1 /* Белоснежка и семь гномов.epub */,
+				ADC1B32120A323B600E969D1 /* Волк и семеро козлят.epub */,
+				ADC1B33520A323BA00E969D1 /* Волшебное кольцо.epub */,
+				ADC1B32A20A323B800E969D1 /* Гадкий утенок.epub */,
+				ADC1B32F20A323B900E969D1 /* Горшок.epub */,
+				ADC1B32820A323B800E969D1 /* Гуси – лебеди.epub */,
+				ADC1B32420A323B700E969D1 /* Девочка со спичками.epub */,
+				ADC1B33320A323B900E969D1 /* Кот, Петух и Лиса.epub */,
+				ADC1B32B20A323B800E969D1 /* Кошка, которая гуляла сама по себе.epub */,
+				ADC1B32E20A323B800E969D1 /* Кощей Бессмертный.epub */,
+				ADC1B33220A323B900E969D1 /* Крошка фея.epub */,
+				ADC1B33020A323B900E969D1 /* Легенда о Макбете.epub */,
+				ADC1B32C20A323B800E969D1 /* Мальчик с пальчик.epub */,
+				ADC1B31D20A323B600E969D1 /* Маша и медведь.epub */,
+				ADC1B32620A323B700E969D1 /* Ничто-Ничего.epub */,
+				ADC1B33420A323B900E969D1 /* Петушок — Золотой гребещок и жерновцы.epub */,
+				ADC1B32320A323B700E969D1 /* По щучьему веленью.epub */,
+				ADC1B32720A323B700E969D1 /* Птичий язык.epub */,
+				ADC1B32D20A323B800E969D1 /* Разбойники.epub */,
+				ADC1B32520A323B700E969D1 /* Репка.epub */,
+				ADC1B31F20A323B600E969D1 /* Сестрица Аленушка и братец Иванушка.epub */,
+				ADC1B32920A323B800E969D1 /* Три медведя.epub */,
+				ADC1B33120A323B900E969D1 /* Царевна-лягушка.epub */,
+				ADC1B31E20A323B600E969D1 /* Цветик-семицветик.epub */,
+				ADC1B32220A323B700E969D1 /* Я – сам.epub */,
+			);
+			path = rus;
 			sourceTree = "<group>";
 		};
 		ADEA0F23209F280A0051E664 /* Constants */ = {
@@ -514,24 +677,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC1B33A20A323BA00E969D1 /* Волк и семеро козлят.epub in Resources */,
 				A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */,
+				ADC1B34020A323BA00E969D1 /* Птичий язык.epub in Resources */,
+				ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */,
 				A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */,
 				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
+				ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */,
 				A604599E206E4ABB004A7803 /* aldar.dae in Resources */,
+				ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */,
+				ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */,
+				ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */,
+				ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */,
 				A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */,
+				ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */,
+				ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */,
+				ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */,
 				A677229A207027F8008FD4D5 /* dress_02_Packed0_Diffuse_02.png in Resources */,
 				A65533DD20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png in Resources */,
+				ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */,
+				ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */,
+				ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */,
 				A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */,
 				A65533DB20702DF40067BC13 /* batyr.dae in Resources */,
+				ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */,
+				ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */,
+				ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */,
+				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
 				A65533E120702E9D0067BC13 /* battalion-leader-heraklios_specular.png in Resources */,
+				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
+				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
+				ADC1B30F20A321FB00E969D1 /* АЛДАРКӨСЕ МЕН ШАЙТАН.epub in Resources */,
+				ADC1B30B20A321FB00E969D1 /* БАЛТА СОРПАСЫ.epub in Resources */,
+				ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */,
+				ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */,
+				ADC1B31520A321FB00E969D1 /* МҰЖЫҚ МЫРЗАМЕН ҚАЛАЙ ТАБАҚТАС БОЛДЫ..epub in Resources */,
 				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,
 				A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */,
-				A67722A0207028A0008FD4D5 /* dress_02_Packed0_Gloss.png in Resources */,
+				ADC1B34120A323BA00E969D1 /* Гуси – лебеди.epub in Resources */,
+				ADC1B33620A323BA00E969D1 /* Маша и медведь.epub in Resources */,
+				ADC1B30A20A321FB00E969D1 /* Күлше қыз.epub in Resources */,
+				ADC1B31720A321FB00E969D1 /* Ит достығы.epub in Resources */,
 				A67722A220702A1E008FD4D5 /* kyz.dae in Resources */,
+				ADC1B34920A323BA00E969D1 /* Легенда о Макбете.epub in Resources */,
+				ADC1B34520A323BA00E969D1 /* Мальчик с пальчик.epub in Resources */,
+				ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */,
 				A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */,
+				ADC1B30820A321FB00E969D1 /* Керқұла атты Кендебай.epub in Resources */,
+				ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */,
+				ADC1B30520A321FB00E969D1 /* Бақтыбай би.epub in Resources */,
+				ADC1B34D20A323BA00E969D1 /* Петушок — Золотой гребещок и жерновцы.epub in Resources */,
+				ADC1B34420A323BA00E969D1 /* Кошка, которая гуляла сама по себе.epub in Resources */,
+				ADC1B31820A321FB00E969D1 /* Сыбызғы сыры.epub in Resources */,
+				ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */,
+				ADC1B33F20A323BA00E969D1 /* Ничто-Ничего.epub in Resources */,
+				ADC1B30620A321FB00E969D1 /* АРЛЫ БАЛА.epub in Resources */,
+				ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */,
+				ADC1B30420A321FB00E969D1 /* ӨТІРІКШІ ТАЗША.epub in Resources */,
+				ADC1B33D20A323BA00E969D1 /* Девочка со спичками.epub in Resources */,
+				ADC1B33720A323BA00E969D1 /* Цветик-семицветик.epub in Resources */,
+				ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */,
+				ADC1B31B20A321FB00E969D1 /* МЫРЗА МЕН ТЕМІРШІ.epub in Resources */,
+				ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */,
 				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
 				A65533DF20702E930067BC13 /* battalion-leader-heraklios_normal.png in Resources */,
+				ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */,
+				ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */,
 				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

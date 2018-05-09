@@ -110,7 +110,6 @@ class WelcomeViewController: UIViewController {
     
     func configureConstraints() {
         titleLabel.easy.layout(CenterY(0), Left(20), Right(20))
-//        logoImageView.easy.layout(Bottom(20).to(titleLabel), Size(70), Left(20))
         signUpButton.easy.layout(Left(20), Right(20), Bottom(30), Height(50))
         signInButton.easy.layout(Left(20), Right(20), Bottom(10).to(signUpButton), Height(50))
     }

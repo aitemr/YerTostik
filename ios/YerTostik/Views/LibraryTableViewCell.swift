@@ -26,7 +26,7 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
             $0.layer.masksToBounds = true
             $0.layer.cornerRadius = 3
             $0.contentMode = .scaleAspectFill
-            $0.image = #imageLiteral(resourceName: "cover-1")
+            $0.image = UIImage(named: "Ай астындағы Айбарша сұлу")
         }
     }()
     

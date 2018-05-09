@@ -30,8 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate {
     
     fileprivate func coordinateAppFlow() {
-        
-        
         if ((Auth.auth().currentUser) != nil) {
             loadMainPages()
         } else {
