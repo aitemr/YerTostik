@@ -42,6 +42,7 @@ class LibraryViewController: UIViewController {
         self.navigationItem.title = "Сөре"
         configureViews()
         configureConstraints()
+        loadFakeBooks()
     }
     
     // MARK: Configure Views
@@ -69,7 +70,7 @@ class LibraryViewController: UIViewController {
     // MARK: Load data
     
     func loadData() {
-        Favorite.fetchLocalBooks{ (results, error) in
+        Favorite.fetchLocalBooks{ [unowned self] (results, error) in
             self.localBookNames = []
             guard error == nil, let results = results else { return }
             results.forEach{
@@ -77,13 +78,23 @@ class LibraryViewController: UIViewController {
                     self.localBookNames.append($0.name)
                 }
             }
-            Book.fetchBy(names: self.localBookNames, completion: { (results, error) in
+            Book.fetchBy(names: self.localBookNames, completion: { [unowned self] (results, error) in
                 if error == nil {
                     guard let results = results else { return }
                     self.books = results
                 }
             })
         }
+    }
+    
+    func loadFakeBooks() {
+        let names = ["Мақта қыз", "Ер Төстік", "Алдаркөсе мен шайтан"]
+        for name in names {
+            Favorite.addBookBy(name: name) { [unowned self] (error) in
+                if error == nil { print(name) }
+            }
+        }
+        
     }
 }
 
