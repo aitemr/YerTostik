@@ -47,6 +47,7 @@
 		A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */; };
 		A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */; };
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
+		AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD365A8620A4A7CC00E0E7DA /* Favorite.swift */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
 		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
@@ -181,6 +182,7 @@
 		A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		AD365A8620A4A7CC00E0E7DA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 				ADC1B35520A341D700E969D1 /* Book.swift */,
 				ADC1B35B20A34D4600E969D1 /* books.json */,
 				ADC1B35720A3443F00E969D1 /* Category.swift */,
+				AD365A8620A4A7CC00E0E7DA /* Favorite.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -900,6 +903,7 @@
 				ADEA0F20209F06300051E664 /* Drop.swift in Sources */,
 				ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */,
 				A69403AC20652BA900114546 /* TabBarController.swift in Sources */,
+				AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */,
 				A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */,
 				ADC1B35820A3443F00E969D1 /* Category.swift in Sources */,
 				A69403B020652BD600114546 /* CloudViewController.swift in Sources */,

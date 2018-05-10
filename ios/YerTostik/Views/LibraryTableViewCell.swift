@@ -51,7 +51,6 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
             $0.text = "Күнекей қыз"
             $0.textColor = .white
             $0.font = UIFont.systemFont(ofSize: 14, weight: UIFont.Weight.bold)
-            $0.textAlignment = .center
         }
     }()
     
@@ -69,15 +68,7 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
             $0.text = "Ертеде бір кемпір болыпты, оның жалғыз баласы бар …"
             $0.textColor = UIColor.white.withAlphaComponent(0.62)
             $0.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.medium)
-            $0.numberOfLines = 2
-        }
-    }()
-    
-    lazy var progressLabel: UILabel = {
-        return UILabel().then {
-            $0.text = "63 %"
-            $0.textColor = UIColor.white.withAlphaComponent(0.62)
-            $0.font = UIFont.systemFont(ofSize: 12, weight: UIFont.Weight.medium)
+            $0.numberOfLines = 3
         }
     }()
     
@@ -96,7 +87,7 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
     // MARK: Configure Views
     
     func configureViews() {
-        infoView.addSubviews(titleLabel, subTitleLabel, descriptionLabel, progressLabel)
+        infoView.addSubviews(titleLabel, subTitleLabel, descriptionLabel)
         containerView.addSubviews(backgroundImageView, coverImageView, infoView)
         contentView.addSubview(containerView)
     }
@@ -108,9 +99,8 @@ class LibraryTableViewCell: UITableViewCell, Reusable {
         backgroundImageView.easy.layout(Edges(0))
         coverImageView.easy.layout(Top(-15), Left(-10), Width(93), Height(128))
         infoView.easy.layout(Left(10).to(coverImageView), Right(10), Top(10), Bottom(15))
-        titleLabel.easy.layout(Top(5), Left(0))
+        titleLabel.easy.layout(Top(5), Left(0), Right(0))
         subTitleLabel.easy.layout(Top(5).to(titleLabel), Left(0))
         descriptionLabel.easy.layout(Top(10).to(subTitleLabel), Left(0), Right(10))
-        progressLabel.easy.layout(Top(7).to(descriptionLabel), Left(0))
     }
 }

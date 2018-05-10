@@ -9,8 +9,8 @@
 import Foundation
 
 enum Category: String {
-    case ar = "Ғажайып ертетілер"
-    case kazakh = "Қазақ халық ертетілері"
+    case ar = "Ғажайып ертегілер"
+    case kazakh = "Қазақ халық ертегілері"
     case russian = "Орыс халық ертегілері"
     case international = "Шетел ертегілері"
     case popular = "Көп оқылган ертегілер"

@@ -15,6 +15,14 @@ class LibraryViewController: UIViewController {
     
     // MARK: Properties
     
+    var books: [Book] = [] {
+        didSet {
+            tableView.reloadData()
+        }
+    }
+    
+    var localBookNames: [String] = []
+    
     lazy var tableView: UITableView = {
         return UITableView().then {
             $0.delegate = self
@@ -43,6 +51,11 @@ class LibraryViewController: UIViewController {
         view.addSubview(tableView)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        loadData()
+    }
+    
     // MARK: Configure Constraints
     
     func configureConstraints(){
@@ -52,27 +65,52 @@ class LibraryViewController: UIViewController {
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .default
     }
-
+    
+    // MARK: Load data
+    
+    func loadData() {
+        Favorite.fetchLocalBooks{ (results, error) in
+            self.localBookNames = []
+            guard error == nil, let results = results else { return }
+            results.forEach{
+                if $0.isFavorited {
+                    self.localBookNames.append($0.name)
+                }
+            }
+            Book.fetchBy(names: self.localBookNames, completion: { (results, error) in
+                if error == nil {
+                    guard let results = results else { return }
+                    self.books = results
+                }
+            })
+        }
+    }
 }
 
 // MARK: UITableViewDataSource, UITableViewDelegate
 
 extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return books.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(for: indexPath) as LibraryTableViewCell
+        let book = books[indexPath.row]
+        cell.titleLabel.text = book.name
+        cell.subTitleLabel.text = book.category
+        cell.descriptionLabel.text = book.depiction
+        cell.coverImageView.image = UIImage(named: book.image)
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let book = books[indexPath.row]
         let config = FolioReaderConfig()
         let folioReader = FolioReader()
         config.shouldHideNavigationOnTap = false
-        if let bookPath = Bundle.main.path(forResource: "Гуси – лебеди", ofType: "epub") {
+        if let bookPath = Bundle.main.path(forResource: book.name, ofType: "epub") {
             folioReader.presentReader(parentViewController: self, withEpubPath: bookPath, andConfig: config)
         }
     }
@@ -94,6 +132,5 @@ extension LibraryViewController: DZNEmptyDataSetSource, DZNEmptyDataSetDelegate 
         let attributedString = NSAttributedString(string: title, attributes: attribute)
         return attributedString
     }
-    
 }
 

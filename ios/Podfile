@@ -17,8 +17,9 @@ target 'YerTostik' do
   pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
   pod 'Kingfisher'
   pod 'IQKeyboardManagerSwift'
-  pod 'DZNEmptyDataSet'
+  pod 'DZNEmptyDataSet'     
   pod 'SwiftyJSON'
+  pod 'RealmSwift'
 
   target 'YerTostikTests' do
     inherit! :search_paths
