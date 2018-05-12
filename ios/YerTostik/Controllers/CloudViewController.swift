@@ -88,10 +88,16 @@ extension CloudViewController: UICollectionViewDataSource, UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = CloudBookListViewController()
-        let cloudItem = cloudItems[indexPath.row]
-        vc.category = cloudItem.category
-        vc.hidesBottomBarWhenPushed = true
+        //        let vc = CloudBookListViewController()
+        //        let cloudItem = cloudItems[indexPath.row]
+        //        vc.category = cloudItem.category
+        //        vc.hidesBottomBarWhenPushed = true
+        //        let _ = navigationController?.pushViewController(vc, animated: true)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "arviewcontroller")
         let _ = navigationController?.pushViewController(vc, animated: true)
+        
+        
     }
 }

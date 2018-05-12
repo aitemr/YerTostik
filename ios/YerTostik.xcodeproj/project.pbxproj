@@ -10,7 +10,7 @@
 		6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */; };
 		A604599C206E4A59004A7803 /* aldarDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A604599B206E4A59004A7803 /* aldarDiffuse.png */; };
 		A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044B20651AAB001AD7D7 /* AppDelegate.swift */; };
-		A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ViewController.swift */; };
+		A60F045020651AAB001AD7D7 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ARViewController.swift */; };
 		A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045120651AAB001AD7D7 /* Main.storyboard */; };
 		A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F045420651AAB001AD7D7 /* Assets.xcassets */; };
 		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
@@ -20,9 +20,6 @@
 		A62DCD1F206D38F4000A1CD8 /* aldarSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */; };
 		A62DCD20206D38F4000A1CD8 /* aldarOpacity.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */; };
 		A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */; };
-		A65533DD20702E4F0067BC13 /* batyrDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DC20702E4F0067BC13 /* batyrDiffuse.png */; };
-		A65533DF20702E930067BC13 /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DE20702E930067BC13 /* batyrNormal.png */; };
-		A65533E120702E9D0067BC13 /* batyrSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533E020702E9D0067BC13 /* batyrSpecular.png */; };
 		A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */; };
 		A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67722902070196B008FD4D5 /* VirtualPlane.swift */; };
 		A677229320701994008FD4D5 /* ARSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677229220701994008FD4D5 /* ARSessionState.swift */; };
@@ -44,6 +41,10 @@
 		A6B3CA932067046000FE2553 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */; };
 		A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */; };
 		A8FC4B27E0C47A3C1B6C179B /* Pods_YerTostik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */; };
+		AD15CBE620A71A70001F17D6 /* batyrSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = AD15CBE520A71A70001F17D6 /* batyrSpecular.png */; };
+		AD15CBE820A71A77001F17D6 /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = AD15CBE720A71A77001F17D6 /* batyrNormal.png */; };
+		AD15CBEA20A71A7D001F17D6 /* batyrDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */; };
+		AD35443520A739B500D623F5 /* kyz.dae in Resources */ = {isa = PBXBuildFile; fileRef = AD35443420A739B500D623F5 /* kyz.dae */; };
 		AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD365A8620A4A7CC00E0E7DA /* Favorite.swift */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
@@ -102,6 +103,7 @@
 		ADC1B35E20A3801600E969D1 /* Арлы бала.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35D20A3801500E969D1 /* Арлы бала.epub */; };
 		ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */; };
 		ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */; };
+		ADE5A9CF20A707E50096B303 /* aldar.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADE5A9CE20A707E40096B303 /* aldar.dae */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
 		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
 		ADEA0F20209F06300051E664 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1F209F06300051E664 /* Drop.swift */; };
@@ -138,7 +140,7 @@
 		A604599B206E4A59004A7803 /* aldarDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarDiffuse.png; sourceTree = "<group>"; };
 		A60F044820651AAB001AD7D7 /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F044B20651AAB001AD7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A60F044F20651AAB001AD7D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A60F044F20651AAB001AD7D7 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		A60F045220651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A60F045420651AAB001AD7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A60F045720651AAB001AD7D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,9 +155,6 @@
 		A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarSpecular.png; sourceTree = "<group>"; };
 		A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarOpacity.png; sourceTree = "<group>"; };
 		A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
-		A65533DC20702E4F0067BC13 /* batyrDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrDiffuse.png; sourceTree = "<group>"; };
-		A65533DE20702E930067BC13 /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
-		A65533E020702E9D0067BC13 /* batyrSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrSpecular.png; sourceTree = "<group>"; };
 		A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A67722902070196B008FD4D5 /* VirtualPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
 		A677229220701994008FD4D5 /* ARSessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionState.swift; sourceTree = "<group>"; };
@@ -176,6 +175,10 @@
 		A6B3CA902066F6B900FE2553 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA922067046000FE2553 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		A6B3CA94206707F900FE2553 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		AD15CBE520A71A70001F17D6 /* batyrSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrSpecular.png; sourceTree = "<group>"; };
+		AD15CBE720A71A77001F17D6 /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
+		AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrDiffuse.png; sourceTree = "<group>"; };
+		AD35443420A739B500D623F5 /* kyz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = kyz.dae; sourceTree = "<group>"; };
 		AD365A8620A4A7CC00E0E7DA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -234,6 +237,7 @@
 		ADC1B35D20A3801500E969D1 /* Арлы бала.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Арлы бала.epub"; sourceTree = "<group>"; };
 		ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Балта сорпасы.epub"; sourceTree = "<group>"; };
 		ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мұжық мырзамен қалай табақтас болды.epub"; sourceTree = "<group>"; };
+		ADE5A9CE20A707E40096B303 /* aldar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aldar.dae; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		ADEA0F1F209F06300051E664 /* Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drop.swift; sourceTree = "<group>"; };
@@ -354,6 +358,7 @@
 		A62DCD16206D376C000A1CD8 /* aldar */ = {
 			isa = PBXGroup;
 			children = (
+				ADE5A9CE20A707E40096B303 /* aldar.dae */,
 				A604599B206E4A59004A7803 /* aldarDiffuse.png */,
 				A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */,
 				A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */,
@@ -365,9 +370,9 @@
 		A65533D920702DE90067BC13 /* batyr */ = {
 			isa = PBXGroup;
 			children = (
-				A65533DC20702E4F0067BC13 /* batyrDiffuse.png */,
-				A65533E020702E9D0067BC13 /* batyrSpecular.png */,
-				A65533DE20702E930067BC13 /* batyrNormal.png */,
+				AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */,
+				AD15CBE720A71A77001F17D6 /* batyrNormal.png */,
+				AD15CBE520A71A70001F17D6 /* batyrSpecular.png */,
 			);
 			path = batyr;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 		A677229620702797008FD4D5 /* kyz */ = {
 			isa = PBXGroup;
 			children = (
+				AD35443420A739B500D623F5 /* kyz.dae */,
 				A677229B2070286D008FD4D5 /* kyzNormal.png */,
 				A677229D20702874008FD4D5 /* kyzSpecular.png */,
 				A6772299207027F7008FD4D5 /* kyzDiffuse.png */,
@@ -426,7 +432,7 @@
 		A6D2F3BB20651F7600689D68 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A60F044F20651AAB001AD7D7 /* ViewController.swift */,
+				A60F044F20651AAB001AD7D7 /* ARViewController.swift */,
 				A69403AB20652BA900114546 /* TabBarController.swift */,
 				A69403AD20652BCB00114546 /* LibraryViewController.swift */,
 				A69403AF20652BD600114546 /* CloudViewController.swift */,
@@ -688,28 +694,30 @@
 				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
 				ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */,
+				AD15CBEA20A71A7D001F17D6 /* batyrDiffuse.png in Resources */,
 				ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */,
 				ADC1B35C20A34D4600E969D1 /* books.json in Resources */,
 				ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */,
+				AD15CBE820A71A77001F17D6 /* batyrNormal.png in Resources */,
 				ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */,
 				ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */,
 				ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */,
 				A677229E20702874008FD4D5 /* kyzSpecular.png in Resources */,
+				AD15CBE620A71A70001F17D6 /* batyrSpecular.png in Resources */,
 				ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */,
 				ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */,
 				ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */,
 				A677229A207027F8008FD4D5 /* kyzDiffuse.png in Resources */,
-				A65533DD20702E4F0067BC13 /* batyrDiffuse.png in Resources */,
 				ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */,
 				ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */,
 				ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */,
 				ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */,
+				AD35443520A739B500D623F5 /* kyz.dae in Resources */,
 				A62DCD1E206D38F4000A1CD8 /* aldarNormal.png in Resources */,
 				ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */,
 				ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */,
 				ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */,
 				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
-				A65533E120702E9D0067BC13 /* batyrSpecular.png in Resources */,
 				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
 				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
 				ADC1B30F20A321FB00E969D1 /* Алдаркөсе мен шайтан.epub in Resources */,
@@ -731,6 +739,7 @@
 				ADC1B34D20A323BA00E969D1 /* Петушок — Золотой гребещок и жерновцы.epub in Resources */,
 				ADC1B34420A323BA00E969D1 /* Кошка, которая гуляла сама по себе.epub in Resources */,
 				ADC1B31820A321FB00E969D1 /* Сыбызғы сыры.epub in Resources */,
+				ADE5A9CF20A707E50096B303 /* aldar.dae in Resources */,
 				ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */,
 				ADC1B33F20A323BA00E969D1 /* Ничто-Ничего.epub in Resources */,
 				ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */,
@@ -740,7 +749,6 @@
 				ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */,
 				ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */,
 				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
-				A65533DF20702E930067BC13 /* batyrNormal.png in Resources */,
 				ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */,
 				ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */,
 				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
@@ -900,7 +908,7 @@
 				A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */,
 				ADC1B35620A341D700E969D1 /* Book.swift in Sources */,
 				A69403B7206530F700114546 /* Extensions.swift in Sources */,
-				A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */,
+				A60F045020651AAB001AD7D7 /* ARViewController.swift in Sources */,
 				A69403B92065442000114546 /* LibraryTableViewCell.swift in Sources */,
 				A6B3CA8D2066E94F00FE2553 /* LeaderHeaderViewItem.swift in Sources */,
 				A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */,

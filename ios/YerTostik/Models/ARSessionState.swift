@@ -17,13 +17,13 @@ enum ARSessionState: String, CustomStringConvertible {
     var description: String {
         switch self {
         case .initialized:
-            return "👀 Look for a plane to place your Hero"
+            return "Look for a plane to place your Hero"
         case .ready:
-            return "☕️ Click any plane to place your Hero!"
+            return "Click any plane to place your Hero!"
         case .temporarilyUnavailable:
-            return "😱 Please wait"
+            return "Please wait"
         case .failed:
-            return "⛔️ Please restart App."
+            return "Please restart App."
         }
     }
 }
