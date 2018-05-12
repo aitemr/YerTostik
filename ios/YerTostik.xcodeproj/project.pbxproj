@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6856FB226700E1D37297D977 /* Pods_YerTostikTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */; };
-		A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */; };
-		A604599E206E4ABB004A7803 /* aldar.dae in Resources */ = {isa = PBXBuildFile; fileRef = A604599D206E4ABB004A7803 /* aldar.dae */; };
+		A604599C206E4A59004A7803 /* aldarDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A604599B206E4A59004A7803 /* aldarDiffuse.png */; };
 		A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044B20651AAB001AD7D7 /* AppDelegate.swift */; };
 		A60F045020651AAB001AD7D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F044F20651AAB001AD7D7 /* ViewController.swift */; };
 		A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045120651AAB001AD7D7 /* Main.storyboard */; };
@@ -17,21 +16,19 @@
 		A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F045620651AAB001AD7D7 /* LaunchScreen.storyboard */; };
 		A60F046320651AAC001AD7D7 /* YerTostikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046220651AAC001AD7D7 /* YerTostikTests.swift */; };
 		A60F046E20651AAC001AD7D7 /* YerTostikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */; };
-		A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */; };
-		A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */; };
-		A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */; };
+		A62DCD1E206D38F4000A1CD8 /* aldarNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */; };
+		A62DCD1F206D38F4000A1CD8 /* aldarSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */; };
+		A62DCD20206D38F4000A1CD8 /* aldarOpacity.png in Resources */ = {isa = PBXBuildFile; fileRef = A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */; };
 		A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */; };
-		A65533DB20702DF40067BC13 /* batyr.dae in Resources */ = {isa = PBXBuildFile; fileRef = A65533DA20702DF40067BC13 /* batyr.dae */; };
-		A65533DD20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DC20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png */; };
-		A65533DF20702E930067BC13 /* battalion-leader-heraklios_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DE20702E930067BC13 /* battalion-leader-heraklios_normal.png */; };
-		A65533E120702E9D0067BC13 /* battalion-leader-heraklios_specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533E020702E9D0067BC13 /* battalion-leader-heraklios_specular.png */; };
+		A65533DD20702E4F0067BC13 /* batyrDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DC20702E4F0067BC13 /* batyrDiffuse.png */; };
+		A65533DF20702E930067BC13 /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533DE20702E930067BC13 /* batyrNormal.png */; };
+		A65533E120702E9D0067BC13 /* batyrSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A65533E020702E9D0067BC13 /* batyrSpecular.png */; };
 		A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */; };
 		A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67722902070196B008FD4D5 /* VirtualPlane.swift */; };
 		A677229320701994008FD4D5 /* ARSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677229220701994008FD4D5 /* ARSessionState.swift */; };
-		A677229A207027F8008FD4D5 /* dress_02_Packed0_Diffuse_02.png in Resources */ = {isa = PBXBuildFile; fileRef = A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */; };
-		A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */; };
-		A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */; };
-		A67722A220702A1E008FD4D5 /* kyz.dae in Resources */ = {isa = PBXBuildFile; fileRef = A67722A120702A1E008FD4D5 /* kyz.dae */; };
+		A677229A207027F8008FD4D5 /* kyzDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A6772299207027F7008FD4D5 /* kyzDiffuse.png */; };
+		A677229C2070286D008FD4D5 /* kyzNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229B2070286D008FD4D5 /* kyzNormal.png */; };
+		A677229E20702874008FD4D5 /* kyzSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229D20702874008FD4D5 /* kyzSpecular.png */; };
 		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
 		A69403AE20652BCB00114546 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AD20652BCB00114546 /* LibraryViewController.swift */; };
 		A69403B020652BD600114546 /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AF20652BD600114546 /* CloudViewController.swift */; };
@@ -138,8 +135,7 @@
 		94758FAE85761A84F2AD4412 /* Pods-YerTostikTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.release.xcconfig"; sourceTree = "<group>"; };
 		9591A3C6FC921CF4ED7502FB /* Pods-YerTostikTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikTests/Pods-YerTostikTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D8FD83379D9CDB5063ECBCF /* Pods_YerTostikTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostikTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Diffuse_02.png; sourceTree = "<group>"; };
-		A604599D206E4ABB004A7803 /* aldar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aldar.dae; sourceTree = "<group>"; };
+		A604599B206E4A59004A7803 /* aldarDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarDiffuse.png; sourceTree = "<group>"; };
 		A60F044820651AAB001AD7D7 /* YerTostik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YerTostik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F044B20651AAB001AD7D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A60F044F20651AAB001AD7D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,21 +149,19 @@
 		A60F046920651AAC001AD7D7 /* YerTostikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YerTostikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60F046D20651AAC001AD7D7 /* YerTostikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YerTostikUITests.swift; sourceTree = "<group>"; };
 		A60F046F20651AAC001AD7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Normal.png; sourceTree = "<group>"; };
-		A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Specular.png; sourceTree = "<group>"; };
-		A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldar_Packed0_Opacity.png; sourceTree = "<group>"; };
+		A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarNormal.png; sourceTree = "<group>"; };
+		A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarSpecular.png; sourceTree = "<group>"; };
+		A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aldarOpacity.png; sourceTree = "<group>"; };
 		A62EC6F12065AFEF0083B72E /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = "<group>"; };
-		A65533DA20702DF40067BC13 /* batyr.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = batyr.dae; sourceTree = "<group>"; };
-		A65533DC20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_diffuse2.png"; sourceTree = "<group>"; };
-		A65533DE20702E930067BC13 /* battalion-leader-heraklios_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_normal.png"; sourceTree = "<group>"; };
-		A65533E020702E9D0067BC13 /* battalion-leader-heraklios_specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_specular.png"; sourceTree = "<group>"; };
+		A65533DC20702E4F0067BC13 /* batyrDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrDiffuse.png; sourceTree = "<group>"; };
+		A65533DE20702E930067BC13 /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
+		A65533E020702E9D0067BC13 /* batyrSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrSpecular.png; sourceTree = "<group>"; };
 		A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A67722902070196B008FD4D5 /* VirtualPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
 		A677229220701994008FD4D5 /* ARSessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionState.swift; sourceTree = "<group>"; };
-		A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Diffuse_02.png; sourceTree = "<group>"; };
-		A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Normal.png; sourceTree = "<group>"; };
-		A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress_02_Packed0_Specular.png; sourceTree = "<group>"; };
-		A67722A120702A1E008FD4D5 /* kyz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = kyz.dae; sourceTree = "<group>"; };
+		A6772299207027F7008FD4D5 /* kyzDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzDiffuse.png; sourceTree = "<group>"; };
+		A677229B2070286D008FD4D5 /* kyzNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzNormal.png; sourceTree = "<group>"; };
+		A677229D20702874008FD4D5 /* kyzSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzSpecular.png; sourceTree = "<group>"; };
 		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A69403AD20652BCB00114546 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		A69403AF20652BD600114546 /* CloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
@@ -360,11 +354,10 @@
 		A62DCD16206D376C000A1CD8 /* aldar */ = {
 			isa = PBXGroup;
 			children = (
-				A604599B206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png */,
-				A62DCD1A206D38F3000A1CD8 /* aldar_Packed0_Normal.png */,
-				A62DCD1C206D38F4000A1CD8 /* aldar_Packed0_Opacity.png */,
-				A62DCD1B206D38F4000A1CD8 /* aldar_Packed0_Specular.png */,
-				A604599D206E4ABB004A7803 /* aldar.dae */,
+				A604599B206E4A59004A7803 /* aldarDiffuse.png */,
+				A62DCD1A206D38F3000A1CD8 /* aldarNormal.png */,
+				A62DCD1C206D38F4000A1CD8 /* aldarOpacity.png */,
+				A62DCD1B206D38F4000A1CD8 /* aldarSpecular.png */,
 			);
 			path = aldar;
 			sourceTree = "<group>";
@@ -372,10 +365,9 @@
 		A65533D920702DE90067BC13 /* batyr */ = {
 			isa = PBXGroup;
 			children = (
-				A65533DC20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png */,
-				A65533E020702E9D0067BC13 /* battalion-leader-heraklios_specular.png */,
-				A65533DE20702E930067BC13 /* battalion-leader-heraklios_normal.png */,
-				A65533DA20702DF40067BC13 /* batyr.dae */,
+				A65533DC20702E4F0067BC13 /* batyrDiffuse.png */,
+				A65533E020702E9D0067BC13 /* batyrSpecular.png */,
+				A65533DE20702E930067BC13 /* batyrNormal.png */,
 			);
 			path = batyr;
 			sourceTree = "<group>";
@@ -396,10 +388,9 @@
 		A677229620702797008FD4D5 /* kyz */ = {
 			isa = PBXGroup;
 			children = (
-				A677229B2070286D008FD4D5 /* dress_02_Packed0_Normal.png */,
-				A677229D20702874008FD4D5 /* dress_02_Packed0_Specular.png */,
-				A6772299207027F7008FD4D5 /* dress_02_Packed0_Diffuse_02.png */,
-				A67722A120702A1E008FD4D5 /* kyz.dae */,
+				A677229B2070286D008FD4D5 /* kyzNormal.png */,
+				A677229D20702874008FD4D5 /* kyzSpecular.png */,
+				A6772299207027F7008FD4D5 /* kyzDiffuse.png */,
 			);
 			path = kyz;
 			sourceTree = "<group>";
@@ -690,53 +681,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADC1B33A20A323BA00E969D1 /* Волк и семеро козлят.epub in Resources */,
-				A62DCD20206D38F4000A1CD8 /* aldar_Packed0_Opacity.png in Resources */,
+				A62DCD20206D38F4000A1CD8 /* aldarOpacity.png in Resources */,
 				ADC1B34020A323BA00E969D1 /* Птичий язык.epub in Resources */,
 				ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */,
-				A677229C2070286D008FD4D5 /* dress_02_Packed0_Normal.png in Resources */,
+				A677229C2070286D008FD4D5 /* kyzNormal.png in Resources */,
 				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
 				ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */,
-				A604599E206E4ABB004A7803 /* aldar.dae in Resources */,
 				ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */,
 				ADC1B35C20A34D4600E969D1 /* books.json in Resources */,
 				ADC1B31420A321FB00E969D1 /* Боз атты Боран батыр.epub in Resources */,
 				ADC1B31920A321FB00E969D1 /* Алты жасар Алпамыс.epub in Resources */,
 				ADC1B33920A323BA00E969D1 /* Белоснежка и семь гномов.epub in Resources */,
 				ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */,
-				A677229E20702874008FD4D5 /* dress_02_Packed0_Specular.png in Resources */,
+				A677229E20702874008FD4D5 /* kyzSpecular.png in Resources */,
 				ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */,
 				ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */,
 				ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */,
-				A677229A207027F8008FD4D5 /* dress_02_Packed0_Diffuse_02.png in Resources */,
-				A65533DD20702E4F0067BC13 /* battalion-leader-heraklios_diffuse2.png in Resources */,
+				A677229A207027F8008FD4D5 /* kyzDiffuse.png in Resources */,
+				A65533DD20702E4F0067BC13 /* batyrDiffuse.png in Resources */,
 				ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */,
 				ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */,
 				ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */,
 				ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */,
-				A62DCD1E206D38F4000A1CD8 /* aldar_Packed0_Normal.png in Resources */,
-				A65533DB20702DF40067BC13 /* batyr.dae in Resources */,
+				A62DCD1E206D38F4000A1CD8 /* aldarNormal.png in Resources */,
 				ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */,
 				ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */,
 				ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */,
 				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
-				A65533E120702E9D0067BC13 /* battalion-leader-heraklios_specular.png in Resources */,
+				A65533E120702E9D0067BC13 /* batyrSpecular.png in Resources */,
 				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
 				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
 				ADC1B30F20A321FB00E969D1 /* Алдаркөсе мен шайтан.epub in Resources */,
 				ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */,
 				ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */,
 				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,
-				A62DCD1F206D38F4000A1CD8 /* aldar_Packed0_Specular.png in Resources */,
+				A62DCD1F206D38F4000A1CD8 /* aldarSpecular.png in Resources */,
 				ADC1B34120A323BA00E969D1 /* Гуси – лебеди.epub in Resources */,
 				ADC1B33620A323BA00E969D1 /* Маша и медведь.epub in Resources */,
 				ADC1B30A20A321FB00E969D1 /* Күлше қыз.epub in Resources */,
 				ADC1B31720A321FB00E969D1 /* Ит достығы.epub in Resources */,
-				A67722A220702A1E008FD4D5 /* kyz.dae in Resources */,
 				ADC1B34920A323BA00E969D1 /* Легенда о Макбете.epub in Resources */,
 				ADC1B34520A323BA00E969D1 /* Мальчик с пальчик.epub in Resources */,
 				ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */,
-				A604599C206E4A59004A7803 /* aldar_Packed0_Diffuse_02.png in Resources */,
+				A604599C206E4A59004A7803 /* aldarDiffuse.png in Resources */,
 				ADC1B30820A321FB00E969D1 /* Керқұла атты Кендебай.epub in Resources */,
 				ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */,
 				ADC1B30520A321FB00E969D1 /* Бақтыбай би.epub in Resources */,
@@ -752,7 +740,7 @@
 				ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */,
 				ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */,
 				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
-				A65533DF20702E930067BC13 /* battalion-leader-heraklios_normal.png in Resources */,
+				A65533DF20702E930067BC13 /* batyrNormal.png in Resources */,
 				ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */,
 				ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */,
 				A60F045320651AAB001AD7D7 /* Main.storyboard in Resources */,
