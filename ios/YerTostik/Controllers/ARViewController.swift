@@ -14,7 +14,6 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
     
-    @IBOutlet weak var statusLabel: UILabel!
     // Planes: every plane is identified by a UUID.
     
     var currentStatus = ARSessionState.initialized {
@@ -27,7 +26,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     var planes = [UUID: VirtualPlane]() {
         didSet {
-            DispatchQueue.main.async { self.statusLabel.text = self.currentStatus.description }
+//            DispatchQueue.main.async { self.statusLabel.text = self.currentStatus.description }
             if planes.count > 0 {
                 currentStatus = .ready
             } else {

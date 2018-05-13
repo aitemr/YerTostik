@@ -47,6 +47,7 @@
 		AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD365A8620A4A7CC00E0E7DA /* Favorite.swift */; };
 		AD47E21820A75D38008BB4FC /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = AD47E21720A75D38008BB4FC /* batyrNormal.png */; };
 		AD83882F20A8EB3900501BF9 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83882E20A8EB3900501BF9 /* AudioViewController.swift */; };
+		AD83883120A8EDEA00501BF9 /* DetailedBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
 		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
@@ -182,6 +183,7 @@
 		AD365A8620A4A7CC00E0E7DA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		AD47E21720A75D38008BB4FC /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
 		AD83882E20A8EB3900501BF9 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedBookViewController.swift; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
@@ -447,6 +449,7 @@
 				ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */,
 				ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */,
 				AD83882E20A8EB3900501BF9 /* AudioViewController.swift */,
+				AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -896,6 +899,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD83883120A8EDEA00501BF9 /* DetailedBookViewController.swift in Sources */,
 				ADC1B35220A337B100E969D1 /* CloudBookListTableViewCell.swift in Sources */,
 				ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */,
 				ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */,
