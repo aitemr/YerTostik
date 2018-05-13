@@ -51,7 +51,7 @@ class SettingsViewController: UIViewController {
     
     func configureNavigationBar() {
         self.navigationItem.title = "Баптаулар"
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "logout"), style: .plain, target: self, action: #selector(logoutButtonDidPress))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "logout"), style: .plain, target: self, action: #selector(logoutButtonDidPress))
     }
     
     // MARK: Configure Views
