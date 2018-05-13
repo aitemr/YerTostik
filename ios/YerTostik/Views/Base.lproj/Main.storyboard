@@ -5,6 +5,8 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,17 +14,41 @@
         <scene sceneID="tXr-a1-R10">
             <objects>
                 <viewController storyboardIdentifier="arviewcontroller" id="BV1-FR-VrT" customClass="ARViewController" customModule="YerTostik" customModuleProvider="target" sceneMemberID="viewController">
-                    <arscnView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BrB-h1-WRS">
+                    <view key="view" contentMode="scaleToFill" id="ZvD-96-CgT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arscnView>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sp-jV-rbL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👀 Look for a plane to place your ar model" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUD-Tc-YwU">
+                                <rect key="frame" x="20" y="45" width="374" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WUD-Tc-YwU" firstAttribute="leading" secondItem="ZvD-96-CgT" secondAttribute="leadingMargin" id="MMg-e1-Px0"/>
+                            <constraint firstItem="WUD-Tc-YwU" firstAttribute="top" secondItem="mDn-bM-dz4" secondAttribute="top" constant="25" id="MP6-OR-7zs"/>
+                            <constraint firstItem="2sp-jV-rbL" firstAttribute="leading" secondItem="ZvD-96-CgT" secondAttribute="leading" id="PEy-eu-YVZ"/>
+                            <constraint firstItem="2sp-jV-rbL" firstAttribute="top" secondItem="ZvD-96-CgT" secondAttribute="top" id="SJ3-NH-fNh"/>
+                            <constraint firstItem="WUD-Tc-YwU" firstAttribute="centerX" secondItem="2sp-jV-rbL" secondAttribute="centerX" id="UAc-2D-tRO"/>
+                            <constraint firstAttribute="trailing" secondItem="2sp-jV-rbL" secondAttribute="trailing" id="Xoi-em-c1z"/>
+                            <constraint firstItem="mDn-bM-dz4" firstAttribute="bottom" secondItem="WUD-Tc-YwU" secondAttribute="bottom" constant="642" id="YYA-1M-UNF"/>
+                            <constraint firstItem="2sp-jV-rbL" firstAttribute="bottom" secondItem="mDn-bM-dz4" secondAttribute="bottom" id="exL-7N-9oM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mDn-bM-dz4"/>
+                    </view>
                     <connections>
-                        <outlet property="sceneView" destination="BrB-h1-WRS" id="UmT-Le-U6E"/>
+                        <outlet property="sceneView" destination="2sp-jV-rbL" id="BXA-IS-MG0"/>
+                        <outlet property="statusLabel" destination="WUD-Tc-YwU" id="3Mo-I1-G8t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="71"/>
+            <point key="canvasLocation" x="379.71014492753625" y="70.923913043478265"/>
         </scene>
     </scenes>
 </document>

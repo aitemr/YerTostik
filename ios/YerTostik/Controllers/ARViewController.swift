@@ -14,6 +14,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
     
+    @IBOutlet weak var statusLabel: UILabel!
     // Planes: every plane is identified by a UUID.
     
     var currentStatus = ARSessionState.initialized {
@@ -26,6 +27,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     var planes = [UUID: VirtualPlane]() {
         didSet {
+            DispatchQueue.main.async { self.statusLabel.text = self.currentStatus.description }
             if planes.count > 0 {
                 currentStatus = .ready
             } else {
@@ -49,6 +51,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         // configure settings and debug options for scene
         self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, SCNDebugOptions.showConstraints, SCNDebugOptions.showLightExtents, ARSCNDebugOptions.showWorldOrigin]
         self.sceneView.automaticallyUpdatesLighting = true
+        
+        
         
         // Create a new scene
         let scene = SCNScene()
@@ -82,8 +86,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     func initializeARNode() {
         // Obtain the scene the coffee mug is contained inside, and extract it.
-        if let arSCene = SCNScene(named: "girl.dae") {
-            self.arNode = arSCene.rootNode.childNode(withName: "Tops", recursively: true)!
+        if let arSCene = SCNScene(named: "aldar.dae") {
+            self.arNode = arSCene.rootNode.childNode(withName: "root", recursively: true)!
         }
     }
     
