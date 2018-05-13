@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds).then {
             $0.backgroundColor = .white
         }
-//        coordinateAppFlow()
-        loadMainPages()
+        coordinateAppFlow()
+//        loadMainPages()
         return true
     }
 }

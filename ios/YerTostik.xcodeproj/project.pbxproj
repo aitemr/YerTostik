@@ -46,6 +46,7 @@
 		AD35443520A739B500D623F5 /* kyz.dae in Resources */ = {isa = PBXBuildFile; fileRef = AD35443420A739B500D623F5 /* kyz.dae */; };
 		AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD365A8620A4A7CC00E0E7DA /* Favorite.swift */; };
 		AD47E21820A75D38008BB4FC /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = AD47E21720A75D38008BB4FC /* batyrNormal.png */; };
+		AD83882F20A8EB3900501BF9 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83882E20A8EB3900501BF9 /* AudioViewController.swift */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
 		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
@@ -180,6 +181,7 @@
 		AD35443420A739B500D623F5 /* kyz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = kyz.dae; sourceTree = "<group>"; };
 		AD365A8620A4A7CC00E0E7DA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		AD47E21720A75D38008BB4FC /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
+		AD83882E20A8EB3900501BF9 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
@@ -444,6 +446,7 @@
 				ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */,
 				ADC1B2D220A1E72B00E969D1 /* EditProfileViewController.swift */,
 				ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */,
+				AD83882E20A8EB3900501BF9 /* AudioViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -926,6 +929,7 @@
 				ADC1B35020A3375E00E969D1 /* CloudBookListViewController.swift in Sources */,
 				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,
 				A677229320701994008FD4D5 /* ARSessionState.swift in Sources */,
+				AD83882F20A8EB3900501BF9 /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

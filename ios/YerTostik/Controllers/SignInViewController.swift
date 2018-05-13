@@ -60,7 +60,7 @@ class SignInViewController: UIViewController {
         configureConstriants()
     }
     
-    //MARK: - Setup Navbar
+    //MARK: - Configure Navbar
     
     func configureNavigationBar() {
         self.navigationItem.title = "Кiру"
