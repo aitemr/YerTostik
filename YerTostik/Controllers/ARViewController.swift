@@ -14,6 +14,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
     
+    var name: String?
+    
     // Planes: every plane is identified by a UUID.
     
     var currentStatus = ARSessionState.initialized {

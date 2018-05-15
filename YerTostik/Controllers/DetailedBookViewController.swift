@@ -99,10 +99,10 @@ class DetailedBookViewController: UIViewController {
     // MARK: User Interaction
     
     @objc fileprivate func openHeroButtonDidPress(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "arviewcontroller")
-//        present(vc, animated: true, completion: nil)
-        let _ = navigationController?.pushViewController(vc, animated: true)
+        let vc = CongratulationViewController()
+        guard let book = book else { return }
+        vc.name = book.name
+        present(vc, animated: true, completion: nil)
     }
     
     // MARK: Configure Information
