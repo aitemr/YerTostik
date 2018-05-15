@@ -90,6 +90,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     func initializeARNode() {
         // Obtain the scene the coffee mug is contained inside, and extract it.
+        
+        
         if let arSCene = SCNScene(named: "aldar.dae") {
             self.arNode = arSCene.rootNode.childNode(withName: "root", recursively: true)!
         }

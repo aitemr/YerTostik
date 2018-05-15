@@ -116,6 +116,11 @@
 		ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F2B209F40CA0051E664 /* background.mp4 */; };
 		ADFDB42D20AB700100F10699 /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */; };
 		ADFDB43420AB75CF00F10699 /* auid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43320AB75CF00F10699 /* auid.mp3 */; };
+		ADFDB43620AB881E00F10699 /* gulnaz.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43520AB881D00F10699 /* gulnaz.dae */; };
+		ADFDB43820AB8D7F00F10699 /* gulnaz.scn in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43720AB8D7F00F10699 /* gulnaz.scn */; };
+		ADFDB43A20AB8EC700F10699 /* dauren.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43920AB8EC700F10699 /* dauren.dae */; };
+		ADFDB43D20AB8EE900F10699 /* battalion-leader-heraklios_specular.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43B20AB8EE800F10699 /* battalion-leader-heraklios_specular.png */; };
+		ADFDB43E20AB8EE900F10699 /* battalion-leader-heraklios_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43C20AB8EE900F10699 /* battalion-leader-heraklios_normal.png */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -256,6 +261,11 @@
 		ADEA0F2B209F40CA0051E664 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
 		ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
 		ADFDB43320AB75CF00F10699 /* auid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = auid.mp3; sourceTree = "<group>"; };
+		ADFDB43520AB881D00F10699 /* gulnaz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = gulnaz.dae; sourceTree = "<group>"; };
+		ADFDB43720AB8D7F00F10699 /* gulnaz.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = gulnaz.scn; sourceTree = "<group>"; };
+		ADFDB43920AB8EC700F10699 /* dauren.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = dauren.dae; path = ../../../../../Rinat/dauren.dae; sourceTree = "<group>"; };
+		ADFDB43B20AB8EE800F10699 /* battalion-leader-heraklios_specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_specular.png"; sourceTree = "<group>"; };
+		ADFDB43C20AB8EE900F10699 /* battalion-leader-heraklios_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battalion-leader-heraklios_normal.png"; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -382,6 +392,9 @@
 		A65533D920702DE90067BC13 /* batyr */ = {
 			isa = PBXGroup;
 			children = (
+				ADFDB43C20AB8EE900F10699 /* battalion-leader-heraklios_normal.png */,
+				ADFDB43B20AB8EE800F10699 /* battalion-leader-heraklios_specular.png */,
+				ADFDB43920AB8EC700F10699 /* dauren.dae */,
 				ADD4D52520A9DE5D00C6C685 /* Batyr.dae */,
 				AD47E21720A75D38008BB4FC /* batyrNormal.png */,
 				AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */,
@@ -406,6 +419,8 @@
 		A677229620702797008FD4D5 /* kyz */ = {
 			isa = PBXGroup;
 			children = (
+				ADFDB43520AB881D00F10699 /* gulnaz.dae */,
+				ADFDB43720AB8D7F00F10699 /* gulnaz.scn */,
 				AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */,
 				AD35443420A739B500D623F5 /* kyz.dae */,
 				A677229B2070286D008FD4D5 /* kyzNormal.png */,
@@ -754,9 +769,12 @@
 				ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */,
 				ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */,
 				AD35443520A739B500D623F5 /* kyz.dae in Resources */,
+				ADFDB43A20AB8EC700F10699 /* dauren.dae in Resources */,
 				A62DCD1E206D38F4000A1CD8 /* aldarNormal.png in Resources */,
 				ADC1B34A20A323BA00E969D1 /* Царевна-лягушка.epub in Resources */,
+				ADFDB43620AB881E00F10699 /* gulnaz.dae in Resources */,
 				ADC1B30920A321FB00E969D1 /* Мақта қыз.epub in Resources */,
+				ADFDB43D20AB8EE900F10699 /* battalion-leader-heraklios_specular.png in Resources */,
 				ADC1B34320A323BA00E969D1 /* Гадкий утенок.epub in Resources */,
 				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
 				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
@@ -790,8 +808,10 @@
 				ADC1B35E20A3801600E969D1 /* Арлы бала.epub in Resources */,
 				ADC1B33D20A323BA00E969D1 /* Девочка со спичками.epub in Resources */,
 				ADC1B33720A323BA00E969D1 /* Цветик-семицветик.epub in Resources */,
+				ADFDB43E20AB8EE900F10699 /* battalion-leader-heraklios_normal.png in Resources */,
 				ADC1B30320A321FB00E969D1 /* Аяз би.epub in Resources */,
 				ADC1B34720A323BA00E969D1 /* Кощей Бессмертный.epub in Resources */,
+				ADFDB43820AB8D7F00F10699 /* gulnaz.scn in Resources */,
 				ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */,
 				ADC1B34B20A323BA00E969D1 /* Крошка фея.epub in Resources */,
 				ADC1B30720A321FB00E969D1 /* Бала патша.epub in Resources */,
