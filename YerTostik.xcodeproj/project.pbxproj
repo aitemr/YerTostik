@@ -114,6 +114,8 @@
 		ADEA0F22209F25400051E664 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F21209F25400051E664 /* VideoPlayerView.swift */; };
 		ADEA0F25209F28160051E664 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F24209F28160051E664 /* Constants.swift */; };
 		ADEA0F2C209F40CA0051E664 /* background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F2B209F40CA0051E664 /* background.mp4 */; };
+		ADFDB42D20AB700100F10699 /* AudioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */; };
+		ADFDB43420AB75CF00F10699 /* auid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB43320AB75CF00F10699 /* auid.mp3 */; };
 		CC7ADA978B7F360BE14F1F2C /* Pods_YerTostikUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511A576A797ACF8ECFA0E84C /* Pods_YerTostikUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -252,6 +254,8 @@
 		ADEA0F21209F25400051E664 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		ADEA0F24209F28160051E664 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ADEA0F2B209F40CA0051E664 /* background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.mp4; sourceTree = "<group>"; };
+		ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewCell.swift; sourceTree = "<group>"; };
+		ADFDB43320AB75CF00F10699 /* auid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = auid.mp3; sourceTree = "<group>"; };
 		BB2C306AF14950454D9780F9 /* Pods_YerTostik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YerTostik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA452C53B2259329B6143144 /* Pods-YerTostikUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBDF5AF15BEC454B93D822B1 /* Pods-YerTostikUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YerTostikUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YerTostikUITests/Pods-YerTostikUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -434,6 +438,7 @@
 				ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */,
 				ADEA0F21209F25400051E664 /* VideoPlayerView.swift */,
 				ADC1B35120A337B100E969D1 /* CloudBookListTableViewCell.swift */,
+				ADFDB42C20AB700100F10699 /* AudioTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 		A6D2F3BC20651F9300689D68 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ADFDB42E20AB758A00F10699 /* audios */,
 				ADC1B2E420A3211D00E969D1 /* books */,
 				ADEA0F28209F28D40051E664 /* videos */,
 				A62DCD15206D370B000A1CD8 /* 3d models */,
@@ -585,6 +591,30 @@
 				ADEA0F2B209F40CA0051E664 /* background.mp4 */,
 			);
 			path = videos;
+			sourceTree = "<group>";
+		};
+		ADFDB42E20AB758A00F10699 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB43020AB759700F10699 /* rus */,
+				ADFDB42F20AB759200F10699 /* kaz */,
+			);
+			path = audios;
+			sourceTree = "<group>";
+		};
+		ADFDB42F20AB759200F10699 /* kaz */ = {
+			isa = PBXGroup;
+			children = (
+				ADFDB43320AB75CF00F10699 /* auid.mp3 */,
+			);
+			path = kaz;
+			sourceTree = "<group>";
+		};
+		ADFDB43020AB759700F10699 /* rus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = rus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -731,6 +761,7 @@
 				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
 				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
 				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
+				ADFDB43420AB75CF00F10699 /* auid.mp3 in Resources */,
 				ADC1B30F20A321FB00E969D1 /* Алдаркөсе.epub in Resources */,
 				ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */,
 				ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */,
@@ -920,6 +951,7 @@
 				A6B3CA8B2066E8A000FE2553 /* LeaderBoardHeaderView.swift in Sources */,
 				ADEA0F25209F28160051E664 /* Constants.swift in Sources */,
 				A6B3CA95206707F900FE2553 /* ProfileHeaderView.swift in Sources */,
+				ADFDB42D20AB700100F10699 /* AudioTableViewCell.swift in Sources */,
 				ADC1B35620A341D700E969D1 /* Book.swift in Sources */,
 				A69403B7206530F700114546 /* Extensions.swift in Sources */,
 				A60F045020651AAB001AD7D7 /* ARViewController.swift in Sources */,
