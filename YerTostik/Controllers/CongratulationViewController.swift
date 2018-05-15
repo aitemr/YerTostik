@@ -65,6 +65,15 @@ class CongratulationViewController: UIViewController {
         }
     }()
     
+    fileprivate lazy var closeButton: UIButton = {
+        return UIButton(type: .system).then {
+            $0.setTitleColor(.white, for: .normal)
+            $0.addTarget(self, action: #selector(closeButtonDidPress(_:)), for: .touchUpInside)
+            $0.setImage(#imageLiteral(resourceName: "close-white"), for: .normal)
+            $0.tintColor = .white
+        }
+    }()
+    
     // MARK: View LifeCycle
     
     override func viewDidLoad() {
@@ -77,19 +86,20 @@ class CongratulationViewController: UIViewController {
     //MARK: - Configure Navbar
     
     func configureNavigationBar() {
-        
+//        closeButton.setImage(#imageLiteral(resourceName: "close-white"), for: .normal)
     }
     
     // MARK: Configure Views
     
     func configureViews() {
-        self.view.addSubviews(backgroundImageView, cupImageView, titleLabel, subTitleLabel, openHeroButton)
+        self.view.addSubviews(backgroundImageView, closeButton, cupImageView, titleLabel, subTitleLabel, openHeroButton)
     }
     
     // MARK: Configure Constraints
     
     func configureConstriants() {
         backgroundImageView.easy.layout(Edges(0))
+        closeButton.easy.layout(Size(50), Top(32), Left(20))
         cupImageView.easy.layout(Top(160), Size(130), CenterX(0))
         titleLabel.easy.layout(Top(40).to(cupImageView), CenterX(0))
         subTitleLabel.easy.layout(Top(10).to(titleLabel), CenterX(0), Left(20), Right(20))
@@ -105,5 +115,9 @@ class CongratulationViewController: UIViewController {
             secondViewController.name = name
             present(secondViewController, animated: true, completion: nil)
         }
+    }
+    
+    @objc func closeButtonDidPress(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
 }

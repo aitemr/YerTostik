@@ -13,6 +13,9 @@ import ARKit
 class ARViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
+    @IBAction func closeButtonDidPress(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
     
     var name: String?
     
@@ -28,7 +31,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     var planes = [UUID: VirtualPlane]() {
         didSet {
-//            DispatchQueue.main.async { self.statusLabel.text = self.currentStatus.description }
+            //            DispatchQueue.main.async { self.statusLabel.text = self.currentStatus.description }
             if planes.count > 0 {
                 currentStatus = .ready
             } else {

@@ -20,13 +20,24 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sp-jV-rbL">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRz-t6-yTV">
+                                <rect key="frame" x="15" y="20" width="65" height="77"/>
+                                <state key="normal" image="close-white"/>
+                                <connections>
+                                    <action selector="closeButtonDidPress:" destination="BV1-FR-VrT" eventType="touchUpInside" id="3Ps-1s-gMe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2sp-jV-rbL" firstAttribute="leading" secondItem="ZvD-96-CgT" secondAttribute="leading" id="PEy-eu-YVZ"/>
-                            <constraint firstItem="2sp-jV-rbL" firstAttribute="top" secondItem="ZvD-96-CgT" secondAttribute="top" id="SJ3-NH-fNh"/>
-                            <constraint firstAttribute="trailing" secondItem="2sp-jV-rbL" secondAttribute="trailing" id="Xoi-em-c1z"/>
-                            <constraint firstItem="2sp-jV-rbL" firstAttribute="bottom" secondItem="mDn-bM-dz4" secondAttribute="bottom" id="exL-7N-9oM"/>
+                            <constraint firstItem="2sp-jV-rbL" firstAttribute="leading" secondItem="ZvD-96-CgT" secondAttribute="leading" id="Q5U-L5-unP"/>
+                            <constraint firstItem="QRz-t6-yTV" firstAttribute="leading" secondItem="mDn-bM-dz4" secondAttribute="leading" constant="15" id="Qii-U0-Mru"/>
+                            <constraint firstItem="QRz-t6-yTV" firstAttribute="top" secondItem="mDn-bM-dz4" secondAttribute="top" id="cRu-12-j7m"/>
+                            <constraint firstItem="2sp-jV-rbL" firstAttribute="top" secondItem="ZvD-96-CgT" secondAttribute="top" id="fSg-hw-kQv"/>
+                            <constraint firstAttribute="trailing" secondItem="2sp-jV-rbL" secondAttribute="trailing" id="ndL-lx-kvD"/>
+                            <constraint firstItem="mDn-bM-dz4" firstAttribute="trailing" secondItem="QRz-t6-yTV" secondAttribute="trailing" constant="334" id="on5-wL-4tL"/>
+                            <constraint firstItem="2sp-jV-rbL" firstAttribute="bottom" secondItem="mDn-bM-dz4" secondAttribute="bottom" id="rCT-dB-mn1"/>
+                            <constraint firstItem="mDn-bM-dz4" firstAttribute="bottom" secondItem="QRz-t6-yTV" secondAttribute="bottom" constant="639" id="wTj-iq-9ZL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mDn-bM-dz4"/>
                     </view>
@@ -39,4 +50,7 @@
             <point key="canvasLocation" x="379.71014492753625" y="70.923913043478265"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="close-white" width="18" height="18"/>
+    </resources>
 </document>
