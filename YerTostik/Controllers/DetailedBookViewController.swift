@@ -74,7 +74,8 @@ class DetailedBookViewController: UIViewController {
     //MARK: - Configure Navbar
     
     func configureNavigationBar() {
-        self.navigationItem.title = "Информация"
+        guard let book = book else { return }
+        self.navigationItem.title = book.name
     }
     
     // MARK: Configure Views
@@ -89,8 +90,8 @@ class DetailedBookViewController: UIViewController {
     
     func configureConstriants() {
         coverImageView.easy.layout(Top(20), Width(150), Height(200), CenterX(0))
-        titleLabel.easy.layout(Top(10).to(coverImageView), CenterX(0))
-        subTitleLabel.easy.layout(Top(10).to(titleLabel), CenterX(0))
+//        titleLabel.easy.layout(Top(10).to(coverImageView), CenterX(0))
+        subTitleLabel.easy.layout(Top(10).to(coverImageView), CenterX(0))
         descriptionLabel.easy.layout(Top(10).to(subTitleLabel), CenterX(0), Left(20), Right(20))
         openHeroButton.easy.layout(Top(10).to(descriptionLabel), Left(20), Right(20), Height(50))
     }
@@ -109,7 +110,6 @@ class DetailedBookViewController: UIViewController {
     func configureInformation() {
         guard let book = book else { return }
         coverImageView.image = UIImage(named: book.image)
-        titleLabel.text = book.name
         subTitleLabel.text = book.category
         descriptionLabel.text = book.depiction
     }

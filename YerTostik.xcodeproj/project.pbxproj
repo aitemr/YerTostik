@@ -62,7 +62,7 @@
 		ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F320A321F700E969D1 /* Зерделі.epub */; };
 		ADC1B30D20A321FB00E969D1 /* Қарлығаштың құйрығы неге айыр?.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */; };
 		ADC1B30E20A321FB00E969D1 /* Жеті өнерпаз.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */; };
-		ADC1B30F20A321FB00E969D1 /* Алдаркөсе мен шайтан.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F620A321F800E969D1 /* Алдаркөсе мен шайтан.epub */; };
+		ADC1B30F20A321FB00E969D1 /* Алдаркөсе.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F620A321F800E969D1 /* Алдаркөсе.epub */; };
 		ADC1B31020A321FB00E969D1 /* Ай астындағы Айбарша сұлу.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */; };
 		ADC1B31120A321FB00E969D1 /* Кішкентай Маса.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */; };
 		ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */; };
@@ -200,7 +200,7 @@
 		ADC1B2F320A321F700E969D1 /* Зерделі.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Зерделі.epub"; sourceTree = "<group>"; };
 		ADC1B2F420A321F800E969D1 /* Қарлығаштың құйрығы неге айыр?.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Қарлығаштың құйрығы неге айыр?.epub"; sourceTree = "<group>"; };
 		ADC1B2F520A321F800E969D1 /* Жеті өнерпаз.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Жеті өнерпаз.epub"; sourceTree = "<group>"; };
-		ADC1B2F620A321F800E969D1 /* Алдаркөсе мен шайтан.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Алдаркөсе мен шайтан.epub"; sourceTree = "<group>"; };
+		ADC1B2F620A321F800E969D1 /* Алдаркөсе.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Алдаркөсе.epub"; sourceTree = "<group>"; };
 		ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ай астындағы Айбарша сұлу.epub"; sourceTree = "<group>"; };
 		ADC1B2F820A321F800E969D1 /* Кішкентай Маса.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Кішкентай Маса.epub"; sourceTree = "<group>"; };
 		ADC1B2F920A321F800E969D1 /* Ер Төстік.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ер Төстік.epub"; sourceTree = "<group>"; };
@@ -514,7 +514,7 @@
 			children = (
 				ADC1B35D20A3801500E969D1 /* Арлы бала.epub */,
 				ADC1B2F720A321F800E969D1 /* Ай астындағы Айбарша сұлу.epub */,
-				ADC1B2F620A321F800E969D1 /* Алдаркөсе мен шайтан.epub */,
+				ADC1B2F620A321F800E969D1 /* Алдаркөсе.epub */,
 				ADC1B30020A321FA00E969D1 /* Алты жасар Алпамыс.epub */,
 				ADC1B2EA20A321F600E969D1 /* Аяз би.epub */,
 				ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */,
@@ -731,7 +731,7 @@
 				ADC1B31A20A321FB00E969D1 /* Өнеге.epub in Resources */,
 				ADC1B34E20A323BA00E969D1 /* Волшебное кольцо.epub in Resources */,
 				ADC1B31320A321FB00E969D1 /* Хан мен құмырсқалар ертегісі.epub in Resources */,
-				ADC1B30F20A321FB00E969D1 /* Алдаркөсе мен шайтан.epub in Resources */,
+				ADC1B30F20A321FB00E969D1 /* Алдаркөсе.epub in Resources */,
 				ADC1B33820A323BA00E969D1 /* Сестрица Аленушка и братец Иванушка.epub in Resources */,
 				ADC1B31620A321FB00E969D1 /* Балықшы мен сиқыршы.epub in Resources */,
 				A60F045520651AAB001AD7D7 /* Assets.xcassets in Resources */,

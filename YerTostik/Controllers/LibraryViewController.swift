@@ -88,7 +88,7 @@ class LibraryViewController: UIViewController {
     }
     
     func loadFakeBooks() {
-        let names = ["Мақта қыз", "Ер Төстік", "Алдаркөсе мен шайтан"]
+        let names = ["Мақта қыз", "Ер Төстік", "Алдаркөсе"]
         for name in names {
             Favorite.addBookBy(name: name) { [unowned self] (error) in
                 if error == nil { print(name) }
@@ -121,6 +121,7 @@ extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
         if (book.category == Category.ar.rawValue) {
             let vc = DetailedBookViewController()
             vc.book = book
+            vc.hidesBottomBarWhenPushed = true
             let _ = navigationController?.pushViewController(vc, animated: true)
         } else {
             let config = FolioReaderConfig()
