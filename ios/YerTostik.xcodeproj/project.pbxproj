@@ -23,7 +23,6 @@
 		A6617AC8206A26D400B24BF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */; };
 		A67722912070196B008FD4D5 /* VirtualPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67722902070196B008FD4D5 /* VirtualPlane.swift */; };
 		A677229320701994008FD4D5 /* ARSessionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677229220701994008FD4D5 /* ARSessionState.swift */; };
-		A677229A207027F8008FD4D5 /* kyzDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = A6772299207027F7008FD4D5 /* kyzDiffuse.png */; };
 		A677229C2070286D008FD4D5 /* kyzNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229B2070286D008FD4D5 /* kyzNormal.png */; };
 		A677229E20702874008FD4D5 /* kyzSpecular.png in Resources */ = {isa = PBXBuildFile; fileRef = A677229D20702874008FD4D5 /* kyzSpecular.png */; };
 		A69403AC20652BA900114546 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69403AB20652BA900114546 /* TabBarController.swift */; };
@@ -45,9 +44,11 @@
 		AD15CBEA20A71A7D001F17D6 /* batyrDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */; };
 		AD35443520A739B500D623F5 /* kyz.dae in Resources */ = {isa = PBXBuildFile; fileRef = AD35443420A739B500D623F5 /* kyz.dae */; };
 		AD365A8720A4A7CC00E0E7DA /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD365A8620A4A7CC00E0E7DA /* Favorite.swift */; };
+		AD3A05FE20AAF85A00338167 /* kyzDiffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */; };
 		AD47E21820A75D38008BB4FC /* batyrNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = AD47E21720A75D38008BB4FC /* batyrNormal.png */; };
 		AD83882F20A8EB3900501BF9 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83882E20A8EB3900501BF9 /* AudioViewController.swift */; };
 		AD83883120A8EDEA00501BF9 /* DetailedBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */; };
+		AD83883320A8FAFF00501BF9 /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD83883220A8FAFF00501BF9 /* CongratulationViewController.swift */; };
 		ADB82F06209DE41F0047BC83 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F05209DE41F0047BC83 /* SignInViewController.swift */; };
 		ADB82F08209DE9CC0047BC83 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */; };
 		ADC1B2D120A1D53B00E969D1 /* ShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */; };
@@ -105,6 +106,7 @@
 		ADC1B35E20A3801600E969D1 /* Арлы бала.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35D20A3801500E969D1 /* Арлы бала.epub */; };
 		ADC1B36020A381CD00E969D1 /* Балта сорпасы.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */; };
 		ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */ = {isa = PBXBuildFile; fileRef = ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */; };
+		ADD4D52620A9DE5D00C6C685 /* Batyr.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADD4D52520A9DE5D00C6C685 /* Batyr.dae */; };
 		ADE5A9CF20A707E50096B303 /* aldar.dae in Resources */ = {isa = PBXBuildFile; fileRef = ADE5A9CE20A707E40096B303 /* aldar.dae */; };
 		ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */; };
 		ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */; };
@@ -160,7 +162,6 @@
 		A6617AC7206A26D400B24BF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		A67722902070196B008FD4D5 /* VirtualPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPlane.swift; sourceTree = "<group>"; };
 		A677229220701994008FD4D5 /* ARSessionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionState.swift; sourceTree = "<group>"; };
-		A6772299207027F7008FD4D5 /* kyzDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzDiffuse.png; sourceTree = "<group>"; };
 		A677229B2070286D008FD4D5 /* kyzNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzNormal.png; sourceTree = "<group>"; };
 		A677229D20702874008FD4D5 /* kyzSpecular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzSpecular.png; sourceTree = "<group>"; };
 		A69403AB20652BA900114546 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -181,9 +182,11 @@
 		AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrDiffuse.png; sourceTree = "<group>"; };
 		AD35443420A739B500D623F5 /* kyz.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = kyz.dae; sourceTree = "<group>"; };
 		AD365A8620A4A7CC00E0E7DA /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyzDiffuse.png; sourceTree = "<group>"; };
 		AD47E21720A75D38008BB4FC /* batyrNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batyrNormal.png; sourceTree = "<group>"; };
 		AD83882E20A8EB3900501BF9 /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedBookViewController.swift; sourceTree = "<group>"; };
+		AD83883220A8FAFF00501BF9 /* CongratulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
 		ADB82F05209DE41F0047BC83 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		ADB82F07209DE9CC0047BC83 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		ADC1B2D020A1D53B00E969D1 /* ShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareManager.swift; sourceTree = "<group>"; };
@@ -241,6 +244,7 @@
 		ADC1B35D20A3801500E969D1 /* Арлы бала.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Арлы бала.epub"; sourceTree = "<group>"; };
 		ADC1B35F20A381CC00E969D1 /* Балта сорпасы.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Балта сорпасы.epub"; sourceTree = "<group>"; };
 		ADC1B36120A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Мұжық мырзамен қалай табақтас болды.epub"; sourceTree = "<group>"; };
+		ADD4D52520A9DE5D00C6C685 /* Batyr.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Batyr.dae; sourceTree = "<group>"; };
 		ADE5A9CE20A707E40096B303 /* aldar.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = aldar.dae; sourceTree = "<group>"; };
 		ADEA0F1B209DF1DF0051E664 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADEA0F1D209EEB490051E664 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
@@ -374,6 +378,7 @@
 		A65533D920702DE90067BC13 /* batyr */ = {
 			isa = PBXGroup;
 			children = (
+				ADD4D52520A9DE5D00C6C685 /* Batyr.dae */,
 				AD47E21720A75D38008BB4FC /* batyrNormal.png */,
 				AD15CBE920A71A7D001F17D6 /* batyrDiffuse.png */,
 				AD15CBE520A71A70001F17D6 /* batyrSpecular.png */,
@@ -397,10 +402,10 @@
 		A677229620702797008FD4D5 /* kyz */ = {
 			isa = PBXGroup;
 			children = (
+				AD3A05FD20AAF85A00338167 /* kyzDiffuse.png */,
 				AD35443420A739B500D623F5 /* kyz.dae */,
 				A677229B2070286D008FD4D5 /* kyzNormal.png */,
 				A677229D20702874008FD4D5 /* kyzSpecular.png */,
-				A6772299207027F7008FD4D5 /* kyzDiffuse.png */,
 			);
 			path = kyz;
 			sourceTree = "<group>";
@@ -450,6 +455,7 @@
 				ADC1B34F20A3375E00E969D1 /* CloudBookListViewController.swift */,
 				AD83882E20A8EB3900501BF9 /* AudioViewController.swift */,
 				AD83883020A8EDEA00501BF9 /* DetailedBookViewController.swift */,
+				AD83883220A8FAFF00501BF9 /* CongratulationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -700,6 +706,7 @@
 				ADEA0F1C209DF1E00051E664 /* GoogleService-Info.plist in Resources */,
 				A60F045820651AAB001AD7D7 /* LaunchScreen.storyboard in Resources */,
 				ADC1B30C20A321FB00E969D1 /* Зерделі.epub in Resources */,
+				AD3A05FE20AAF85A00338167 /* kyzDiffuse.png in Resources */,
 				AD15CBEA20A71A7D001F17D6 /* batyrDiffuse.png in Resources */,
 				ADC1B36220A3869B00E969D1 /* Мұжық мырзамен қалай табақтас болды.epub in Resources */,
 				ADC1B35C20A34D4600E969D1 /* books.json in Resources */,
@@ -712,7 +719,6 @@
 				ADC1B34820A323BA00E969D1 /* Горшок.epub in Resources */,
 				ADC1B33C20A323BA00E969D1 /* По щучьему веленью.epub in Resources */,
 				ADC1B33B20A323BA00E969D1 /* Я – сам.epub in Resources */,
-				A677229A207027F8008FD4D5 /* kyzDiffuse.png in Resources */,
 				ADC1B34620A323BA00E969D1 /* Разбойники.epub in Resources */,
 				ADC1B33E20A323BA00E969D1 /* Репка.epub in Resources */,
 				ADC1B34220A323BA00E969D1 /* Три медведя.epub in Resources */,
@@ -739,6 +745,7 @@
 				ADC1B31220A321FB00E969D1 /* Ер Төстік.epub in Resources */,
 				A604599C206E4A59004A7803 /* aldarDiffuse.png in Resources */,
 				ADC1B30820A321FB00E969D1 /* Керқұла атты Кендебай.epub in Resources */,
+				ADD4D52620A9DE5D00C6C685 /* Batyr.dae in Resources */,
 				ADC1B34C20A323BA00E969D1 /* Кот, Петух и Лиса.epub in Resources */,
 				ADC1B30520A321FB00E969D1 /* Бақтыбай би.epub in Resources */,
 				AD47E21820A75D38008BB4FC /* batyrNormal.png in Resources */,
@@ -929,6 +936,7 @@
 				ADEA0F22209F25400051E664 /* VideoPlayerView.swift in Sources */,
 				ADEA0F1E209EEB490051E664 /* PaddingTextField.swift in Sources */,
 				A62EC6F22065AFEF0083B72E /* LeaderBoardTableViewCell.swift in Sources */,
+				AD83883320A8FAFF00501BF9 /* CongratulationViewController.swift in Sources */,
 				A69403B220652BF100114546 /* LeaderBoardViewController.swift in Sources */,
 				ADC1B35020A3375E00E969D1 /* CloudBookListViewController.swift in Sources */,
 				A60F044C20651AAB001AD7D7 /* AppDelegate.swift in Sources */,

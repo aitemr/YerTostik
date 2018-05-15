@@ -123,14 +123,7 @@ extension CloudBookListViewController: UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let book = books[indexPath.row]
-        guard let category = category else { return }
-        if (category == Category.ar) {
-            let vc = DetailedBookViewController()
-            vc.book = book
-            let _ = navigationController?.pushViewController(vc, animated: true)
-        } else {
-            saveButtonDidPress(book: book, indexPath: indexPath)
-        }
+        saveButtonDidPress(book: book, indexPath: indexPath)
     }
 }
 

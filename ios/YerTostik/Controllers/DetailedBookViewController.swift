@@ -100,7 +100,8 @@ class DetailedBookViewController: UIViewController {
     @objc fileprivate func openHeroButtonDidPress(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "arviewcontroller")
-        let _ = navigationController?.pushViewController(vc, animated: true)
+        present(vc, animated: true, completion: nil)
+//        let _ = navigationController?.pushViewController(vc, animated: true)
     }
     
     // MARK: Configure Information

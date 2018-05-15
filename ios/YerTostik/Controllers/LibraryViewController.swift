@@ -118,11 +118,17 @@ extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let book = books[indexPath.row]
-        let config = FolioReaderConfig()
-        let folioReader = FolioReader()
-        config.shouldHideNavigationOnTap = false
-        if let bookPath = Bundle.main.path(forResource: book.name, ofType: "epub") {
-            folioReader.presentReader(parentViewController: self, withEpubPath: bookPath, andConfig: config)
+        if (book.category == Category.ar.rawValue) {
+            let vc = DetailedBookViewController()
+            vc.book = book
+            let _ = navigationController?.pushViewController(vc, animated: true)
+        } else {
+            let config = FolioReaderConfig()
+            let folioReader = FolioReader()
+            config.shouldHideNavigationOnTap = false
+            if let bookPath = Bundle.main.path(forResource: book.name, ofType: "epub") {
+                folioReader.presentReader(parentViewController: self, withEpubPath: bookPath, andConfig: config)
+            }
         }
     }
 }
