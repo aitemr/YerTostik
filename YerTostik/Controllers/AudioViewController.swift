@@ -12,6 +12,12 @@ import Sugar
 import DZNEmptyDataSet
 import AVFoundation
 
+struct Audio {
+    var name: String
+    var image: UIImage
+}
+
+
 class AudioViewController: UIViewController {
     
     // MARK: Properties

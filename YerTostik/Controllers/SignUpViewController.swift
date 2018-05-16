@@ -29,6 +29,8 @@ class SignUpViewController: UIViewController {
             $0.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: attributes)
             $0.isSecureTextEntry = flag
             $0.adjustsFontSizeToFitWidth = true
+            $0.layer.borderWidth = 1
+            $0.layer.borderColor = UIColor.cornflowerBlue.cgColor
         }
     }
     

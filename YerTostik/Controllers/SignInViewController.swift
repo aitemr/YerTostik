@@ -29,6 +29,8 @@ class SignInViewController: UIViewController {
             $0.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: attributes)
             $0.isSecureTextEntry = flag
             $0.adjustsFontSizeToFitWidth = true
+            $0.layer.borderWidth = 1
+            $0.layer.borderColor = UIColor.cornflowerBlue.cgColor
         }
     }
     
@@ -73,6 +75,7 @@ class SignInViewController: UIViewController {
     // MARK: Configure Views
     
     func configureViews() {
+        let text = PaddingTextField()
         self.view.backgroundColor = .alabaster
         self.view.addSubviews(emailTextField, passwordTextField, signInButton)
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(hideKeyboard)))

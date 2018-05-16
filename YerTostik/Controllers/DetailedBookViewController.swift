@@ -90,7 +90,6 @@ class DetailedBookViewController: UIViewController {
     
     func configureConstriants() {
         coverImageView.easy.layout(Top(20), Width(150), Height(200), CenterX(0))
-//        titleLabel.easy.layout(Top(10).to(coverImageView), CenterX(0))
         subTitleLabel.easy.layout(Top(10).to(coverImageView), CenterX(0))
         descriptionLabel.easy.layout(Top(10).to(subTitleLabel), CenterX(0), Left(20), Right(20))
         openHeroButton.easy.layout(Top(10).to(descriptionLabel), Left(20), Right(20), Height(50))
